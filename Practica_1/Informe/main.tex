@@ -1,0 +1,45 @@
+\documentclass[conference]{IEEEtran} % Esta es la línea mágica que hace todo el trabajo
+
+% Paquetes esenciales para ingeniería
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{cite} % Paquete recomendado por IEEE para bibliografía
+
+\begin{document}
+
+\title{Práctica 1: Acondicionamiento de Señales y GNU Radio}
+
+% Bloque de autores estilo IEEE
+\author{
+\IEEEauthorblockN{1\textsuperscript{er} juan david camacho gonzalez}
+\IEEEauthorblockA{\textit{Facultad de Ingeniería} \\
+\textit{universidad industrial de santander}\\
+bucaramanga, colombia \\
+juan2210428@correo.uis.edu.co}
+\and
+\IEEEauthorblockN{2\textsuperscript{do} Nombre Compañero}
+\IEEEauthorblockA{\textit{Facultad de Ingeniería} \\
+\textit{Nombre de tu Universidad}\\
+Ciudad, País \\
+correo@estudiante.edu}
+}
+
+\maketitle
+
+\begin{abstract}
+Aquí irá el resumen de la práctica. En el formato IEEE, el abstract se pone justo después del título y antes de empezar las dos columnas. Describe brevemente el problema del ruido y la solución implementada.
+\end{abstract}
+
+\begin{IEEEkeywords}
+GNU Radio, Filtro Media Móvil, Procesamiento de Señales, Python.
+\end{IEEEkeywords}
+
+% --- Aquí empezamos a llamar los módulos de cada uno ---
+\input{filtro_estadistico.tex}
+
+% \input{acumulador.tex}
+% \input{conclusiones.tex}
+
+\end{document}
