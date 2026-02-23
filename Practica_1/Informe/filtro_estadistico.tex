@@ -1,0 +1,19 @@
+\section{acondicionamiento de señal: filtro de media movil}
+
+para mitigar el efecto del ruido gaussiano introducido en la señal original, se implemento un filtro estadistico en python integrado como un bloque de GNU radio. el diseño seleccionado corresponde a un filtro de media movil discreto, por la siguiente ecuacion de diferencias:
+
+\begin{equation}
+    y[n] = \frac{1}{n} \sum_{i=0}^{N-1} x[n-i]
+\end{equation}
+
+donde $N$ representa el tamaño de la ventana (numero de muestras promediadas, configurado en $N=10$), $x[n]$ es la señal de entrada contaminada y $y[n]$ es la salida suavizada
+
+\subsection{analisis y aplicacion practica}
+este tipo de acondicionamiento digital es critico no solo en telecomunicaciones, sino en el procesamiento de biopotenciales. por ejemplo, en el \textit{design and validation of a force control system in the reproduction of basic movements}, estabilizar señales erraticas (como las lecturas electromiograficas) mediante filtros similares es un paso fundamental antes de que la informacion ingrese al sistema de control.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\linewidth]{imagenes/grafica_filtro_media_movil.png}
+    \caption{Comparación entre señal original (rojo) y señal filtrada (azul).}
+    \label{fig:filtro}
+\end{figure}
