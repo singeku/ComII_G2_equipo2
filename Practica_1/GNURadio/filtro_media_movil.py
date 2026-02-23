@@ -21,12 +21,12 @@ from PyQt5 import Qt
 from argparse import ArgumentParser
 from gnuradio.eng_arg import eng_float, intx
 from gnuradio import eng_notation
-import diagrama_base_epy_block_0 as epy_block_0  # embedded python block
+import filtro_media_movil_epy_block_0 as epy_block_0  # embedded python block
 import sip
 
 
 
-class diagrama_base(gr.top_block, Qt.QWidget):
+class filtro_media_movil(gr.top_block, Qt.QWidget):
 
     def __init__(self):
         gr.top_block.__init__(self, "Not titled yet", catch_exceptions=True)
@@ -49,7 +49,7 @@ class diagrama_base(gr.top_block, Qt.QWidget):
         self.top_grid_layout = Qt.QGridLayout()
         self.top_layout.addLayout(self.top_grid_layout)
 
-        self.settings = Qt.QSettings("GNU Radio", "diagrama_base")
+        self.settings = Qt.QSettings("GNU Radio", "filtro_media_movil")
 
         try:
             geometry = self.settings.value("geometry")
@@ -134,7 +134,7 @@ class diagrama_base(gr.top_block, Qt.QWidget):
 
 
     def closeEvent(self, event):
-        self.settings = Qt.QSettings("GNU Radio", "diagrama_base")
+        self.settings = Qt.QSettings("GNU Radio", "filtro_media_movil")
         self.settings.setValue("geometry", self.saveGeometry())
         self.stop()
         self.wait()
@@ -153,7 +153,7 @@ class diagrama_base(gr.top_block, Qt.QWidget):
 
 
 
-def main(top_block_cls=diagrama_base, options=None):
+def main(top_block_cls=filtro_media_movil, options=None):
 
     qapp = Qt.QApplication(sys.argv)
 
