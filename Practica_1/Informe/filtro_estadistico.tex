@@ -1,19 +1,33 @@
-\section{acondicionamiento de señal: filtro de media movil}
+\subsection{Acondicionamiento Estadístico: Filtro de Media Móvil}
 
-para mitigar el efecto del ruido gaussiano introducido en la señal original, se implemento un filtro estadistico en python integrado como un bloque de GNU radio. el diseño seleccionado corresponde a un filtro de media movil discreto, por la siguiente ecuacion de diferencias:
+La presencia de ruido Gaussiano es un desafío inherente en la adquisición de señales físicas. Para mitigar las fluctuaciones aleatorias y mejorar la relación señal a ruido (SNR), se diseñó un bloque de procesamiento estadístico personalizado. La estrategia seleccionada corresponde a un filtro discreto de media móvil, regido por la siguiente ecuación de diferencias \cite{oppenheim}:
 
 \begin{equation}
-    y[n] = \frac{1}{n} \sum_{i=0}^{N-1} x[n-i]
+    y[n] = \frac{1}{N} \sum_{i=0}^{N-1} x[n-i] 
 \end{equation}
 
-donde $N$ representa el tamaño de la ventana (numero de muestras promediadas, configurado en $N=10$), $x[n]$ es la señal de entrada contaminada y $y[n]$ es la salida suavizada
+Donde $N=10$ representa el tamaño de la ventana de promediado, $x[n]$ es la señal de entrada contaminada y $y[n]$ es la salida estabilizada.
 
-\subsection{analisis y aplicacion practica}
-este tipo de acondicionamiento digital es critico no solo en telecomunicaciones, sino en el procesamiento de biopotenciales. por ejemplo, en el \textit{design and validation of a force control system in the reproduction of basic movements}, estabilizar señales erraticas (como las lecturas electromiograficas) mediante filtros similares es un paso fundamental antes de que la informacion ingrese al sistema de control.
+\subsubsection{Implementación en GNU Radio}
+La arquitectura del sistema se construyó utilizando el entorno de GNU Radio Companion. El filtro se programó desde cero mediante un \textit{Embedded Python Block}. Como se evidencia en el diagrama de flujo (Fig. \ref{fig:diagrama_gnu}), la señal original se somete a una fuente de ruido antes de ingresar al bloque diseñado, permitiendo evaluar su desempeño en tiempo real.
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\linewidth]{imagenes/grafica_filtro_media_movil.png}
-    \caption{Comparación entre señal original (rojo) y señal filtrada (azul).}
-    \label{fig:filtro}
+    % RECUERDA CAMBIAR 'diagrama_bloques.png' POR EL NOMBRE EXACTO DE TU FOTO
+    \includegraphics[width=\linewidth]{imagenes/filtro_estadistico.png}
+    \caption{Diagrama de bloques implementado en GNU Radio, destacando el módulo de filtro estadístico en Python.}
+    \label{fig:diagrama_gnu}
+\end{figure}
+
+\subsubsection{Validación y Aplicación Práctica}
+La capacidad de programar filtros a medida es un requerimiento crítico en aplicaciones de alta complejidad, como el diseño y validación de sistemas de control de fuerza para la reproducción de movimientos básicos de la mano \cite{emg_analysis}. En este contexto, las señales mioeléctricas crudas presentan una alta varianza que puede desestabilizar a los actuadores mecánicos. Aplicar un promedio estadístico es el paso previo obligatorio para garantizar un control suave y preciso.
+
+Al ejecutar el sistema, los resultados obtenidos (Fig. \ref{fig:grafica_filtro}) demuestran la eficacia del bloque. La estadística aplicada atenúa significativamente los picos del ruido Gaussiano. Aunque persiste un leve rizado debido a una ventana pequeña ($N=10$), este diseño garantiza una baja latencia computacional, un factor indispensable para el tiempo de respuesta inmediato que exige el control de una prótesis real.
+
+\begin{figure}[ht]
+    \centering
+    % RECUERDA CAMBIAR 'grafica_senal.png' POR EL NOMBRE EXACTO DE TU FOTO
+    \includegraphics[width=\linewidth]{imagenes/grafica_filtro_media_movil.png}
+    \caption{Resultados del procesamiento: Comparación entre la señal contaminada con ruido Gaussiano y la señal estabilizada.}
+    \label{fig:grafica_filtro}
 \end{figure}
