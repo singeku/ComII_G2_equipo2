@@ -1,0 +1,77 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Práctica 1: Acondicionamiento de Señales y GNU Radio}
+
+\author{
+\IEEEauthorblockN{1\textsuperscript{er} juan david camacho gonzalez}
+\IEEEauthorblockA{\textit{Código: 2210428} \\
+\textit{Universidad Industrial de Santander}\\
+Bucaramanga, Colombia}
+\and
+\IEEEauthorblockN{2\textsuperscript{do} Valentina Arguellez Angulo}
+\IEEEauthorblockA{\textit{Código: 2215670} \\
+\textit{Universidad Industrial de Santander}\\
+Bucaramanga, Colombia}
+}
+
+\maketitle
+
+\section*{Declaración de Originalidad y Responsabilidad}
+Los autores de este informe certifican que el contenido aquí presentado es original y ha sido elaborado de manera independiente. Se han utilizado fuentes externas únicamente como referencia y han sido debidamente citadas. Asimismo, los autores asumen plena responsabilidad por la información contenida en este documento. 
+
+\textbf{Uso de IA:} Se utilizó el modelo de lenguaje Gemini como asistencia técnica para la estructuración del código en LaTeX, resolución de errores de compilación en Ubuntu/WSL, sintaxis de comandos de Git y revisión gramatical de la justificación técnica. El diseño del filtro, la implementación en GNU Radio y el análisis de resultados fueron desarrollados íntegramente por los autores.
+
+\begin{abstract}
+Este informe muestra el desarrollo e implementación de bloques personalizados para el procesamiento digital de señales en GNU Radio utilizando Python. Se diseñaron módulos como acumuladores y diferenciadores, para analizar el comportamiento de los datos. se manejo la contaminación de señales por ruido Gaussiano mediante un filtro estadístico discreto de media móvil. La eficacia de este acondicionamiento se validó proponiendo su uso en la estabilización de biopotenciales, una etapa crítica en el procesamiento de señales mioeléctricas para sistemas de control de fuerza en la reproducción de movimientos de la mano. Los resultados demuestran que el promediado estadístico atenúa exitosamente las fluctuaciones del ruido, garantizando una señal estable y manteniendo una latencia adecuada para aplicaciones en tiempo real.
+\end{abstract}
+
+\begin{IEEEkeywords}
+GNU Radio, Filtro Media Móvil, Procesamiento de Señales, Python.
+\end{IEEEkeywords}
+
+\section{Introducción}
+El procesamiento digital de señales ha experimentado una evolución significativa con la consolidación de la Radio Definida por Software (SDR). Plataformas de código abierto como GNU Radio han transformado el análisis y la transmisión de datos, permitiendo a los desarrolladores trascender el uso de herramientas predefinidas \cite{sdr_book},\cite{gnuradio_docs} para programar y compilar algoritmos personalizados en lenguajes como Python. Esta flexibilidad es crucial para adaptar el procesamiento de la información a las exigencias matemáticas y físicas de cada entorno.
+
+En el desarrollo de la práctica, se exploran los fundamentos de la creación de bloques de procesamiento en tiempo real. En una primera etapa, se hace la implementación de operaciones matemáticas (acumulación y la diferenciación). Estos módulos conforman la base para el análisis del comportamiento dinámico de los sistemas y la evaluación de tasas de cambio en las señales a lo largo del tiempo.
+
+Por otro lado, un desafío crítico en la instrumentación y adquisición de señales físicas es la presencia de ruido. El acondicionamiento estadístico se vuelve obligatorio en implementaciones de alta precisión; por ejemplo, durante el diseño y validación de un sistema de control de fuerza en la reproducción de movimientos básicos de la mano, donde la presencia de componentes ruidosas en las señales mioeléctricas puede desestabilizar la etapa de inicial. Para soluionar este problema, se propone la implementación de técnicas estadísticas de suavizado.
+
+Finalmente, el documento detalla los resultados obtenidos tras la integración de los módulos de acumulación, diferenciación y filtrado estadístico, en la Sección III se encuentran las conclusiones derivadas del análisis del sistema.
+
+\section{Procedimiento}
+% Aquí empezamos a llamar los módulos de cada uno
+\input{filtro_estadistico.tex}
+% \input{acumulador.tex}
+\input{Diferenciador.tex}
+
+\section{Conclusiones}
+\input{conclusiones.tex}
+
+\section{Referencias}
+
+\begin{thebibliography}{00}
+
+\bibitem{oppenheim}
+A. V. Oppenheim y R. W. Schafer, \textit{Tratamiento de señales en tiempo discreto}, 3\textsuperscript{ra} ed. Madrid, España: Pearson Educación, 2011.
+
+\bibitem{sdr_book}
+A. M. Wyglinski y D. Okin, \textit{Software-Defined Radio for Engineers}. Norwood, MA, USA: Artech House, 2018.
+
+\bibitem{gnuradio_docs}
+GNU Radio Project, ``Embedded Python Block,'' \textit{GNU Radio Wiki}, 2024. [En línea]. Disponible en: \url{https://wiki.gnuradio.org/index.php/Embedded_Python_Block}
+
+\bibitem{emg_analysis}
+M. B. I. Reaz, M. S. Hussain, y F. Mohd-Yasin, ``Techniques of EMG signal analysis: detection, processing, classification and applications,'' \textit{Biological Procedures Online}, vol. 8, pp. 11-35, 2006.
+
+\end{thebibliography}
+
+\end{document}
