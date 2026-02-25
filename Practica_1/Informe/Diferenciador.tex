@@ -1,0 +1,92 @@
+\subsection{Diferenciador Discreto}
+
+Un diferenciador es un sistema cuya salida corresponde a la derivada temporal de la señal de entrada. En tiempo continuo, si la señal de entrada es $x(t)$, el diferenciador ideal está definido como:
+
+\begin{equation}
+y(t) = \frac{d}{dt}x(t)
+\end{equation}
+
+Este operador mide la tasa de cambio instantánea de la señal. Por ejemplo, si $x(t) = \sin(\omega t)$, entonces:
+
+\begin{equation}
+\frac{d}{dt}\sin(\omega t) = \omega \cos(\omega t)
+\end{equation}
+
+lo cual implica que la derivada de una señal senoidal es otra señal senoidal desfasada $90^\circ$ y con amplitud proporcional a la frecuencia angular. En sistemas discretos, la derivada se aproxima mediante diferencias finitas. La forma más sencilla del diferenciador discreto es:
+
+\begin{equation}
+y[n] = x[n] - x[n-1]
+\end{equation}
+
+Esta expresión calcula la variación entre muestras consecutivas, permitiendo estimar la pendiente local de la señal. Si la señal permanece constante, la salida es cero; si la señal presenta un incremento o decremento, la salida toma valores positivos o negativos respectivamente.
+\setlength{\parskip}{0.5em}
+\subsubsection{Implementación en GNU Radio}
+
+\setlength{\parskip}{0.5em}
+
+La implementación del diferenciador se realizó mediante un bloque personalizado en GNU Radio utilizando la opción \textit{Embedded Python Block}. Este bloque fue programado para ejecutar la operación de diferencia discreta entre muestras consecutivas, de acuerdo con la expresión:
+
+\begin{equation}
+y[n] = x[n] - x[n-1]
+\end{equation}
+
+El bloque fue diseñado como un \texttt{sync\_block}, con una entrada y una salida de tipo \texttt{float32}, permitiendo procesar la señal muestra a muestra y mantener continuidad entre bloques mediante el almacenamiento del valor previo de la señal.
+\vspace{0.3cm}
+Para la validación del diferenciador se construyó un diagrama de bloques en GNU Radio compuesto por:
+
+\begin{itemize}
+    \item \textbf{Signal Source:} Generador de señal, configurado con distintas formas de onda (senoidal, cuadrada) para evaluar el comportamiento del sistema.
+    \item \textbf{Throttle:} Bloque utilizado para controlar la tasa de procesamiento y evitar el consumo excesivo de CPU en simulación.
+    \item \textbf{Diferenciador (bloque Python):} Encargado de realizar la operación de diferencia discreta.
+    \item \textbf{QT GUI Time Sink:} Utilizado para visualizar simultáneamente la señal original y la señal diferenciada en el dominio del tiempo.
+\end{itemize}
+
+La Figura \ref{fig:diagrama_diferenciador} muestra el diagrama de bloques implementado en GNU Radio con la señal senoidal.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{imagenes/diagrama_diferenciador.jpeg}
+    \caption{Diagrama de bloques del diferenciador implementado en GNU Radio señal seno.}
+    \label{fig:diagrama_diferenciador}
+\end{figure}
+
+La Figura \ref{fig:diagrama_diferenciador_cuadrada} muestra el diagrama de bloques implementado en GNU Radio con la señal cuadrada.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{imagenes/diagrama_diferenciador_cuadrada.jpeg}
+    \caption{Diagrama de bloques del diferenciador implementado en GNU Radio señal cuadrada.}
+    \label{fig:diagrama_diferenciador_cuadrada}
+\end{figure}
+\setlength{\parskip}{0.5em}
+\subsubsection{Validación y Aplicación Práctica}
+\vspace{0.3cm}
+El bloque diferenciador implementado fue evaluado utilizando dos tipos de señales de entrada: una señal senoidal y una señal cuadrada. El objetivo fue verificar experimentalmente el comportamiento del sistema frente a variaciones suaves y cambios abruptos en el tiempo, contrastando los resultados obtenidos con el modelo teórico de la derivada.
+
+En el caso de la señal cuadrada, se observó que la salida del diferenciador presentó impulsos de alta amplitud en los instantes donde la señal experimenta transiciones entre sus niveles máximo y mínimo. Durante los intervalos donde la señal permanece constante, la salida fue aproximadamente cero. Este comportamiento es coherente con la teoría, ya que la derivada de una función constante es nula, mientras que en los puntos de cambio brusco la pendiente es elevada. Por lo tanto, el diferenciador actúa como detector de flancos, generando picos positivos en las transiciones ascendentes y picos negativos en las descendentes.
+La Figura \ref{fig:Cuadrada} muestra la señal original cuadrada y la señal diferenciada implementada en GNU Radio.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{imagenes/Cuadrada.jpeg}
+    \caption{Resultado implementando el dirferenciador para una señal cuadrada.}
+    \label{fig:Cuadrada}
+\end{figure}
+
+
+Por otro lado, al utilizar una señal senoidal como entrada, se obtuvo una señal cosenoidal como salida, lo cual coincide con el resultado matemático esperado:
+
+\begin{equation}
+\frac{d}{dt} \sin(\omega t) = \omega \cos(\omega t)
+\end{equation}
+
+Se evidenció además que la señal diferenciada presenta un desfase de $\pi/2$ radianes respecto a la señal original, lo cual es característico del proceso de derivación en funciones trigonométricas. Asimismo, la amplitud de la señal resultante depende de la frecuencia angular $\omega$ y de la frecuencia de muestreo utilizada en la implementación discreta.
+
+La Figura \ref{fig:Senoidal} muestra la señal original seno y la señal diferenciada implementada en GNU Radio.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{imagenes/Senoidal.jpeg}
+    \caption{Resultado implementando el dirferenciador para una señal seno.}
+    \label{fig:Senoidal}
+\end{figure}
+
+Es importante mencionar que el diferenciador en tiempo discreto se implementa mediante una aproximación basada en diferencias entre muestras consecutivas. Debido a este proceso de discretización, pueden presentarse pequeñas variaciones en amplitud o ligeras irregularidades cuando la frecuencia de la señal de entrada aumenta o cuando la frecuencia de muestreo no es suficientemente alta.
+
+En general, los resultados experimentales obtenidos confirman el comportamiento teórico de un diferenciador digital. La prueba con señal cuadrada permitió verificar la detección de cambios abruptos, mientras que la prueba con señal senoidal validó la relación matemática entre una función y su derivada. Esto demuestra que el bloque implementado cumple correctamente la función esperada dentro del entorno GNU Radio.
