@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1771994191.60883 "/home/valentina/ComII_G2_equipo2/Practica_1/Informe/main.tex" "main.pdf" "main" 1771994192.61612 0
-  "%OUTDIR%/main.aux" 1771994192.53017 3978 36ce8295b2c2cd2a16ca549d45963eab "pdflatex"
-  "%OUTDIR%/main.out" 1771994192.53017 1942 a6e723b17bdfaa85c3c84a40c557cf24 "pdflatex"
+["pdflatex"] 1772126698.6449 "/home/valentina/ComII_G2_equipo2/Practica_1/Informe/main.tex" "main.pdf" "main" 1772126701.94791 0
+  "%OUTDIR%/main.aux" 1772126701.82122 3978 36ce8295b2c2cd2a16ca549d45963eab "pdflatex"
+  "%OUTDIR%/main.out" 1772126701.82536 1942 a6e723b17bdfaa85c3c84a40c557cf24 "pdflatex"
   "/etc/texmf/web2c/texmf.cnf" 1771901991.89747 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/valentina/ComII_G2_equipo2/Practica_1/Informe/main.tex" 1771988865.56864 5290 b887f63296ee9c665c6ef49a2886b95d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -104,8 +104,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1771990693.37774 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1771990775 8215181 3eb12128536af09ad93460d24eb5f19c ""
-  "Diferenciador.tex" 1771994191.44153 6497 b7ec6fc4a3f913d2e1d3712c72b467b5 ""
-  "conclusiones.tex" 1771900361.69042 859 cd04c18ea7248113c638d4e24ce93393 ""
+  "Diferenciador.tex" 1772126697.74595 6071 03d488e5f8b587390f6d90014a08c5c1 ""
+  "conclusiones.tex" 1772126697.74595 1299 cea526520bf68e954c0dec9f0acb56cc ""
   "filtro_estadistico.tex" 1771900361.69042 2801 94b94fff0e93a720d9150aa15a24be9a ""
   "imagenes/Cuadrada.jpeg" 1771987121.75681 82752 c76dc52422a6a18d6efdda0ebf190eac ""
   "imagenes/Senoidal.jpeg" 1771988355.01378 123993 8cdf822c84e7b6051a122ea823693a24 ""
