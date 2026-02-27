@@ -65,7 +65,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [216, 420.0]
+    coordinate: [64, 124.0]
     rotation: 0
     state: enabled
 - name: blocks_throttle2_0
@@ -86,7 +86,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [488, 380.0]
+    coordinate: [336, 84.0]
     rotation: 0
     state: enabled
 - name: epy_block_0
@@ -113,7 +113,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [688, 392.0]
+    coordinate: [536, 96.0]
     rotation: 0
     state: enabled
 - name: qtgui_time_sink_x_0
@@ -210,7 +210,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [880, 428.0]
+    coordinate: [728, 132.0]
     rotation: 0
     state: enabled
 
