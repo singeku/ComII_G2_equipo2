@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1772248287.37709 "/home/jordy/ComII_G2_equipo2/Practica_1/Informe/main.tex" "main.pdf" "main" 1772248288.81552 0
+["pdflatex"] 1772248734.91946 "/home/jordy/ComII_G2_equipo2/Practica_1/Informe/main.tex" "main.pdf" "main" 1772248736.18315 0
   "/etc/texmf/web2c/texmf.cnf" 1771886603.87217 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jordy/ComII_G2_equipo2/Practica_1/Informe/main.tex" 1772247921.64318 5288 cc818fb350da4195ad029796e2a87dc8 ""
+  "/home/jordy/ComII_G2_equipo2/Practica_1/Informe/main.tex" 1772248734.55522 5472 8bb9e7c767efad24e59de1f53eb21f87 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -113,7 +113,7 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1772160603 6822885 1b8266fea701f3890e0e12649442f856 ""
   "Diferenciador.tex" 1772247921.61506 6071 03d488e5f8b587390f6d90014a08c5c1 ""
   "acumulador.tex" 1772233754.95367 12054 c6eb77c2acc4ad1ec72daeb94d9a603e ""
-  "conclusiones.tex" 1772248286.96445 2171 e6eda14e851781aaed743b075af80841 ""
+  "conclusiones.tex" 1772248489.92198 2171 e6eda14e851781aaed743b075af80841 ""
   "filtro_estadistico.tex" 1772247921.61907 2801 94b94fff0e93a720d9150aa15a24be9a ""
   "imagenes/Cuadrada.jpeg" 1772247921.61907 82752 c76dc52422a6a18d6efdda0ebf190eac ""
   "imagenes/Senoidal.jpeg" 1772247921.62309 123993 8cdf822c84e7b6051a122ea823693a24 ""
@@ -128,9 +128,9 @@
   "imagenes/fig_acum_resultado_dc.png" 1772229659.08198 28459 16ac87e5f8806ea2afbbf3def10ac921 ""
   "imagenes/filtro_estadistico.png" 1772247921.62309 63491 9e571c01acf4fd0b7a1087ab2d1deb66 ""
   "imagenes/grafica_filtro_media_movil.png" 1772247921.62711 68614 dddc0c821b13f857203010d778aef341 ""
-  "main.aux" 1772248288.73842 9195 c431c270d81bf5d661ebb3c31df2719e "pdflatex"
-  "main.out" 1772248288.73842 4125 4f8c7600fbe71497759d9090a1c68d90 "pdflatex"
-  "main.tex" 1772247921.64318 5288 cc818fb350da4195ad029796e2a87dc8 ""
+  "main.aux" 1772248736.11042 9195 c431c270d81bf5d661ebb3c31df2719e "pdflatex"
+  "main.out" 1772248736.11445 4125 4f8c7600fbe71497759d9090a1c68d90 "pdflatex"
+  "main.tex" 1772248734.55522 5472 8bb9e7c767efad24e59de1f53eb21f87 ""
   (generated)
   "main.aux"
   "main.log"
