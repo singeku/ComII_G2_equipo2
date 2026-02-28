@@ -148,7 +148,7 @@ class lab2_PI_Jordy(gr.top_block, Qt.QWidget):
         self._qtgui_number_sink_0_win = sip.wrapinstance(self.qtgui_number_sink_0.qwidget(), Qt.QWidget)
         self.top_layout.addWidget(self._qtgui_number_sink_0_win)
         self.epy_block_0 = epy_block_0.blk()
-        self.blocks_vector_source_x_0 = blocks.vector_source_f((1, 2, 5, -4, -4), True, 1, [])
+        self.blocks_vector_source_x_0 = blocks.vector_source_f((1,1), True, 1, [])
         self.blocks_throttle2_0 = blocks.throttle( gr.sizeof_float*1, samp_rate, True, 0 if "auto" == "auto" else max( int(float(0.1) * samp_rate) if "auto" == "time" else int(0.1), 1) )
 
 

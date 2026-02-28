@@ -117,7 +117,7 @@ class Diferenciador(gr.top_block, Qt.QWidget):
         self.top_layout.addWidget(self._qtgui_time_sink_x_0_win)
         self.epy_block_0 = epy_block_0.blk()
         self.blocks_throttle2_0 = blocks.throttle( gr.sizeof_float*1, 1000, True, 0 if "auto" == "auto" else max( int(float(0.1) * 1000) if "auto" == "time" else int(0.1), 1) )
-        self.analog_sig_source_x_0 = analog.sig_source_f(1000, analog.GR_TRI_WAVE, 50, 1, 0, 0)
+        self.analog_sig_source_x_0 = analog.sig_source_f(1000, analog.GR_SIN_WAVE, 50, 1, 0, 0)
 
 
         ##################################################

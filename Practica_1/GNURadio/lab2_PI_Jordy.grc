@@ -77,7 +77,7 @@ blocks:
     repeat: 'True'
     tags: '[]'
     type: float
-    vector: (1, 2, 5, -4, -4)
+    vector: (1,1)
     vlen: '1'
   states:
     bus_sink: false

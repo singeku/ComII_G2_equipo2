@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  26 FEB 2026 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.26)  27 FEB 2026 22:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/valentina/ComII_G2_equipo2/Practica_1/Informe/main.tex
-(/home/valentina/ComII_G2_equipo2/Practica_1/Informe/main.tex
+**/home/jordy/ComII_G2_equipo2/Practica_1/Informe/main.tex
+(/home/jordy/ComII_G2_equipo2/Practica_1/Informe/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -111,7 +111,7 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 Package: babel 2024/01/07 v24.1 The Babel package
 \babel@savecnt=\count268
 \U@D=\dimen164
-\l@unhyphenated=\language89
+\l@unhyphenated=\language8
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count269
@@ -324,7 +324,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box55
-) (%OUTDIR%/main.aux
+) (./main.aux
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
 )
@@ -372,13 +372,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 10.
- (%OUTDIR%/main.out) (%OUTDIR%/main.out)
+ (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 27.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 32.
  (./filtro_estadistico.tex
-<imagenes/filtro_estadistico.png, id=52, 672.71326pt x 326.4195pt>
+<imagenes/filtro_estadistico.png, id=80, 672.71326pt x 326.4195pt>
 File: imagenes/filtro_estadistico.png Graphic file (type png)
 <use imagenes/filtro_estadistico.png>
 Package pdftex.def Info: imagenes/filtro_estadistico.png  used on input line 17.
@@ -387,38 +387,115 @@ Package pdftex.def Info: imagenes/filtro_estadistico.png  used on input line 17.
 
 
 ]
-<imagenes/grafica_filtro_media_movil.png, id=78, 835.32076pt x 358.941pt>
+<imagenes/grafica_filtro_media_movil.png, id=106, 835.32076pt x 358.941pt>
 File: imagenes/grafica_filtro_media_movil.png Graphic file (type png)
 <use imagenes/grafica_filtro_media_movil.png>
 Package pdftex.def Info: imagenes/grafica_filtro_media_movil.png  used on input line 30.
 (pdftex.def)             Requested size: 252.0pt x 108.28558pt.
-) (./Diferenciador.tex
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 33.
+) (./acumulador.tex
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<imagenes/diagrama_diferenciador.jpeg, id=80, 930.47626pt x 460.72125pt>
+Underfull \hbox (badness 3189) in paragraph at lines 20--21
+ []\OT1/ptm/m/it/10 2. Mo-de-lo ma-tem[]ati-co por blo-ques: [][][] \OT1/ptm/m/n/10 Sea $\OT1/cmr/bx/n/10 x \OT1/cmr/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 37--38
+ []\OT1/ptm/m/it/10 3. Im-ple-men-ta-ci[]on del blo-que (Em-bed-ded Python
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[]\OT1/ptm/m/n/10 Lectura del vec-tor de en-tra-da: \OT1/pcr/m/n/10 x =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+[]\OT1/ptm/m/n/10 Preparaci[]on del vec-tor de sa-li-da: \OT1/pcr/m/n/10 y0 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+[]\OT1/ptm/m/n/10 C[]alcu-lo acu-mu-la-do por blo-ques: \OT1/pcr/m/n/10 acumulado =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]\OT1/ptm/m/n/10 Actualizaci[]on de me-mo-ria: \OT1/pcr/m/n/10 acum_anterior =
+ []
+
+[2 <./imagenes/filtro_estadistico.png> <./imagenes/grafica_filtro_media_movil.png>]
+<imagenes/fig_acum_diagrama.png, id=123, 706.89093pt x 259.7203pt>
+File: imagenes/fig_acum_diagrama.png Graphic file (type png)
+<use imagenes/fig_acum_diagrama.png>
+Package pdftex.def Info: imagenes/fig_acum_diagrama.png  used on input line 76.
+(pdftex.def)             Requested size: 252.0pt x 92.58774pt.
+
+Underfull \hbox (badness 1953) in paragraph at lines 82--83
+ []\OT1/ptm/m/it/10 4a. Par[]ame-tros usa-dos en la va-li-da-ci[]on.: [][] \OT1/ptm/m/n/10 Los
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 96--97
+[]\OT1/ptm/m/n/8 Yes (re-co-men-da-
+ []
+
+<imagenes/fig_acum_resultado_dc.png, id=125, 1363.34344pt x 656.4525pt>
+File: imagenes/fig_acum_resultado_dc.png Graphic file (type png)
+<use imagenes/fig_acum_resultado_dc.png>
+Package pdftex.def Info: imagenes/fig_acum_resultado_dc.png  used on input line 132.
+(pdftex.def)             Requested size: 252.0pt x 121.33162pt.
+<imagenes/fig_acum_props_prueba1.png, id=126, 411.03563pt x 189.70876pt>
+File: imagenes/fig_acum_props_prueba1.png Graphic file (type png)
+<use imagenes/fig_acum_props_prueba1.png>
+Package pdftex.def Info: imagenes/fig_acum_props_prueba1.png  used on input line 145.
+(pdftex.def)             Requested size: 252.0pt x 116.3069pt.
+[3 <./imagenes/fig_acum_diagrama.png> <./imagenes/fig_acum_resultado_dc.png> <./imagenes/fig_acum_props_prueba1.png>]
+<imagenes/fig_acum_resultado.png, id=145, 1340.00626pt x 619.56468pt>
+File: imagenes/fig_acum_resultado.png Graphic file (type png)
+<use imagenes/fig_acum_resultado.png>
+Package pdftex.def Info: imagenes/fig_acum_resultado.png  used on input line 167.
+(pdftex.def)             Requested size: 252.0pt x 116.50842pt.
+<imagenes/fig_acum_props_prueba2.png, id=146, 409.53pt x 204.01219pt>
+File: imagenes/fig_acum_props_prueba2.png Graphic file (type png)
+<use imagenes/fig_acum_props_prueba2.png>
+Package pdftex.def Info: imagenes/fig_acum_props_prueba2.png  used on input line 178.
+(pdftex.def)             Requested size: 252.0pt x 125.5399pt.
+<imagenes/fig_acum_resultado_cuadrada.png, id=147, 1368.61313pt x 693.34032pt>
+File: imagenes/fig_acum_resultado_cuadrada.png Graphic file (type png)
+<use imagenes/fig_acum_resultado_cuadrada.png>
+Package pdftex.def Info: imagenes/fig_acum_resultado_cuadrada.png  used on input line 196.
+(pdftex.def)             Requested size: 252.0pt x 127.66292pt.
+<imagenes/fig_acum_props_prueba3.png, id=148, 414.04688pt x 198.7425pt>
+File: imagenes/fig_acum_props_prueba3.png Graphic file (type png)
+<use imagenes/fig_acum_props_prueba3.png>
+Package pdftex.def Info: imagenes/fig_acum_props_prueba3.png  used on input line 207.
+(pdftex.def)             Requested size: 252.0pt x 120.96284pt.
+) (./Diferenciador.tex [4 <./imagenes/fig_acum_resultado.png> <./imagenes/fig_acum_props_prueba2.png> <./imagenes/fig_acum_resultado_cuadrada.png> <./imagenes/fig_acum_props_prueba3.png>]
+<imagenes/diagrama_diferenciador.jpeg, id=166, 930.47626pt x 460.72125pt>
 File: imagenes/diagrama_diferenciador.jpeg Graphic file (type jpg)
 <use imagenes/diagrama_diferenciador.jpeg>
 Package pdftex.def Info: imagenes/diagrama_diferenciador.jpeg  used on input line 47.
 (pdftex.def)             Requested size: 252.0pt x 124.77602pt.
-<imagenes/diagrama_diferenciador_cuadrada.jpeg, id=82, 899.36pt x 380.42125pt>
+<imagenes/diagrama_diferenciador_cuadrada.jpeg, id=168, 899.36pt x 380.42125pt>
 File: imagenes/diagrama_diferenciador_cuadrada.jpeg Graphic file (type jpg)
 <use imagenes/diagrama_diferenciador_cuadrada.jpeg>
 Package pdftex.def Info: imagenes/diagrama_diferenciador_cuadrada.jpeg  used on input line 55.
 (pdftex.def)             Requested size: 252.0pt x 106.59268pt.
-<imagenes/Cuadrada.jpeg, id=84, 1606.0pt x 828.09375pt>
+<imagenes/Cuadrada.jpeg, id=170, 1606.0pt x 828.09375pt>
 File: imagenes/Cuadrada.jpeg Graphic file (type jpg)
 <use imagenes/Cuadrada.jpeg>
 Package pdftex.def Info: imagenes/Cuadrada.jpeg  used on input line 68.
 (pdftex.def)             Requested size: 252.0pt x 129.93266pt.
- [2 <./imagenes/filtro_estadistico.png> <./imagenes/grafica_filtro_media_movil.png>]
-<imagenes/Senoidal.jpeg, id=101, 1606.0pt x 825.0825pt>
+ [5 <./imagenes/diagrama_diferenciador.jpeg> <./imagenes/diagrama_diferenciador_cuadrada.jpeg> <./imagenes/Cuadrada.jpeg>]
+<imagenes/Senoidal.jpeg, id=183, 1606.0pt x 825.0825pt>
 File: imagenes/Senoidal.jpeg Graphic file (type jpg)
 <use imagenes/Senoidal.jpeg>
 Package pdftex.def Info: imagenes/Senoidal.jpeg  used on input line 85.
 (pdftex.def)             Requested size: 252.0pt x 129.46017pt.
-) (./conclusiones.tex [3 <./imagenes/diagrama_diferenciador.jpeg> <./imagenes/diagrama_diferenciador_cuadrada.jpeg> <./imagenes/Cuadrada.jpeg> <./imagenes/Senoidal.jpeg>])
+) (./conclusiones.tex)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -430,9 +507,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
-
-] (%OUTDIR%/main.aux
+[6 <./imagenes/Senoidal.jpeg>] (./main.aux
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
 )
@@ -441,21 +516,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A6E723B17BDFAA85C3C84A40C557CF24;1942.
+(rerunfilecheck)             Checksum: 4F8C7600FBE71497759D9090A1C68D90;4125.
  ) 
 Here is how much of TeX's memory you used:
- 11540 strings out of 474222
- 184710 string characters out of 5748733
- 1956975 words of memory out of 5000000
- 33626 multiletter control sequences out of 15000+600000
- 597685 words of font info for 108 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 75i,11n,79p,915b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on %OUTDIR%/main.pdf (4 pages, 523156 bytes).
+ 11664 strings out of 476120
+ 187816 string characters out of 5793657
+ 1958975 words of memory out of 5000000
+ 33468 multiletter control sequences out of 15000+600000
+ 602579 words of font info for 118 fonts, out of 8000000 for 9000
+ 40 hyphenation exceptions out of 8191
+ 75i,11n,79p,988b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 742869 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 274 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 
