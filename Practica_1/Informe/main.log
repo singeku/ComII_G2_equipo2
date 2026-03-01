@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.22)  1 MAR 2026 00:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.22)  1 MAR 2026 00:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -410,12 +410,11 @@ Package hyperref Info: Link coloring OFF on input line 10.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 32.
  (./filtro_estadistico.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-<imagenes/grafica_filtro_media_movil.png, id=76, 835.32076pt x 358.941pt>
+<imagenes/grafica_filtro_media_movil.png, id=79, 835.32076pt x 358.941pt>
 File: imagenes/grafica_filtro_media_movil.png Graphic file (type png)
 <use imagenes/grafica_filtro_media_movil.png>
 Package pdftex.def Info: imagenes/grafica_filtro_media_movil.png  used on input line 35.
@@ -449,17 +448,17 @@ Overfull \hbox (16.95515pt too wide) in paragraph at lines 18--18
 \OT1/ptm/m/n/8 ($\OT1/cmr/m/n/8 [1\OML/cmm/m/it/8 ; \OT1/cmr/m/n/8 2\OML/cmm/m/it/8 ; \OT1/cmr/m/n/8 5\OML/cmm/m/it/8 ; \OMS/cmsy/m/n/8 ^^@\OT1/cmr/m/n/8 4\OML/cmm/m/it/8 ; \OMS/cmsy/m/n/8 ^^@\OT1/cmr/m/n/8 4]$\OT1/ptm/m/n/8 )| 
  []
 
-<imagenes/fig_acum_resultado_dc.png, id=80, 1363.34344pt x 656.4525pt>
+<imagenes/fig_acum_resultado_dc.png, id=83, 1363.34344pt x 656.4525pt>
 File: imagenes/fig_acum_resultado_dc.png Graphic file (type png)
 <use imagenes/fig_acum_resultado_dc.png>
 Package pdftex.def Info: imagenes/fig_acum_resultado_dc.png  used on input line 30.
 (pdftex.def)             Requested size: 80.64185pt x 38.82451pt.
-<imagenes/fig_acum_resultado.png, id=81, 1340.00626pt x 619.56468pt>
+<imagenes/fig_acum_resultado.png, id=84, 1340.00626pt x 619.56468pt>
 File: imagenes/fig_acum_resultado.png Graphic file (type png)
 <use imagenes/fig_acum_resultado.png>
 Package pdftex.def Info: imagenes/fig_acum_resultado.png  used on input line 35.
 (pdftex.def)             Requested size: 80.64185pt x 37.27626pt.
-<imagenes/fig_acum_resultado_cuadrada.png, id=82, 1368.61313pt x 693.34032pt>
+<imagenes/fig_acum_resultado_cuadrada.png, id=85, 1368.61313pt x 693.34032pt>
 File: imagenes/fig_acum_resultado_cuadrada.png Graphic file (type png)
 <use imagenes/fig_acum_resultado_cuadrada.png>
 Package pdftex.def Info: imagenes/fig_acum_resultado_cuadrada.png  used on input line 40.
@@ -480,12 +479,12 @@ Underfull \hbox (badness 1769) in paragraph at lines 16--17
  []
 
 [2 <./imagenes/grafica_filtro_media_movil.png> <./imagenes/fig_acum_resultado_dc.png> <./imagenes/fig_acum_resultado.png> <./imagenes/fig_acum_resultado_cuadrada.png>]
-<imagenes/Senoidal.jpeg, id=106, 1606.0pt x 825.0825pt>
+<imagenes/Senoidal.jpeg, id=108, 1606.0pt x 825.0825pt>
 File: imagenes/Senoidal.jpeg Graphic file (type jpg)
 <use imagenes/Senoidal.jpeg>
 Package pdftex.def Info: imagenes/Senoidal.jpeg  used on input line 28.
 (pdftex.def)             Requested size: 120.95892pt x 62.13031pt.
-<imagenes/Cuadrada.jpeg, id=107, 1606.0pt x 828.09375pt>
+<imagenes/Cuadrada.jpeg, id=109, 1606.0pt x 828.09375pt>
 File: imagenes/Cuadrada.jpeg Graphic file (type jpg)
 <use imagenes/Cuadrada.jpeg>
 Package pdftex.def Info: imagenes/Cuadrada.jpeg  used on input line 33.
@@ -514,18 +513,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2845122849798ABD3B6FCC7AF81B473C;1916.
  ) 
 Here is how much of TeX's memory you used:
- 12988 strings out of 476047
- 212570 string characters out of 5792075
- 1957975 words of memory out of 5000000
- 34820 multiletter control sequences out of 15000+600000
- 602863 words of font info for 120 fonts, out of 8000000 for 9000
+ 12969 strings out of 476047
+ 212269 string characters out of 5792075
+ 1955975 words of memory out of 5000000
+ 34802 multiletter control sequences out of 15000+600000
+ 599684 words of font info for 112 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
- 75i,11n,79p,1004b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,1004b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 569501 bytes).
+Output written on main.pdf (3 pages, 568609 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
+ 201 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  27 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
