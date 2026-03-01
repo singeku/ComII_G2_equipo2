@@ -1,33 +1,39 @@
 \subsection{Acondicionamiento Estadístico: Filtro de Media Móvil}
 
-La presencia de ruido Gaussiano es un desafío inherente en la adquisición de señales físicas. Para mitigar las fluctuaciones aleatorias y mejorar la relación señal a ruido (SNR), se diseñó un bloque de procesamiento estadístico personalizado. La estrategia seleccionada corresponde a un filtro discreto de media móvil, regido por la siguiente ecuación de diferencias \cite{oppenheim}:
+El filtrado de ruido Gaussiano es un desafío inherente en la adquisición de señales físicas. Para mitigar las fluctuaciones aleatorias y mejorar la relación señal a ruido (SNR), se diseñó un bloque de procesamiento estadístico personalizado en GNU Radio mediante un \textit{Embedded Python Block}. La estrategia seleccionada correspondió a un filtro discreto de media móvil, regido por la siguiente ecuación de diferencias \cite{oppenheim}:
 
 \begin{equation}
     y[n] = \frac{1}{N} \sum_{i=0}^{N-1} x[n-i] 
 \end{equation}
 
-Donde $N=10$ representa el tamaño de la ventana de promediado, $x[n]$ es la señal de entrada contaminada y $y[n]$ es la salida estabilizada.
-
-\subsubsection{Implementación en GNU Radio}
-La arquitectura del sistema se construyó utilizando el entorno de GNU Radio Companion. El filtro se programó desde cero mediante un \textit{Embedded Python Block}. Como se evidencia en el diagrama de flujo (Fig. \ref{fig:diagrama_gnu}), la señal original se somete a una fuente de ruido antes de ingresar al bloque diseñado, permitiendo evaluar su desempeño en tiempo real.
-
-\begin{figure}[ht]
-    \centering
-    % RECUERDA CAMBIAR 'diagrama_bloques.png' POR EL NOMBRE EXACTO DE TU FOTO
-    \includegraphics[width=\linewidth]{imagenes/filtro_estadistico.png}
-    \caption{Diagrama de bloques implementado en GNU Radio, destacando el módulo de filtro estadístico en Python.}
-    \label{fig:diagrama_gnu}
-\end{figure}
+Donde $N=10$ representó el tamaño de la ventana de promediado, $x[n]$ la señal de entrada contaminada y $y[n]$ la salida estabilizada.
 
 \subsubsection{Validación y Aplicación Práctica}
-La capacidad de programar filtros a medida es un requerimiento crítico en aplicaciones de alta complejidad, como el diseño y validación de sistemas de control de fuerza para la reproducción de movimientos básicos de la mano \cite{emg_analysis}. En este contexto, las señales mioeléctricas crudas presentan una alta varianza que puede desestabilizar a los actuadores mecánicos. Aplicar un promedio estadístico es el paso previo obligatorio para garantizar un control suave y preciso.
+La capacidad de programar filtros a medida fue un requerimiento crítico evaluado para aplicaciones de alta complejidad, tales como el diseño y validación de un sistema de control de fuerza en la reproducción de movimientos básicos de la mano \cite{emg_analysis}. En este contexto, dado que las bioseñales crudas presentan una alta varianza que desestabiliza los actuadores mecánicos, la aplicación de un promedio estadístico resultó ser un paso previo obligatorio para garantizar un control suave.
 
-Al ejecutar el sistema, los resultados obtenidos (Fig. \ref{fig:grafica_filtro}) demuestran la eficacia del bloque. La estadística aplicada atenúa significativamente los picos del ruido Gaussiano. Aunque persiste un leve rizado debido a una ventana pequeña ($N=10$), este diseño garantiza una baja latencia computacional, un factor indispensable para el tiempo de respuesta inmediato que exige el control de una prótesis real.
+Para validar el bloque, la señal original se sometió a una fuente de ruido Gaussiano. El desempeño del filtro se sintetiza en la Tabla \ref{tab:filtro_resultados}.
 
-\begin{figure}[ht]
+\begin{table}[htbp]
+\centering
+\caption{Síntesis de validación del filtro de media móvil.}
+\label{tab:filtro_resultados}
+\begin{tabular}{|p{1.5cm}|p{2.5cm}|p{3.5cm}|}
+\hline
+\textbf{Condición} & \textbf{Efecto en la Salida} & \textbf{Conclusión} \\
+\hline
+Ruido Gaussiano & Atenuación de picos de alta frecuencia. & Mejoró la relación SNR estabilizando la señal base. \\
+\hline
+Ventana corta ($N=10$) & Leve rizado residual. & Minimizó la latencia computacional, vital para el control en tiempo real. \\
+\hline
+\end{tabular}
+\end{table}
+
+Al ejecutar el sistema, los resultados obtenidos corroboraron la eficacia del bloque. Tal como se observó en la Fig. \ref{fig:grafica_filtro}, la estadística aplicada atenuó significativamente las variaciones aleatorias. Aunque persistió un rizado debido al tamaño reducido de la ventana, este diseño garantizó la baja latencia exigida para la reproducción instantánea de movimientos, logrando un equilibrio óptimo entre suavidad de la señal y velocidad de respuesta.
+
+\begin{figure}[htbp]
     \centering
-    % RECUERDA CAMBIAR 'grafica_senal.png' POR EL NOMBRE EXACTO DE TU FOTO
     \includegraphics[width=\linewidth]{imagenes/grafica_filtro_media_movil.png}
-    \caption{Resultados del procesamiento: Comparación entre la señal contaminada con ruido Gaussiano y la señal estabilizada.}
+    \vspace{-2mm}
+    \caption{Comparación temporal entre la señal contaminada con ruido Gaussiano y la salida estabilizada por el filtro.}
     \label{fig:grafica_filtro}
 \end{figure}

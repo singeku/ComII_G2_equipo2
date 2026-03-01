@@ -1,220 +1,46 @@
-\subsection{Acumulador discreto (con memoria)}
+\subsection{Acumulador discreto con memoria}
 
-Un acumulador es un sistema cuya salida corresponde a la suma acumulada de la señal de entrada. En tiempo discreto, si $x[n]$ es la señal de entrada, el acumulador ideal se define como:
-\begin{equation}
-y[n] = \sum_{k=0}^{n} x[k].
-\end{equation}
+El acumulador discreto ideal, definido recursivamente como $y[n] = y[n-1] + x[n]$, requirió adaptación para su implementación en GNU Radio debido a su arquitectura de procesamiento por bloques de tamaño $N$. Dado que computar únicamente la suma acumulada local reiniciaba el valor en cada iteración de la función \texttt{work()}, se diseñó un \textit{Embedded Python Block} para preservar el estado del sistema. Matemáticamente, la salida del bloque se definió como $\mathbf{y} = A + \mathrm{cumsum}(\mathbf{x})$, donde el estado interno se actualizó guardando el último valor procesado ($A \leftarrow y_{N-1}$) como condición inicial del siguiente bloque.
 
-De manera equivalente, puede escribirse en forma recursiva como:
-\begin{equation}
-y[n] = y[n-1] + x[n],
-\end{equation}
-lo cual es especialmente útil para implementación en tiempo real, ya que la salida en el instante $n$ se obtiene sumando la muestra actual a la salida anterior.
+\subsubsection{Validación del bloque}
+El comportamiento del sistema se evaluó mediante un flujograma con un \textit{Vector Source} cíclico acoplado al bloque acumulador. Para comprobar la continuidad temporal, se ejecutaron tres pruebas fundamentales, cuyos resultados y conclusiones se sintetizan en la Tabla \ref{tab:acum_resultados}.
 
-\subsubsection{Motivación de la memoria en GNU Radio (procesamiento por bloques)}
-En GNU Radio, los bloques de tipo \texttt{sync\_block} procesan la señal en vectores de $N$ muestras durante cada llamada al método \texttt{work()}. En consecuencia, si se implementa un acumulador que calcule únicamente la suma acumulada \emph{dentro del vector actual}, se obtiene una salida correcta \emph{solo localmente}, pero el acumulado puede reiniciarse cada vez que \texttt{work()} se ejecute de nuevo con un nuevo bloque de datos.
-
-Para reproducir el comportamiento del acumulador ideal $y[n]=y[n-1]+x[n]$ durante una ejecución continua, es necesario almacenar un \textbf{estado interno} que represente el valor acumulado al final del bloque anterior. Esta variable de estado (memoria) actúa como condición inicial para el siguiente bloque de muestras.
-
-\subsubsection{Modelo matemático por bloques}
-Sea $\mathbf{x}=[x_0,x_1,\dots,x_{N-1}]$ el vector de entrada en una llamada a \texttt{work()} y sea $A$ el acumulado anterior (estado interno). La salida por bloques se define como:
-\begin{equation}
-\mathbf{y} = A + \mathrm{cumsum}(\mathbf{x}),
-\end{equation}
-donde $\mathrm{cumsum}(\cdot)$ representa la suma acumulada elemento a elemento:
-\[
-\mathrm{cumsum}(\mathbf{x}) = [x_0,\; x_0+x_1,\; \dots,\; \sum_{i=0}^{N-1}x_i ].
-\]
-
-El estado interno se actualiza con el último valor del acumulado del bloque:
-\begin{equation}
-A \leftarrow y_{N-1}.
-\end{equation}
-
-De este modo, el acumulador mantiene continuidad temporal: el primer valor del bloque actual parte del acumulado total obtenido en el bloque anterior.
-
-\subsubsection{Implementación del bloque (Embedded Python Block)}
-La implementación se realizó mediante un bloque personalizado usando \textit{Embedded Python Block} en GNU Radio. El bloque se diseñó como \texttt{gr.sync\_block} con una entrada y una salida de tipo \texttt{float32}. Para conservar continuidad entre bloques se añadió la variable de estado \texttt{acum\_anterior}, inicializada en $0$ y usada como acumulado previo (valor real almacenado como \texttt{float}).
-
-\paragraph{Estructura general del algoritmo (descriptiva).}
-En cada llamada a \texttt{work()}, el bloque realiza los siguientes pasos:
-\begin{itemize}
-    \item Lectura del vector de entrada: \texttt{x = input\_items[0]}.
-    \item Preparación del vector de salida: \texttt{y0 = output\_items[0]}.
-    \item Cálculo acumulado por bloques: \texttt{acumulado = acum\_anterior + np.cumsum(x)}.
-    \item Actualización de memoria: \texttt{acum\_anterior = acumulado[N-1]}.
-    \item Escritura de salida: \texttt{y0[:] = acumulado}.
-    \item Retorno de $N$ muestras procesadas: \texttt{return len(x)}.
-\end{itemize}
-
-\paragraph{Parámetros y tipos.}
-El bloque se fijó a:
-\begin{itemize}
-    \item \textbf{Entrada:} \texttt{np.float32}.
-    \item \textbf{Salida:} \texttt{np.float32}.
-    \item \textbf{Estado interno:} \texttt{acum\_anterior} inicializado en $0$.
-\end{itemize}
-
-\subsubsection{Flujograma de validación (mini comprobación)}
-Para validar el comportamiento del acumulador se construyó un flujo mínimo de prueba en GNU Radio. El objetivo fue observar:
-\begin{itemize}
-    \item Correctitud de la suma acumulada (salida coherente con la entrada).
-    \item Continuidad de la salida en ejecución continua (sin reinicios entre bloques).
-\end{itemize}
-
-El diagrama de bloques se muestra en la Fig.~\ref{fig:acum_diagrama}. Este incluye:
-\begin{itemize}
-    \item \textbf{Vector Source:} genera la señal de prueba definida por un vector repetitivo.
-    \item \textbf{Throttle:} limita la tasa de procesamiento (evita ejecución a máxima velocidad).
-    \item \textbf{Acumulador\_memoria:} bloque Python implementado.
-    \item \textbf{QT GUI Time Sink:} visualización temporal de la salida.
-    \item \textbf{QT GUI Number Sink:} monitoreo numérico del acumulado (valor instantáneo).
-\end{itemize}
-
-\begin{figure}[t]
+\begin{table}[htbp]
 \centering
-\includegraphics[width=\columnwidth]{imagenes/fig_acum_diagrama.png}
-\caption{Flujograma de validación del acumulador con memoria. Se observa la salida conectada a \textit{QT GUI Time Sink} y \textit{QT GUI Number Sink}.}
-\label{fig:acum_diagrama}
-\end{figure}
-
-\paragraph{Parámetros usados en la validación.}
-Los parámetros generales de la prueba se resumen en la Tabla~\ref{tab:acum_parametros}. En todos los casos se trabajó con repetición habilitada para observar el comportamiento en ejecución continua.
-
-\begin{table}[t]
-\centering
-\caption{Parámetros generales del flujograma de validación.}
-\label{tab:acum_parametros}
-\begin{tabular}{p{2.6cm} p{2.9cm} p{2.1cm}}
+\caption{Síntesis de pruebas de validación del acumulador con memoria.}
+\label{tab:acum_resultados}
+\begin{tabular}{|p{1.5cm}|p{2.5cm}|p{3.5cm}|}
 \hline
-\textbf{Bloque} & \textbf{Parámetro} & \textbf{Valor} \\
+\textbf{Señal de Entrada} & \textbf{Forma de Salida} & \textbf{Conclusión del Comportamiento} \\
 \hline
-Variable & \texttt{samp\_rate} & 32 kHz \\
-Vector Source & Repeat & Yes \\
-Throttle & Sample Rate & \texttt{samp\_rate} \\
-QT Time Sink & Sample Rate & \texttt{samp\_rate} \\
-QT Time Sink & Autoscale & Yes (recomendado) \\
-QT Number Sink & Autoscale & Yes \\
+Constante ($x[n]=1$) & Rampa creciente. & Evidenció la deriva temporal del sistema ante señales con componente DC. \\
+\hline
+Media cero ($[1, 2, 5, -4, -4]$) & Señal acotada. & Validó la conservación de la memoria en régimen continuo sin desbordamientos. \\
+\hline
+Bipolar ($\pm 1$) & Onda triangular. & Comprobó el comportamiento del bloque como un integrador discreto ideal. \\
 \hline
 \end{tabular}
 \end{table}
 
-\subsubsection{Validación y resultados (tres pruebas complementarias)}
-Se realizaron tres pruebas con diferentes señales de entrada. Cada prueba busca evidenciar un aspecto distinto del acumulador:
+Las formas de onda resultantes de estas tres pruebas se graficaron en la Fig. \ref{fig:acum_pruebas}. Tal como se observó en las gráficas, el sistema mantuvo la coherencia del estado interno a lo largo del tiempo sin importar el tipo de entrada, lo que permitió concluir que la memoria compartida entre los bloques de GNU Radio operó correctamente sin pérdidas de datos.
 
-\begin{itemize}
-    \item \textbf{Prueba 1:} entrada con media distinta de cero $\Rightarrow$ deriva del acumulado (crecimiento).
-    \item \textbf{Prueba 2:} entrada de media cero $\Rightarrow$ acumulado acotado (no se va al infinito).
-    \item \textbf{Prueba 3:} onda cuadrada bipolar $\Rightarrow$ salida triangular (interpretación como integración discreta).
-\end{itemize}
-
-\paragraph{Prueba 1 (entrada constante, media $\neq 0$).}
-Se configuró el \textit{Vector Source} con un vector constante:
-\[
-x[n] = 1.
-\]
-En este caso el acumulador ideal produce una rampa:
-\[
-y[n]=1,2,3,4,\dots
-\]
-Este resultado verifica la suma acumulada correcta. Además, evidencia la \textbf{deriva} inevitable cuando la señal de entrada posee componente DC (media no nula): el acumulado crece aproximadamente de forma lineal con el tiempo.
-
-\emph{Recomendación de visualización:} como $y[n]$ crece rápidamente, se requiere \textit{autoscale} en el Time Sink o ajustar manualmente el rango vertical para evitar que la señal salga del marco.
-
-% =========================
-% IMAGEN (Prueba 1) -> DESCOMENTAR cuando exista el archivo:
-% Guardar como: Practica_1/Informe/imagenes/fig_acum_resultado_dc.png
-% =========================
-% NOTA DE FORMATO: estas figuras se ubican al FINAL de la Prueba 1 (II-B5a), justo antes de iniciar la Prueba 2 (II-B5b).
-% Se usa [!h] para reducir que IEEEtran las reubique al inicio de la página.
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=\columnwidth]{imagenes/fig_acum_resultado_dc.png}
-\caption{Salida del acumulador con memoria para entrada constante (media $\neq 0$): rampa creciente por deriva del acumulado.}
-\label{fig:acum_resultado_dc}
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}{0.32\linewidth}
+        \includegraphics[width=\linewidth]{imagenes/fig_acum_resultado_dc.png}
+        \caption{Componente DC.}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.32\linewidth}
+        \includegraphics[width=\linewidth]{imagenes/fig_acum_resultado.png}
+        \caption{Media cero.}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.32\linewidth}
+        \includegraphics[width=\linewidth]{imagenes/fig_acum_resultado_cuadrada.png}
+        \caption{Bipolar ($\pm 1$).}
+    \end{subfigure}
+    \vspace{-2mm}
+    \caption{Respuesta del acumulador con memoria ante diversas secuencias cíclicas.}
+    \label{fig:acum_pruebas}
 \end{figure}
-
-\vspace{-0.6em}
-
-% =========================
-% IMAGEN (Propiedades Prueba 1) -> DESCOMENTAR si quieres evidencia extra:
-% Guardar como: Practica_1/Informe/imagenes/fig_acum_props_prueba1.png
-% =========================
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=\columnwidth]{imagenes/fig_acum_props_prueba1.png}
-\caption{Propiedades del Vector Source en la Prueba 1: vector constante y repetición habilitada.}
-\label{fig:acum_props_p1}
-\end{figure}
-
-\vspace{-0.6em}
-
-\paragraph{Prueba 2 (secuencia de media cero: prueba principal).}
-Con el fin de evitar el crecimiento indefinido del acumulado, se empleó una secuencia repetitiva de \textbf{media cero} (suma total por periodo igual a cero):
-\[
-x[n] = [1,\;2,\;5,\;-4,\;-4,\;\dots]
-\]
-La suma por periodo cumple:
-\[
-1+2+5-4-4=0.
-\]
-En consecuencia, el acumulado \textbf{no presenta tendencia} a crecer o decrecer indefinidamente. En su lugar, la salida permanece acotada y refleja las variaciones internas de la suma parcial dentro de cada periodo.
-
-En la Fig.~\ref{fig:acum_resultado} se observa este comportamiento: la señal de salida oscila dentro de un rango y el \textit{Number Sink} permite comprobar que el estado se conserva durante la ejecución continua (no hay reinicios artificiales del acumulado). Esta prueba es especialmente útil porque permite observar el acumulador durante más tiempo sin saturar la escala del \textit{Time Sink}.
-
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=\columnwidth]{imagenes/fig_acum_resultado.png}
-\caption{Resultado del acumulador con memoria para una entrada repetitiva de media cero $[1,2,5,-4,-4]$: salida acotada y continuidad del estado.}
-\label{fig:acum_resultado}
-\end{figure}
-
-% =========================
-% IMAGEN (Propiedades Prueba 2) -> DESCOMENTAR si quieres evidencia extra:
-% Guardar como: Practica_1/Informe/imagenes/fig_acum_props_prueba2.png
-% =========================
- \begin{figure}[!ht]
- \centering
- \includegraphics[width=\columnwidth]{imagenes/fig_acum_props_prueba2.png}
- \caption{Propiedades del Vector Source en la Prueba 2: vector de media cero y repetición habilitada.}
- \label{fig:acum_props_p2}
- \end{figure}
-
-\paragraph{Prueba 3 (onda cuadrada bipolar, media $=0$).}
-Para obtener un caso comparable con pruebas típicas de laboratorio (onda cuadrada), se propone una entrada bipolar con valores $\pm 1$ (media cero). Por ejemplo:
-\[
-x[n] = [1,1,1,1,\,-1,-1,-1,-1,\dots]
-\]
-En este caso, el acumulador incrementa linealmente durante el tramo positivo y decrementa linealmente durante el tramo negativo, generando una forma de onda \textbf{triangular} en la salida. Este resultado es consistente con la interpretación del acumulador como una \textbf{integración discreta}: integrar una onda cuadrada produce una señal triangular por tramos.
-
-% =========================
-% IMAGEN (Prueba 3) -> DESCOMENTAR cuando exista el archivo:
-% Guardar como: Practica_1/Informe/imagenes/fig_acum_resultado_cuadrada.png
-% =========================
- \begin{figure}[!ht]
- \centering
- \includegraphics[width=\columnwidth]{imagenes/fig_acum_resultado_cuadrada.png}
- \caption{Salida del acumulador con memoria para una entrada cuadrada bipolar ($\pm 1$): comportamiento triangular asociado a integración discreta.}
- \label{fig:acum_resultado_cuadrada}
- \end{figure}
-
-% =========================
-% IMAGEN (Propiedades Prueba 3) -> DESCOMENTAR si quieres evidencia extra:
-% Guardar como: Practica_1/Informe/imagenes/fig_acum_props_prueba3.png
-% =========================
- \begin{figure}[!ht]
- \centering
- \includegraphics[width=\columnwidth]{imagenes/fig_acum_props_prueba3.png}
- \caption{Propiedades del Vector Source en la Prueba 3: secuencia bipolar $\pm1$ y repetición habilitada.}
- \label{fig:acum_props_p3}
- \end{figure}
-
-\subsubsection{Aplicaciones y consideraciones prácticas}
-El acumulador es una operación base en procesamiento digital de señales. Entre sus aplicaciones típicas se encuentran:
-\begin{itemize}
-    \item Aproximación de integrales discretas y cálculo de áreas acumuladas.
-    \item Estimación de energía acumulada o sumatorias parciales.
-    \item Construcción de métricas estadísticas acumulativas (promedios, integradores, contadores).
-\end{itemize}
-
-Adicionalmente, los resultados muestran que la visualización debe configurarse adecuadamente: debido al crecimiento potencial del acumulado, es recomendable utilizar \textit{autoscale} o rangos verticales amplios en el \textit{QT GUI Time Sink}. En pruebas de larga duración, las entradas de media cero permiten evaluar estabilidad sin saturación de escala.
