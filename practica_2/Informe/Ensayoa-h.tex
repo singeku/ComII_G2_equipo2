@@ -1,0 +1,33 @@
+\subsection{Análisis del comportamiento espectral (Respuestas a–h)}
+
+El procesamiento de la señal binaria en GNU Radio inicia con la conversión de una señal unipolar (0,1) a una señal bipolar (-1,1) mediante los bloques \textit{Constant Source}, \textit{Add} y \textit{Multiply Const}. Este proceso introduce un desplazamiento, centra la señal alrededor de cero y ajusta su amplitud, permitiendo eliminar el componente DC y obtener una PSD más simétrica.
+
+El bloque \textit{Interpolation FIR Filter} realiza el sobremuestreo de la señal aumentando el número de muestras por símbolo (Sps), insertando muestras intermedias y aplicando un filtrado que suaviza la forma de los pulsos. El parámetro \textit{Interpolation} define este factor y debe coincidir con Sps para mantener coherencia entre la tasa de bits y la frecuencia de muestreo, evitando distorsiones en la señal y en su espectro. En este contexto, se cumple que:
+
+\[
+F_s = R_b \cdot Sps
+\]
+
+Para analizar la señal antes del sobremuestreo (p3), es necesario ubicar los instrumentos antes del bloque de interpolación y ajustar su frecuencia de muestreo. Además, el ancho de banda de la señal no depende de Sps, sino de la tasa de bits, por lo que se aproxima como:
+
+\[
+BW \approx 2 \cdot R_b
+\]
+
+Desde el punto de vista espectral, la PSD no solo depende de la forma del pulso, sino también de la naturaleza de la información. Señales provenientes de audio presentan mayor correlación entre bits y concentran su energía en bajas frecuencias, mientras que señales de imagen son más aleatorias y generan una PSD más uniforme.
+
+El bloque \textit{Throttle} no modifica la señal, sino que controla la velocidad de procesamiento, evitando el uso excesivo de recursos y permitiendo una correcta visualización.
+
+Si la señal no se convierte a bipolar y permanece en niveles 0 y 1, aparece un componente DC que genera un pico en frecuencia cero y una PSD no simétrica. Por otra parte, aunque teóricamente el ruido blanco y las señales rectangulares tienen ancho de banda infinito, en GNU Radio esto no se observa debido a la frecuencia de muestreo finita, que limita el espectro al rango de Nyquist:
+
+\[
+\pm \frac{F_s}{2}
+\]
+
+Finalmente, el número de lóbulos en la PSD está relacionado con el número de muestras por símbolo, cumpliéndose que:
+
+\[
+\text{Número de lóbulos} \approx Sps
+\]
+
+lo que indica que el sobremuestreo mejora la resolución espectral sin alterar el contenido fundamental de la señal.
