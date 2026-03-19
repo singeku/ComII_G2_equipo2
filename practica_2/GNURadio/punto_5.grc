@@ -11,7 +11,7 @@ options:
     gen_linking: dynamic
     generate_options: qt_gui
     hier_block_src_path: '.:'
-    id: prac3a
+    id: punto_5
     max_nouts: '0'
     output_language: python
     placement: (0,0)
@@ -28,7 +28,7 @@ options:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [8, 8]
+    coordinate: [16, 4.0]
     rotation: 0
     state: enabled
 
@@ -221,7 +221,7 @@ blocks:
     alias: ''
     begin_tag: pmt.PMT_NIL
     comment: ''
-    file: /home/jordy/ComII_G2_equipo2/practica_2/GNURadio/sonido.wav
+    file: /home/jordy/ComII_G2_equipo2/practica_2/GNURadio/rana.jpg
     length: '0'
     maxoutbuf: '0'
     minoutbuf: '0'
@@ -332,7 +332,7 @@ blocks:
     affinity: ''
     alias: ''
     comment: ''
-    k: '8'
+    k: '16'
     maxoutbuf: '0'
     minoutbuf: '0'
   states:
