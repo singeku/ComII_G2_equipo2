@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.26)  19 MAR 2026 09:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.26)  19 MAR 2026 13:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -532,61 +532,13 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 14--31
  []
 
 )) (./conclusiones.tex
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 5--9
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
-[][]\OT1/ptm/m/n/10 ''''''[]>61966b5fb039fba7fa85cbb749a02def94d57a1e El
- []
-
-
-Underfull \hbox (badness 2418) in paragraph at lines 10--13
-\OT1/ptm/m/n/10 an[]ali-sis pa-ram[]etri-co del fil-tro con-for-ma-dor en en-tor-nos
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 10--13
-\OT1/ptm/m/n/10 si-mu-la-dos de GNU Ra-dio de-mues-tra que la geo-metr[]^^Pa
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 10--13
-\OT1/ptm/m/n/10 su efi-cien-cia es-pec-tral. Se evi-den-ci[]o emp[]^^Pri-ca-men-te que
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 10--13
-\OT1/ptm/m/n/10 c[]odi-go RZ o Dien-te de Sie-rra) ex-pan-den el an-cho de
- []
-
-
-Underfull \hbox (badness 1939) in paragraph at lines 10--13
-\OT1/ptm/m/n/10 ban-da e in-cre-men-tan la fu-ga de energ[]^^Pa ha-cia l[]obu-los
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 10--13
-\OT1/ptm/m/n/10 si-mult[]anea-men-te la In-ter-fe-ren-cia In-ter-simb[]oli-ca (ISI) y
  []
 
 ) (./referencias.tex
-Overfull \hbox (51.99025pt too wide) in paragraph at lines 16--2
-[][]\OT1/ptm/m/n/10 ```<HEAD ======= '''[]>61966b5fb039fba7fa85cbb749a02def94d57a1e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--2
-
- []
-
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 11.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
 
@@ -612,18 +564,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 31F42450B7D5801799E0A7866F5672EB;4867.
  ) 
 Here is how much of TeX's memory you used:
- 13245 strings out of 476120
- 217699 string characters out of 5793657
+ 13221 strings out of 476120
+ 217184 string characters out of 5793657
  1951975 words of memory out of 5000000
- 35023 multiletter control sequences out of 15000+600000
- 596144 words of font info for 107 fonts, out of 8000000 for 9000
+ 35003 multiletter control sequences out of 15000+600000
+ 596038 words of font info for 106 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  75i,12n,79p,1304b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 1270184 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 1262248 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
+ 261 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
  45 named destinations out of 1000 (max. 500000)
  254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
