@@ -1,10 +1,19 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.22)  18 MAR 2026 11:58
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  18 MAR 2026 21:21
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
+<<<<<<< HEAD
 **/home/juan/comm2_G2/equipo2/ComII_G2_equipo2/practica_2/Informe/main.tex
 (/home/juan/comm2_G2/equipo2/ComII_G2_equipo2/practica_2/Informe/main.tex
+=======
+**/home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex
+(/home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -416,39 +425,95 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
+<<<<<<< HEAD
 ]) (./resultados.tex (./punto_3.tex
 <imagenes/ruido_puro_tiempo.png, id=66, 1103.322pt x 264.99pt>
+=======
+]) (./resultados.tex (./Punto 2.tex
+<imagenes/tab.jpeg, id=82, 1007.765pt x 511.9125pt>
+File: imagenes/tab.jpeg Graphic file (type jpg)
+<use imagenes/tab.jpeg>
+Package pdftex.def Info: imagenes/tab.jpeg  used on input line 27.
+(pdftex.def)             Requested size: 252.0pt x 128.00905pt.
+<imagenes/Sps1.jpeg, id=83, 1084.05pt x 1108.14pt>
+File: imagenes/Sps1.jpeg Graphic file (type jpg)
+<use imagenes/Sps1.jpeg>
+Package pdftex.def Info: imagenes/Sps1.jpeg  used on input line 32.
+(pdftex.def)             Requested size: 123.84283pt x 126.57951pt.
+<imagenes/Sps4.jpeg, id=84, 1084.05pt x 1081.03876pt>
+File: imagenes/Sps4.jpeg Graphic file (type jpg)
+<use imagenes/Sps4.jpeg>
+Package pdftex.def Info: imagenes/Sps4.jpeg  used on input line 37.
+(pdftex.def)             Requested size: 123.84283pt x 123.48383pt.
+<imagenes/Sps8.jpeg, id=85, 1083.04625pt x 1122.1925pt>
+File: imagenes/Sps8.jpeg Graphic file (type jpg)
+<use imagenes/Sps8.jpeg>
+Package pdftex.def Info: imagenes/Sps8.jpeg  used on input line 45.
+(pdftex.def)             Requested size: 123.84283pt x 128.30455pt.
+<imagenes/Sps16.jpeg, id=86, 1079.03125pt x 1127.21124pt>
+File: imagenes/Sps16.jpeg Graphic file (type jpg)
+<use imagenes/Sps16.jpeg>
+Package pdftex.def Info: imagenes/Sps16.jpeg  used on input line 50.
+(pdftex.def)             Requested size: 123.84283pt x 129.35997pt.
+) (./punto_3.tex [2 <./imagenes/tab.jpeg> <./imagenes/Sps1.jpeg> <./imagenes/Sps4.jpeg> <./imagenes/Sps8.jpeg> <./imagenes/Sps16.jpeg>]
+<imagenes/ruido_puro_tiempo.png, id=98, 1103.322pt x 264.99pt>
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
 File: imagenes/ruido_puro_tiempo.png Graphic file (type png)
 <use imagenes/ruido_puro_tiempo.png>
 Package pdftex.def Info: imagenes/ruido_puro_tiempo.png  used on input line 14.
 (pdftex.def)             Requested size: 232.19843pt x 55.7668pt.
+<<<<<<< HEAD
 <imagenes/ruido_puro_psd.png, id=68, 1108.74225pt x 261.3765pt>
+=======
+<imagenes/ruido_puro_psd.png, id=100, 1108.74225pt x 261.3765pt>
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
 File: imagenes/ruido_puro_psd.png Graphic file (type png)
 <use imagenes/ruido_puro_psd.png>
 Package pdftex.def Info: imagenes/ruido_puro_psd.png  used on input line 20.
 (pdftex.def)             Requested size: 232.19843pt x 54.73514pt.
+<<<<<<< HEAD
 <imagenes/espectro_amp_1.png, id=69, 1111.7535pt x 534.19576pt>
+=======
+<imagenes/espectro_amp_1.png, id=101, 1111.7535pt x 534.19576pt>
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
 File: imagenes/espectro_amp_1.png Graphic file (type png)
 <use imagenes/espectro_amp_1.png>
 Package pdftex.def Info: imagenes/espectro_amp_1.png  used on input line 31.
 (pdftex.def)             Requested size: 232.19843pt x 111.56493pt.
+<<<<<<< HEAD
 <imagenes/espectro_amp_2.png, id=70, 1109.3445pt x 531.78674pt>
+=======
+<imagenes/espectro_amp_2.png, id=102, 1109.3445pt x 531.78674pt>
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
 File: imagenes/espectro_amp_2.png Graphic file (type png)
 <use imagenes/espectro_amp_2.png>
 Package pdftex.def Info: imagenes/espectro_amp_2.png  used on input line 37.
 (pdftex.def)             Requested size: 232.19843pt x 111.30524pt.
+<<<<<<< HEAD
 ) (./preguntas.tex [2 <./imagenes/ruido_puro_tiempo.png> <./imagenes/ruido_puro_psd.png> <./imagenes/espectro_amp_1.png> <./imagenes/espectro_amp_2.png>]
 <imagenes/captura_manchester.png, id=84, 1112.35574pt x 263.7855pt>
+=======
+) (./Ensayoa-h.tex [3 <./imagenes/ruido_puro_tiempo.png> <./imagenes/ruido_puro_psd.png> <./imagenes/espectro_amp_1.png> <./imagenes/espectro_amp_2.png>]) (./preguntas.tex
+<imagenes/captura_manchester.png, id=113, 1112.35574pt x 263.7855pt>
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
 File: imagenes/captura_manchester.png Graphic file (type png)
 <use imagenes/captura_manchester.png>
 Package pdftex.def Info: imagenes/captura_manchester.png  used on input line 15.
 (pdftex.def)             Requested size: 258.0pt x 61.18056pt.
+<<<<<<< HEAD
 <imagenes/captura_bpsk.png, id=85, 1109.94675pt x 271.0125pt>
+=======
+<imagenes/captura_bpsk.png, id=114, 1109.94675pt x 271.0125pt>
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
 File: imagenes/captura_bpsk.png Graphic file (type png)
 <use imagenes/captura_bpsk.png>
 Package pdftex.def Info: imagenes/captura_bpsk.png  used on input line 21.
 (pdftex.def)             Requested size: 258.0pt x 62.99321pt.
+<<<<<<< HEAD
 <imagenes/captura_coseno.png, id=86, 1115.367pt x 271.0125pt>
+=======
+<imagenes/captura_coseno.png, id=115, 1115.367pt x 271.0125pt>
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
 File: imagenes/captura_coseno.png Graphic file (type png)
 <use imagenes/captura_coseno.png>
 Package pdftex.def Info: imagenes/captura_coseno.png  used on input line 27.
@@ -468,11 +533,24 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 14--31
  [] 
  []
 
+<<<<<<< HEAD
 )) (./conclusiones.tex) (./referencias.tex
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 11.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
+=======
+)) (./conclusiones.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+) (./referencias.tex
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 11.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [4 <./imagenes/captura_manchester.png> <./imagenes/captura_bpsk.png> <./imagenes/captura_coseno.png>])
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -484,7 +562,13 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
+<<<<<<< HEAD
 [3 <./imagenes/captura_manchester.png> <./imagenes/captura_bpsk.png> <./imagenes/captura_coseno.png>] (./main.aux
+=======
+[5
+
+] (./main.aux
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -493,6 +577,7 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: 8567C91416E3DD4D90912FBCCA8E956F;2576.
  ) 
 Here is how much of TeX's memory you used:
@@ -510,4 +595,23 @@ PDF statistics:
  118 compressed objects within 2 object streams
  25 named destinations out of 1000 (max. 500000)
  132 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+(rerunfilecheck)             Checksum: 22C2CEAE10699B28F3DDD29BA4BAD3B7;3364.
+ ) 
+Here is how much of TeX's memory you used:
+ 13087 strings out of 474222
+ 214388 string characters out of 5748733
+ 1951975 words of memory out of 5000000
+ 35137 multiletter control sequences out of 15000+600000
+ 595421 words of font info for 104 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,12n,79p,1308b,602s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (5 pages, 1100912 bytes).
+PDF statistics:
+ 203 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
 

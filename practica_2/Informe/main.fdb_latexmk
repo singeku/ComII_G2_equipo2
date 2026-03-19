@@ -1,7 +1,13 @@
 # Fdb version 4
+<<<<<<< HEAD
 ["pdflatex"] 1773853097.24037 "/home/juan/comm2_G2/equipo2/ComII_G2_equipo2/practica_2/Informe/main.tex" "main.pdf" "main" 1773853097.90852 0
   "/etc/texmf/web2c/texmf.cnf" 1771815216.24128 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/juan/comm2_G2/equipo2/ComII_G2_equipo2/practica_2/Informe/main.tex" 1773853097.07234 1441 bc8c78b786a9e705ef3d45b6afe498fb ""
+=======
+["pdflatex"] 1773886869.10734 "/home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex" "main.pdf" "main" 1773886869.0868 0
+  "/etc/texmf/web2c/texmf.cnf" 1771901991.89747 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex" 1773886310.15956 1500 e90eb1f50c39c24a671996dede75a5e2 ""
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -31,6 +37,10 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+<<<<<<< HEAD
+=======
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
@@ -106,6 +116,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+<<<<<<< HEAD
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1771815222.33231 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1771820545 6852547 f33800d1821833bb4b406c7cf06f7d1f ""
   "abstract.tex" 1773781579.56693 1272 8f596458a726143e5a8150b010987e10 ""
@@ -126,6 +137,35 @@
   "punto_3.tex" 1773850875.32654 2912 b4e1e780f5eb927840377f0525da933b ""
   "referencias.tex" 1773852964.52309 1333 2eb500ea395e877eb00535fbcbdd2468 ""
   "resultados.tex" 1773851215.39505 230 060b9aa8aafc4c765452bc586e3029c9 ""
+=======
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1771990693.37774 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1771990775 8215181 3eb12128536af09ad93460d24eb5f19c ""
+  "Ensayoa-h.tex" 1773886829.82919 2491 9be28bfa50eb40a8390afc74abb4368d ""
+  "Punto 2.tex" 1773886806.94528 2395 666a29fd2c8eeb763d2ae60e70ffb663 ""
+  "abstract.tex" 1773856503.64855 1272 8f596458a726143e5a8150b010987e10 ""
+  "conclusiones.tex" 1773886310.1343 1774 f00b0425736c720653d0153a8ef894e8 ""
+  "imagenes/Sps1.jpeg" 1773886310.13851 106807 701d108a6dc666f15860fed1fae22d89 ""
+  "imagenes/Sps16.jpeg" 1773886310.14272 97267 058d1493841e014961f48fef9269ab2a ""
+  "imagenes/Sps4.jpeg" 1773886310.14272 93120 20e79d2c4106914c249591a44506a529 ""
+  "imagenes/Sps8.jpeg" 1773886310.14272 90807 1a1c6f8eb21e6ace6fa93347057e8141 ""
+  "imagenes/captura_bpsk.png" 1773856503.65255 51695 f70c136fff8dd66809433a9aa676ef1f ""
+  "imagenes/captura_coseno.png" 1773856503.65255 57790 2251dbecef962fffda627041e8f27fdd ""
+  "imagenes/captura_manchester.png" 1773856503.65255 64766 9e119434c53ce6dbd63e43e99c131413 ""
+  "imagenes/espectro_amp_1.png" 1773856503.65255 71273 d52d91319fffb6d1d86e7ad755650aa5 ""
+  "imagenes/espectro_amp_2.png" 1773856503.65255 91601 42a54b57219f0682cea204fa4846a5c2 ""
+  "imagenes/ruido_puro_psd.png" 1773856503.65255 62064 529eb8b55ddce7d11c608c1b76b24e60 ""
+  "imagenes/ruido_puro_tiempo.png" 1773856503.65255 94371 4c1fb7f661c843412bb085eb2848f3ef ""
+  "imagenes/tab.jpeg" 1773886310.14693 121186 1635ef02088472cfb3981817ccc6f84c ""
+  "introduccion.tex" 1773856503.65255 2120 0f8533aa00cefb157f3c4910f446aae1 ""
+  "main.aux" 1773886869.00168 5369 dd26591aad5a36a637bb73697df0bbbf "pdflatex"
+  "main.out" 1773886869.00168 3364 22c2ceae10699b28f3ddd29ba4bad3b7 "pdflatex"
+  "main.tex" 1773886310.15956 1500 e90eb1f50c39c24a671996dede75a5e2 ""
+  "metodologia.tex" 1773856503.66055 2571 018c2857415319f3b5d25f2bd6d75bc2 ""
+  "preguntas.tex" 1773874265.01375 3456 51b449f88a7e72881d3741011d788467 ""
+  "punto_3.tex" 1773856503.66055 2912 b4e1e780f5eb927840377f0525da933b ""
+  "referencias.tex" 1773856503.66055 1333 2eb500ea395e877eb00535fbcbdd2468 ""
+  "resultados.tex" 1773886868.89384 275 c82d4a758128a7304d41735fa9a4dffc ""
+>>>>>>> 61966b5fb039fba7fa85cbb749a02def94d57a1e
   (generated)
   "main.aux"
   "main.log"
