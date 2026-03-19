@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  18 MAR 2026 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  18 MAR 2026 22:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -420,27 +420,27 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 <imagenes/tab.jpeg, id=82, 1007.765pt x 511.9125pt>
 File: imagenes/tab.jpeg Graphic file (type jpg)
 <use imagenes/tab.jpeg>
-Package pdftex.def Info: imagenes/tab.jpeg  used on input line 27.
+Package pdftex.def Info: imagenes/tab.jpeg  used on input line 28.
 (pdftex.def)             Requested size: 252.0pt x 128.00905pt.
 <imagenes/Sps1.jpeg, id=83, 1084.05pt x 1108.14pt>
 File: imagenes/Sps1.jpeg Graphic file (type jpg)
 <use imagenes/Sps1.jpeg>
-Package pdftex.def Info: imagenes/Sps1.jpeg  used on input line 32.
+Package pdftex.def Info: imagenes/Sps1.jpeg  used on input line 33.
 (pdftex.def)             Requested size: 123.84283pt x 126.57951pt.
 <imagenes/Sps4.jpeg, id=84, 1084.05pt x 1081.03876pt>
 File: imagenes/Sps4.jpeg Graphic file (type jpg)
 <use imagenes/Sps4.jpeg>
-Package pdftex.def Info: imagenes/Sps4.jpeg  used on input line 37.
+Package pdftex.def Info: imagenes/Sps4.jpeg  used on input line 38.
 (pdftex.def)             Requested size: 123.84283pt x 123.48383pt.
 <imagenes/Sps8.jpeg, id=85, 1083.04625pt x 1122.1925pt>
 File: imagenes/Sps8.jpeg Graphic file (type jpg)
 <use imagenes/Sps8.jpeg>
-Package pdftex.def Info: imagenes/Sps8.jpeg  used on input line 45.
+Package pdftex.def Info: imagenes/Sps8.jpeg  used on input line 46.
 (pdftex.def)             Requested size: 123.84283pt x 128.30455pt.
 <imagenes/Sps16.jpeg, id=86, 1079.03125pt x 1127.21124pt>
 File: imagenes/Sps16.jpeg Graphic file (type jpg)
 <use imagenes/Sps16.jpeg>
-Package pdftex.def Info: imagenes/Sps16.jpeg  used on input line 50.
+Package pdftex.def Info: imagenes/Sps16.jpeg  used on input line 51.
 (pdftex.def)             Requested size: 123.84283pt x 129.35997pt.
 ) (./punto_3.tex [2 <./imagenes/tab.jpeg> <./imagenes/Sps1.jpeg> <./imagenes/Sps4.jpeg> <./imagenes/Sps8.jpeg> <./imagenes/Sps16.jpeg>]
 <imagenes/ruido_puro_tiempo.png, id=98, 1103.322pt x 264.99pt>
