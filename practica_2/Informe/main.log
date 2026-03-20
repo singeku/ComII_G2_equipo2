@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  18 MAR 2026 22:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  20 MAR 2026 07:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -409,61 +409,61 @@ Package hyperref Info: Link coloring OFF on input line 10.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./abstract.tex) (./introduccion.tex) (./metodologia.tex
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 6.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
+ (./abstract.tex) (./introduccion.tex) (./metodologia.tex) (./resultados.tex (./Punto2.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-]) (./resultados.tex (./Punto2.tex
-<imagenes/tab.jpeg, id=82, 1007.765pt x 511.9125pt>
+]
+<imagenes/tab.jpeg, id=81, 1007.765pt x 511.9125pt>
 File: imagenes/tab.jpeg Graphic file (type jpg)
 <use imagenes/tab.jpeg>
 Package pdftex.def Info: imagenes/tab.jpeg  used on input line 28.
 (pdftex.def)             Requested size: 252.0pt x 128.00905pt.
-<imagenes/Sps1.jpeg, id=83, 1084.05pt x 1108.14pt>
+<imagenes/Sps1.jpeg, id=82, 1084.05pt x 1108.14pt>
 File: imagenes/Sps1.jpeg Graphic file (type jpg)
 <use imagenes/Sps1.jpeg>
 Package pdftex.def Info: imagenes/Sps1.jpeg  used on input line 33.
 (pdftex.def)             Requested size: 123.84283pt x 126.57951pt.
-<imagenes/Sps4.jpeg, id=84, 1084.05pt x 1081.03876pt>
+<imagenes/Sps4.jpeg, id=83, 1084.05pt x 1081.03876pt>
 File: imagenes/Sps4.jpeg Graphic file (type jpg)
 <use imagenes/Sps4.jpeg>
 Package pdftex.def Info: imagenes/Sps4.jpeg  used on input line 38.
 (pdftex.def)             Requested size: 123.84283pt x 123.48383pt.
-<imagenes/Sps8.jpeg, id=85, 1083.04625pt x 1122.1925pt>
+<imagenes/Sps8.jpeg, id=84, 1083.04625pt x 1122.1925pt>
 File: imagenes/Sps8.jpeg Graphic file (type jpg)
 <use imagenes/Sps8.jpeg>
 Package pdftex.def Info: imagenes/Sps8.jpeg  used on input line 46.
 (pdftex.def)             Requested size: 123.84283pt x 128.30455pt.
-<imagenes/Sps16.jpeg, id=86, 1079.03125pt x 1127.21124pt>
+<imagenes/Sps16.jpeg, id=85, 1079.03125pt x 1127.21124pt>
 File: imagenes/Sps16.jpeg Graphic file (type jpg)
 <use imagenes/Sps16.jpeg>
 Package pdftex.def Info: imagenes/Sps16.jpeg  used on input line 51.
 (pdftex.def)             Requested size: 123.84283pt x 129.35997pt.
-) (./punto_3.tex [2 <./imagenes/tab.jpeg> <./imagenes/Sps1.jpeg> <./imagenes/Sps4.jpeg> <./imagenes/Sps8.jpeg> <./imagenes/Sps16.jpeg>]
-<imagenes/ruido_puro_tiempo.png, id=98, 1103.322pt x 264.99pt>
+) (./punto_3.tex
+<imagenes/ruido_puro_tiempo.png, id=86, 1103.322pt x 264.99pt>
 File: imagenes/ruido_puro_tiempo.png Graphic file (type png)
 <use imagenes/ruido_puro_tiempo.png>
 Package pdftex.def Info: imagenes/ruido_puro_tiempo.png  used on input line 14.
 (pdftex.def)             Requested size: 232.19843pt x 55.7668pt.
-<imagenes/ruido_puro_psd.png, id=100, 1108.74225pt x 261.3765pt>
+<imagenes/ruido_puro_psd.png, id=88, 1108.74225pt x 261.3765pt>
 File: imagenes/ruido_puro_psd.png Graphic file (type png)
 <use imagenes/ruido_puro_psd.png>
 Package pdftex.def Info: imagenes/ruido_puro_psd.png  used on input line 20.
 (pdftex.def)             Requested size: 232.19843pt x 54.73514pt.
-<imagenes/espectro_amp_1.png, id=101, 1111.7535pt x 534.19576pt>
+<imagenes/espectro_amp_1.png, id=89, 1111.7535pt x 534.19576pt>
 File: imagenes/espectro_amp_1.png Graphic file (type png)
 <use imagenes/espectro_amp_1.png>
 Package pdftex.def Info: imagenes/espectro_amp_1.png  used on input line 31.
 (pdftex.def)             Requested size: 232.19843pt x 111.56493pt.
-<imagenes/espectro_amp_2.png, id=102, 1109.3445pt x 531.78674pt>
+<imagenes/espectro_amp_2.png, id=90, 1109.3445pt x 531.78674pt>
 File: imagenes/espectro_amp_2.png Graphic file (type png)
 <use imagenes/espectro_amp_2.png>
 Package pdftex.def Info: imagenes/espectro_amp_2.png  used on input line 37.
 (pdftex.def)             Requested size: 232.19843pt x 111.30524pt.
-) (./Ensayoa-h.tex [3 <./imagenes/ruido_puro_tiempo.png> <./imagenes/ruido_puro_psd.png> <./imagenes/espectro_amp_1.png> <./imagenes/espectro_amp_2.png>]) (./preguntas.tex
+) (./Ensayoa-h.tex [2 <./imagenes/tab.jpeg> <./imagenes/Sps1.jpeg> <./imagenes/Sps4.jpeg> <./imagenes/Sps8.jpeg> <./imagenes/Sps16.jpeg>]) (./preguntas.tex
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 7.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [3 <./imagenes/ruido_puro_tiempo.png> <./imagenes/ruido_puro_psd.png> <./imagenes/espectro_amp_1.png> <./imagenes/espectro_amp_2.png>]
 <imagenes/captura_manchester.png, id=113, 1112.35574pt x 263.7855pt>
 File: imagenes/captura_manchester.png Graphic file (type png)
 <use imagenes/captura_manchester.png>
@@ -548,12 +548,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--2
 
  []
 
-
-Underfull \vbox (badness 1168) has occurred while \output is active []
-
- [4 <./imagenes/captura_manchester.png> <./imagenes/captura_bpsk.png> <./imagenes/captura_coseno.png>]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 11.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
 
@@ -567,9 +563,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5
-
-] (./main.aux
+[4 <./imagenes/captura_manchester.png> <./imagenes/captura_bpsk.png> <./imagenes/captura_coseno.png>] (./main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -578,21 +572,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 22C2CEAE10699B28F3DDD29BA4BAD3B7;3364.
+(rerunfilecheck)             Checksum: C613EE380B8ED15213204E68F3508340;3371.
  ) 
 Here is how much of TeX's memory you used:
- 13111 strings out of 474222
- 214895 string characters out of 5748733
- 1951975 words of memory out of 5000000
+ 13110 strings out of 474222
+ 214899 string characters out of 5748733
+ 1949975 words of memory out of 5000000
  35157 multiletter control sequences out of 15000+600000
  595527 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,1308b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,1308b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (5 pages, 1109012 bytes).
+Output written on main.pdf (4 pages, 1101036 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
  189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

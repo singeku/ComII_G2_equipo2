@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1773891326.31247 "/home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex" "main.pdf" "main" 1773891327.73798 0
+["pdflatex"] 1774008222.42832 "/home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex" "main.pdf" "main" 1774008223.63123 0
   "/etc/texmf/web2c/texmf.cnf" 1771901991.89747 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex" 1773891326.04668 1503 0b211076bb68aa4e97f078873a54054b ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -113,8 +113,8 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1771990693.37774 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1771990775 8215181 3eb12128536af09ad93460d24eb5f19c ""
   "Ensayoa-h.tex" 1773891082.22002 2492 2c11dc9063b77138111e1c9065bd43b4 ""
-  "Punto2.tex" 1773890180.23599 2396 57835ef42f35b46eae383e00db50b1c8 ""
-  "abstract.tex" 1773856503.64855 1272 8f596458a726143e5a8150b010987e10 ""
+  "Punto2.tex" 1774008220.85996 2399 875516037e636c78d90eb7defede7c1d ""
+  "abstract.tex" 1774006822.19725 753 ba2d9b8b73f217355dc64866f02c5df5 ""
   "conclusiones.tex" 1773890296.87291 1940 e7a588a9e3d8b96413c08104e0c7747e ""
   "imagenes/Sps1.jpeg" 1773886310.13851 106807 701d108a6dc666f15860fed1fae22d89 ""
   "imagenes/Sps16.jpeg" 1773886310.14272 97267 058d1493841e014961f48fef9269ab2a ""
@@ -128,11 +128,11 @@
   "imagenes/ruido_puro_psd.png" 1773856503.65255 62064 529eb8b55ddce7d11c608c1b76b24e60 ""
   "imagenes/ruido_puro_tiempo.png" 1773856503.65255 94371 4c1fb7f661c843412bb085eb2848f3ef ""
   "imagenes/tab.jpeg" 1773886310.14693 121186 1635ef02088472cfb3981817ccc6f84c ""
-  "introduccion.tex" 1773856503.65255 2120 0f8533aa00cefb157f3c4910f446aae1 ""
-  "main.aux" 1773891327.63379 5369 e5a19d03e3a2e74d0eaa0bc8fae1f86e "pdflatex"
-  "main.out" 1773891327.63788 3364 22c2ceae10699b28f3ddd29ba4bad3b7 "pdflatex"
+  "introduccion.tex" 1774007081.0326 1222 33b63ef965f30ceeb1f1dfaea784a308 ""
+  "main.aux" 1774008223.54377 5397 62d174ea899f12fbee59a27f2996daf4 "pdflatex"
+  "main.out" 1774008223.54793 3371 c613ee380b8ed15213204e68f3508340 "pdflatex"
   "main.tex" 1773891326.04668 1503 0b211076bb68aa4e97f078873a54054b ""
-  "metodologia.tex" 1773856503.66055 2571 018c2857415319f3b5d25f2bd6d75bc2 ""
+  "metodologia.tex" 1774008163.87312 1401 b16ed64d7a277519e40efb58e4f64731 ""
   "preguntas.tex" 1773874265.01375 3456 51b449f88a7e72881d3741011d788467 ""
   "punto_3.tex" 1773856503.66055 2912 b4e1e780f5eb927840377f0525da933b ""
   "referencias.tex" 1773856503.66055 1333 2eb500ea395e877eb00535fbcbdd2468 ""

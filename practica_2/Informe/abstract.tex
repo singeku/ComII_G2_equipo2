@@ -1,7 +1,7 @@
 \begin{abstract}
-This document presents the comprehensive analysis of the Power Spectral Density (PSD) of random signals and real-world data using the GNU Radio software environment. The methodology focuses on the transmission of random bit streams, compressed images (.jpg), and raw audio (.wav) to evaluate their spectral behavior, demonstrating the emergence of Direct Current (DC) components and harmonic frequencies due to data redundancy. Furthermore, the physical and mathematical impact of the Samples per Symbol (Sps) parameter is evaluated, proving that time-scaling increases the energy per bit without altering the physical bandwidth of the information. Finally, the interpolating FIR filter coefficients are modified to implement and analyze diverse line codes (NRZ, RZ, Manchester) and digital modulations (OOK, BPSK, ASK, Sinc, Raised Cosine). Spectral analysis verifies how each specific waveform reshapes the spectral envelope, successfully eliminating the DC component in Manchester coding and maximizing spectral efficiency by suppressing infinite side lobes through the Raised Cosine filter.
+This document analyzes the Power Spectral Density (PSD) of random signals and real-world data using GNU Radio. Random bit streams, images, and audio signals are evaluated to study their spectral behavior and the presence of DC components. The effect of the Samples per Symbol (Sps) parameter is examined, showing that it improves time resolution without modifying bandwidth. Additionally, interpolation filtering is applied to analyze line coding (NRZ, RZ, Manchester) and digital modulation techniques. The results highlight how signal structure and processing influence spectral characteristics and efficiency.
 \end{abstract}
 
 \begin{IEEEkeywords}
-Amplitude Shift Keying, GNU Radio, Line Coding, Phase Shift Keying, Power Spectral Density, White Noise.
+GNU Radio, Power Spectral Density, Line Coding, Digital Modulation.
 \end{IEEEkeywords}
