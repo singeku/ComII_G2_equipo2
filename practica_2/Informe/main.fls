@@ -1,9 +1,9 @@
-PWD /home/jordy/ComII_G2_equipo2/practica_2/Informe
+PWD /home/juan/comm2_G2/equipo2/ComII_G2_equipo2/practica_2/Informe
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/jordy/ComII_G2_equipo2/practica_2/Informe/main.tex
+INPUT /home/juan/comm2_G2/equipo2/ComII_G2_equipo2/practica_2/Informe/main.tex
 OUTPUT main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
