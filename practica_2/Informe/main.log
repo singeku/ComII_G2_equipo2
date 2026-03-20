@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  20 MAR 2026 07:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  20 MAR 2026 07:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -208,6 +208,13 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count283
+\float@exts=\toks27
+\float@box=\box55
+\@float@everytoks=\toks28
+\@floatcapt=\box56
 ) (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
@@ -245,14 +252,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count283
+\c@section@level=\count284
 ) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count284
+\etb@tempcnta=\count285
 )
 \@linkdim=\dimen176
-\Hy@linkcounter=\count285
-\Hy@pagecounter=\count286
+\Hy@linkcounter=\count286
+\Hy@pagecounter=\count287
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -260,7 +267,7 @@ Now handling font encoding PD1 ...
 ) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count287
+\Hy@SavedSpaceFactor=\count288
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -273,7 +280,7 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count288
+\c@Hy@tempcnt=\count289
  (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -285,7 +292,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count289
+\Fld@menulength=\count290
 \Field@Width=\dimen178
 \Fld@charsize=\dimen179
 Package hyperref Info: Hyper figures OFF on input line 6063.
@@ -299,9 +306,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count290
-\c@Item=\count291
-\c@Hfootnote=\count292
+\Hy@abspage=\count291
+\c@Item=\count292
+\c@Hfootnote=\count293
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -310,8 +317,8 @@ File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count293
-\c@bookmark@seq@number=\count294
+\Fld@listcount=\count294
+\c@bookmark@seq@number=\count295
  (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -343,66 +350,67 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count295
-\c@continuedfloat=\count296
+\c@caption@flags=\count296
+\c@continuedfloat=\count297
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count297
+\c@subfigure=\count298
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count298
+\c@subtable=\count299
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count299
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count300
+\l__pdf_internal_box=\box57
 ) (./main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 -- Lines per column: 56 (exact).
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
+\scratchcounter=\count301
 \scratchdimen=\dimen188
-\scratchbox=\box56
-\nofMPsegments=\count301
-\nofMParguments=\count302
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count303
+\scratchbox=\box58
+\nofMPsegments=\count302
+\nofMParguments=\count303
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count304
 \MPscratchDim=\dimen189
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
-\everyMPtoPDFconversion=\toks28
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
+\everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 10.
+Package hyperref Info: Link coloring OFF on input line 11.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -413,68 +421,103 @@ Package caption Info: End \AtBeginDocument code.
 
 
 ]
-<imagenes/tab.jpeg, id=81, 1007.765pt x 511.9125pt>
+<imagenes/tab.jpeg, id=101, 1007.765pt x 511.9125pt>
 File: imagenes/tab.jpeg Graphic file (type jpg)
 <use imagenes/tab.jpeg>
 Package pdftex.def Info: imagenes/tab.jpeg  used on input line 28.
 (pdftex.def)             Requested size: 252.0pt x 128.00905pt.
-<imagenes/Sps1.jpeg, id=82, 1084.05pt x 1108.14pt>
+<imagenes/Sps1.jpeg, id=102, 1084.05pt x 1108.14pt>
 File: imagenes/Sps1.jpeg Graphic file (type jpg)
 <use imagenes/Sps1.jpeg>
 Package pdftex.def Info: imagenes/Sps1.jpeg  used on input line 33.
 (pdftex.def)             Requested size: 123.84283pt x 126.57951pt.
-<imagenes/Sps4.jpeg, id=83, 1084.05pt x 1081.03876pt>
+<imagenes/Sps4.jpeg, id=103, 1084.05pt x 1081.03876pt>
 File: imagenes/Sps4.jpeg Graphic file (type jpg)
 <use imagenes/Sps4.jpeg>
 Package pdftex.def Info: imagenes/Sps4.jpeg  used on input line 38.
 (pdftex.def)             Requested size: 123.84283pt x 123.48383pt.
-<imagenes/Sps8.jpeg, id=84, 1083.04625pt x 1122.1925pt>
+<imagenes/Sps8.jpeg, id=104, 1083.04625pt x 1122.1925pt>
 File: imagenes/Sps8.jpeg Graphic file (type jpg)
 <use imagenes/Sps8.jpeg>
 Package pdftex.def Info: imagenes/Sps8.jpeg  used on input line 46.
 (pdftex.def)             Requested size: 123.84283pt x 128.30455pt.
-<imagenes/Sps16.jpeg, id=85, 1079.03125pt x 1127.21124pt>
+<imagenes/Sps16.jpeg, id=105, 1079.03125pt x 1127.21124pt>
 File: imagenes/Sps16.jpeg Graphic file (type jpg)
 <use imagenes/Sps16.jpeg>
 Package pdftex.def Info: imagenes/Sps16.jpeg  used on input line 51.
 (pdftex.def)             Requested size: 123.84283pt x 129.35997pt.
 ) (./punto_3.tex
-<imagenes/ruido_puro_tiempo.png, id=86, 1103.322pt x 264.99pt>
+<imagenes/ruido_puro_tiempo.png, id=106, 1103.322pt x 264.99pt>
 File: imagenes/ruido_puro_tiempo.png Graphic file (type png)
 <use imagenes/ruido_puro_tiempo.png>
 Package pdftex.def Info: imagenes/ruido_puro_tiempo.png  used on input line 14.
 (pdftex.def)             Requested size: 232.19843pt x 55.7668pt.
-<imagenes/ruido_puro_psd.png, id=88, 1108.74225pt x 261.3765pt>
+<imagenes/ruido_puro_psd.png, id=108, 1108.74225pt x 261.3765pt>
 File: imagenes/ruido_puro_psd.png Graphic file (type png)
 <use imagenes/ruido_puro_psd.png>
 Package pdftex.def Info: imagenes/ruido_puro_psd.png  used on input line 20.
 (pdftex.def)             Requested size: 232.19843pt x 54.73514pt.
-<imagenes/espectro_amp_1.png, id=89, 1111.7535pt x 534.19576pt>
+<imagenes/espectro_amp_1.png, id=109, 1111.7535pt x 534.19576pt>
 File: imagenes/espectro_amp_1.png Graphic file (type png)
 <use imagenes/espectro_amp_1.png>
 Package pdftex.def Info: imagenes/espectro_amp_1.png  used on input line 31.
 (pdftex.def)             Requested size: 232.19843pt x 111.56493pt.
-<imagenes/espectro_amp_2.png, id=90, 1109.3445pt x 531.78674pt>
+<imagenes/espectro_amp_2.png, id=110, 1109.3445pt x 531.78674pt>
 File: imagenes/espectro_amp_2.png Graphic file (type png)
 <use imagenes/espectro_amp_2.png>
 Package pdftex.def Info: imagenes/espectro_amp_2.png  used on input line 37.
 (pdftex.def)             Requested size: 232.19843pt x 111.30524pt.
-) (./Ensayoa-h.tex [2 <./imagenes/tab.jpeg> <./imagenes/Sps1.jpeg> <./imagenes/Sps4.jpeg> <./imagenes/Sps8.jpeg> <./imagenes/Sps16.jpeg>]) (./preguntas.tex
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 7.
+) (./punto_4y5.tex
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [3 <./imagenes/ruido_puro_tiempo.png> <./imagenes/ruido_puro_psd.png> <./imagenes/espectro_amp_1.png> <./imagenes/espectro_amp_2.png>]
-<imagenes/captura_manchester.png, id=113, 1112.35574pt x 263.7855pt>
+) [2 <./imagenes/tab.jpeg> <./imagenes/Sps1.jpeg> <./imagenes/Sps4.jpeg> <./imagenes/Sps8.jpeg> <./imagenes/Sps16.jpeg>]
+LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10> not available
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 7.
+<imagenes/p4_tiempo_rana.png, id=124, 1377.64688pt x 355.3275pt>
+File: imagenes/p4_tiempo_rana.png Graphic file (type png)
+<use imagenes/p4_tiempo_rana.png>
+Package pdftex.def Info: imagenes/p4_tiempo_rana.png  used on input line 11.
+(pdftex.def)             Requested size: 216.72015pt x 55.89389pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<imagenes/p4_psd_rana.png, id=126, 1402.48969pt x 338.76563pt>
+File: imagenes/p4_psd_rana.png Graphic file (type png)
+<use imagenes/p4_psd_rana.png>
+Package pdftex.def Info: imagenes/p4_psd_rana.png  used on input line 20.
+(pdftex.def)             Requested size: 216.72015pt x 52.34787pt.
+<imagenes/p5_tiempo_sonido.png, id=128, 1397.22pt x 346.29375pt>
+File: imagenes/p5_tiempo_sonido.png Graphic file (type png)
+<use imagenes/p5_tiempo_sonido.png>
+Package pdftex.def Info: imagenes/p5_tiempo_sonido.png  used on input line 31.
+(pdftex.def)             Requested size: 216.72015pt x 53.71196pt.
+<imagenes/p5_psd_sonido.png, id=130, 1400.98407pt x 345.54094pt>
+File: imagenes/p5_psd_sonido.png Graphic file (type png)
+<use imagenes/p5_psd_sonido.png>
+Package pdftex.def Info: imagenes/p5_psd_sonido.png  used on input line 40.
+(pdftex.def)             Requested size: 216.72015pt x 53.44756pt.
+
+Underfull \vbox (badness 2310) has occurred while \output is active []
+
+ [3 <./imagenes/ruido_puro_tiempo.png> <./imagenes/ruido_puro_psd.png> <./imagenes/espectro_amp_1.png> <./imagenes/espectro_amp_2.png> <./imagenes/p4_tiempo_rana.png> <./imagenes/p4_psd_rana.png> <./imagenes/p5_tiempo_sonido.png>]
+<imagenes/p5_psd_sonido_sps16.png, id=150, 1406.25375pt x 345.54094pt>
+File: imagenes/p5_psd_sonido_sps16.png Graphic file (type png)
+<use imagenes/p5_psd_sonido_sps16.png>
+Package pdftex.def Info: imagenes/p5_psd_sonido_sps16.png  used on input line 51.
+(pdftex.def)             Requested size: 216.72015pt x 53.24721pt.
+) (./Ensayoa-h.tex) (./ensayo_i_n.tex [4 <./imagenes/p5_psd_sonido.png> <./imagenes/p5_psd_sonido_sps16.png>]) (./preguntas.tex
+<imagenes/captura_manchester.png, id=159, 1112.35574pt x 263.7855pt>
 File: imagenes/captura_manchester.png Graphic file (type png)
 <use imagenes/captura_manchester.png>
 Package pdftex.def Info: imagenes/captura_manchester.png  used on input line 15.
 (pdftex.def)             Requested size: 258.0pt x 61.18056pt.
-<imagenes/captura_bpsk.png, id=114, 1109.94675pt x 271.0125pt>
+<imagenes/captura_bpsk.png, id=160, 1109.94675pt x 271.0125pt>
 File: imagenes/captura_bpsk.png Graphic file (type png)
 <use imagenes/captura_bpsk.png>
 Package pdftex.def Info: imagenes/captura_bpsk.png  used on input line 21.
 (pdftex.def)             Requested size: 258.0pt x 62.99321pt.
-<imagenes/captura_coseno.png, id=115, 1115.367pt x 271.0125pt>
+<imagenes/captura_coseno.png, id=161, 1115.367pt x 271.0125pt>
 File: imagenes/captura_coseno.png Graphic file (type png)
 <use imagenes/captura_coseno.png>
 Package pdftex.def Info: imagenes/captura_coseno.png  used on input line 27.
@@ -495,61 +538,13 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 14--31
  []
 
 )) (./conclusiones.tex
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 5--9
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
-[][]\OT1/ptm/m/n/10 ''''''[]>61966b5fb039fba7fa85cbb749a02def94d57a1e El
- []
-
-
-Underfull \hbox (badness 2418) in paragraph at lines 10--13
-\OT1/ptm/m/n/10 an[]ali-sis pa-ram[]etri-co del fil-tro con-for-ma-dor en en-tor-nos
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 10--13
-\OT1/ptm/m/n/10 si-mu-la-dos de GNU Ra-dio de-mues-tra que la geo-metr[]^^Pa
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 10--13
-\OT1/ptm/m/n/10 su efi-cien-cia es-pec-tral. Se evi-den-ci[]o emp[]^^Pri-ca-men-te que
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 10--13
-\OT1/ptm/m/n/10 c[]odi-go RZ o Dien-te de Sie-rra) ex-pan-den el an-cho de
- []
-
-
-Underfull \hbox (badness 1939) in paragraph at lines 10--13
-\OT1/ptm/m/n/10 ban-da e in-cre-men-tan la fu-ga de energ[]^^Pa ha-cia l[]obu-los
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 10--13
-\OT1/ptm/m/n/10 si-mult[]anea-men-te la In-ter-fe-ren-cia In-ter-simb[]oli-ca (ISI) y
- []
-
-) (./referencias.tex
-Overfull \hbox (51.99025pt too wide) in paragraph at lines 16--2
-[][]\OT1/ptm/m/n/10 ```<HEAD ======= '''[]>61966b5fb039fba7fa85cbb749a02def94d57a1e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--2
-
- []
-
+[5]) (./referencias.tex
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 11.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
 
@@ -563,7 +558,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4 <./imagenes/captura_manchester.png> <./imagenes/captura_bpsk.png> <./imagenes/captura_coseno.png>] (./main.aux
+[6 <./imagenes/captura_manchester.png> <./imagenes/captura_bpsk.png> <./imagenes/captura_coseno.png>] (./main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -572,21 +567,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C613EE380B8ED15213204E68F3508340;3371.
+(rerunfilecheck)             Checksum: C009AC4AC45092F339DF6B046FB02F23;4874.
  ) 
 Here is how much of TeX's memory you used:
- 13110 strings out of 474222
- 214899 string characters out of 5748733
+ 13221 strings out of 474222
+ 217206 string characters out of 5748733
  1949975 words of memory out of 5000000
- 35157 multiletter control sequences out of 15000+600000
- 595527 words of font info for 105 fonts, out of 8000000 for 9000
+ 35248 multiletter control sequences out of 15000+600000
+ 596038 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,1308b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 1101036 bytes).
+ 75i,12n,79p,1308b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 1256648 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
