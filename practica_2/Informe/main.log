@@ -1,10 +1,19 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  20 MAR 2026 07:10
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.22)  20 MAR 2026 06:56
+>>>>>>> d32ffea047aebb03f2290d826ac684f5437d813e
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
+<<<<<<< HEAD
 **/home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex
 (/home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex
+=======
+**/home/juan/comm2_G2/equipo2/ComII_G2_equipo2/practica_2/Informe/main.tex
+(/home/juan/comm2_G2/equipo2/ComII_G2_equipo2/practica_2/Informe/main.tex
+>>>>>>> d32ffea047aebb03f2290d826ac684f5437d813e
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -111,7 +120,11 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 Package: babel 2024/01/07 v24.1 The Babel package
 \babel@savecnt=\count268
 \U@D=\dimen164
+<<<<<<< HEAD
 \l@unhyphenated=\language89
+=======
+\l@unhyphenated=\language12
+>>>>>>> d32ffea047aebb03f2290d826ac684f5437d813e
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count269
@@ -570,6 +583,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C009AC4AC45092F339DF6B046FB02F23;4874.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  13221 strings out of 474222
  217206 string characters out of 5748733
  1949975 words of memory out of 5000000
@@ -577,6 +591,15 @@ Here is how much of TeX's memory you used:
  596038 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,1308b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
+=======
+ 13221 strings out of 476047
+ 217232 string characters out of 5792075
+ 1951975 words of memory out of 5000000
+ 35010 multiletter control sequences out of 15000+600000
+ 596038 words of font info for 106 fonts, out of 8000000 for 9000
+ 85 hyphenation exceptions out of 8191
+ 75i,12n,79p,1320b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
+>>>>>>> d32ffea047aebb03f2290d826ac684f5437d813e
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on main.pdf (6 pages, 1256648 bytes).
 PDF statistics:
