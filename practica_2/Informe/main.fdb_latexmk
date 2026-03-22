@@ -1,5 +1,6 @@
 # Fdb version 4
 <<<<<<< HEAD
+<<<<<<< HEAD
 ["pdflatex"] 1774008621.50431 "/home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex" "main.pdf" "main" 1774008621.93114 0
   "/etc/texmf/web2c/texmf.cnf" 1771901991.89747 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex" 1774008609.56849 1522 7e15fa2e84fcf6fc88ab77e743896194 ""
@@ -8,6 +9,11 @@
   "/etc/texmf/web2c/texmf.cnf" 1771815216.24128 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/juan/comm2_G2/equipo2/ComII_G2_equipo2/practica_2/Informe/main.tex" 1774007773.60932 1522 7e15fa2e84fcf6fc88ab77e743896194 ""
 >>>>>>> d32ffea047aebb03f2290d826ac684f5437d813e
+=======
+["pdflatex"] 1774151804.15171 "/home/jordy/ComII_G2_equipo2/practica_2/Informe/main.tex" "main.pdf" "main" 1774151803.58449 0
+  "/etc/texmf/web2c/texmf.cnf" 1771886603.87217 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/jordy/ComII_G2_equipo2/practica_2/Informe/main.tex" 1774151248.22421 1480 093786bdc960aa87ddb2f456ac79a8ca ""
+>>>>>>> 649452c08f6cfe841d15f437392c3e4a438990a4
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -19,7 +25,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm" 1136768653 2228 e564491c42a4540b5ebb710a75ff306c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmbi8r.tfm" 1136768653 4480 10409ed8bab5aea9ec9a78028b763919 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm" 1136768653 2124 2601a75482e9426d33db523edf23570a ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm" 1136768653 1352 fa28a7e6d323c65ce7d13d5342ff6be2 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm" 1136768653 4408 25b74d011a4c66b7f212c0cc3c90061b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm" 1136768653 2680 312a2d12b1f1df8ee0212e7ba1962402 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm" 1136768653 2288 f478fc8fed18759effb59f3dad7f3084 ""
@@ -39,6 +44,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb" 1248133631 36094 798f80770b3b148ceedd006d487db67c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
@@ -56,7 +62,6 @@
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf" 1136768653 1372 788387fea833ef5963f4c5bffe33eb89 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmbi7t.vf" 1136768653 1384 6ac0f8b839230f5d9389287365b243c0 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf" 1136768653 1380 0ea3a3370054be6da6acd929ec569f06 ""
-  "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf" 1136768653 3556 8a9a6dcbcd146ef985683f677f4758a6 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf" 1136768653 1948 7330aeef3af211edff3b35fb2c12a0fd ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf" 1136768653 1384 a9d8adaf491ce34e5fba99dc7bbe5f39 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -111,14 +116,15 @@
   "/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty" 1665067230 13815 760b0c02f691ea230f5359c4e1de23a7 ""
   "/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1704491087 30006 57b07afb710ee2f649c65cfbafda39c1 ""
   "/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
+  "/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty" 1137110565 4087 636308456f60d2b31cbf97867db5708d ""
   "/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd" 1137110629 985 1ed784d7bfe47179f3550d2303b073f8 ""
   "/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd" 1137110629 619 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
   "/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+<<<<<<< HEAD
 <<<<<<< HEAD
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1771990693.37774 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1771990775 8215181 3eb12128536af09ad93460d24eb5f19c ""
@@ -190,6 +196,42 @@
   "referencias.tex" 1774007773.61312 1333 2eb500ea395e877eb00535fbcbdd2468 ""
   "resultados.tex" 1774007773.61312 320 a95ed36df8f68d338aa378fb1360970d ""
 >>>>>>> d32ffea047aebb03f2290d826ac684f5437d813e
+=======
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1771957273.97225 128028 f533b797fba58d231669ea19e894e23e ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1772160603 6822885 1b8266fea701f3890e0e12649442f856 ""
+  "Ensayoa-h.tex" 1774144854.10973 2492 2c11dc9063b77138111e1c9065bd43b4 ""
+  "Punto2.tex" 1774151803.77266 3071 dbbbf77ee92c834578b8c4a2efd459a2 ""
+  "abstract.tex" 1774147593.97677 704 c81ef3aba3358fc57bb3532c64383d5b ""
+  "conclusiones.tex" 1774147281.8341 803 10c65f575eab65cf2d68eb3f09faf053 ""
+  "ensayo_i_n.tex" 1774144854.10973 4080 8ec70030e22b49f14031612fe809d883 ""
+  "imagenes/Sps1.jpeg" 1774144854.10973 106807 701d108a6dc666f15860fed1fae22d89 ""
+  "imagenes/Sps16.jpeg" 1774144854.11373 97267 058d1493841e014961f48fef9269ab2a ""
+  "imagenes/Sps4.jpeg" 1774144854.11373 93120 20e79d2c4106914c249591a44506a529 ""
+  "imagenes/Sps8.jpeg" 1774144854.11373 90807 1a1c6f8eb21e6ace6fa93347057e8141 ""
+  "imagenes/captura_bpsk.png" 1774144854.11373 51695 f70c136fff8dd66809433a9aa676ef1f ""
+  "imagenes/captura_coseno.png" 1774144854.11373 57790 2251dbecef962fffda627041e8f27fdd ""
+  "imagenes/captura_manchester.png" 1774144854.11373 64766 9e119434c53ce6dbd63e43e99c131413 ""
+  "imagenes/espectro_amp_1.png" 1774144854.11773 71273 d52d91319fffb6d1d86e7ad755650aa5 ""
+  "imagenes/espectro_amp_2.png" 1774144854.11773 91601 42a54b57219f0682cea204fa4846a5c2 ""
+  "imagenes/p4_psd_rana.png" 1774144854.11773 28532 2633858c371520f8f7e5c3e3ad5f8fe2 ""
+  "imagenes/p4_tiempo_rana.png" 1774144854.11773 27096 d541fdd5d29fe6ad3eb9bfc08645f9d5 ""
+  "imagenes/p5_psd_sonido.png" 1774144854.12173 29847 d3a19a8e1d49fc4ec46d55f66e86bfdc ""
+  "imagenes/p5_psd_sonido_sps16.png" 1774144854.12173 30641 2673ad0a06c5a8089bf22732868a27f9 ""
+  "imagenes/p5_tiempo_sonido.png" 1774144854.12173 26094 cf00c1c9987b7fc0efbb8a3ecd4a0df5 ""
+  "imagenes/ruido_puro_psd.png" 1774144854.12173 62064 529eb8b55ddce7d11c608c1b76b24e60 ""
+  "imagenes/ruido_puro_tiempo.png" 1774144854.12173 94371 4c1fb7f661c843412bb085eb2848f3ef ""
+  "imagenes/tab.jpeg" 1774144854.12573 121186 1635ef02088472cfb3981817ccc6f84c ""
+  "introduccion.tex" 1774147677.11009 922 1a0ea305d85c610fc937bbda3029da65 ""
+  "main.aux" 1774151803.50055 8600 2168841c86ef3df6aeb1a553e2534802 "pdflatex"
+  "main.out" 1774151803.50055 4416 a65b6d50fb4ff3c34d8ff2f69957ec6b "pdflatex"
+  "main.tex" 1774151248.22421 1480 093786bdc960aa87ddb2f456ac79a8ca ""
+  "metodologia.tex" 1774151614.04964 1497 fc0d1708bba9e0835eefeae994b167d2 ""
+  "preguntas.tex" 1774144854.13773 3456 51b449f88a7e72881d3741011d788467 ""
+  "punto_3.tex" 1774151442.58385 2512 3eaf64ba07875c3a091f2e02bcefb7eb ""
+  "punto_4y5.tex" 1774144854.13773 5392 440140b09e605723bb0cdf0fa43e8bb6 ""
+  "referencias.tex" 1774150346.24436 1049 23e7a7972d8568e07e4693982e0e8779 ""
+  "resultados.tex" 1774144854.13773 320 a95ed36df8f68d338aa378fb1360970d ""
+>>>>>>> 649452c08f6cfe841d15f437392c3e4a438990a4
   (generated)
   "main.aux"
   "main.log"

@@ -1,11 +1,18 @@
 \documentclass[conference]{IEEEtran}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
+
+\addto\captionsspanish{%
+  \renewcommand{\tablename}{Tabla}
+}
+\renewcommand{\thetable}{\arabic{table}}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{float}
 \usepackage{cite}
-\usepackage{hyperref}
+\usepackage{placeins}
+%\usepackage[caption=false,font=footnotesize]{subfig}
+\usepackage[hidelinks]{hyperref}
 \usepackage{subcaption} % Vital para las figuras con literales
 
 \begin{document}
@@ -13,15 +20,20 @@
 \title{Densidad Espectral de Potencia (PSD) de Señales Aleatorias en GNU Radio}
 
 \author{
-
-\IEEEauthorblockN{juan david camacho gonzalez (Cód: 2210428), Valentina Arguellez Angulo (Cód: 2215670)}
-\IEEEauthorblockA{\textit{Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones} \\
-\textit{Universidad Industrial de Santander}\\
-Bucaramanga, Colombia \\
-juan2210428@correo.uis.edu.co \\
-Valentina2215670@correo.uis.edu.co\\}
-\vspace{0.2cm}
+\IEEEauthorblockN{
+Jordy Alejandro Pabón Carrillo (Cód: 2210397),\\
+Juan David Camacho González (Cód: 2210428),\\
+Valentina Arguellez Angulo (Cód: 2215670)
+}
+\IEEEauthorblockA{
+Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones\\
+Universidad Industrial de Santander\\
+Bucaramanga, Colombia\\
+jordy2210397@correo.uis.edu.co\\
+juan2210428@correo.uis.edu.co\\
+Valentina2215670@correo.uis.edu.co\\[4pt]
 \textit{Repositorio GitHub:} \url{https://github.com/singeku/ComII_G2_equipo2/tree/practica_2}
+}
 }
 
 \maketitle
@@ -38,10 +50,5 @@ Valentina2215670@correo.uis.edu.co\\}
 %\input{modulos/02_metodologia}
 %\input{modulos/03_resultados}
 %\input{modulos/04_conclusiones}
-
-% --- Referencias (Pueden ir aquí o en un módulo aparte) ---
-\begin{thebibliography}{00}
-\bibitem{b1} Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones, \textit{Guía de Laboratorio 3: PSD de Señales Aleatorias (GNURadio)}, Comunicaciones II.
-\end{thebibliography}
 
 \end{document}
