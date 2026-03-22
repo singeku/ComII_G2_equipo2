@@ -1,7 +1,7 @@
 \begin{abstract}
-This document analyzes the Power Spectral Density (PSD) of random signals and real-world data using GNU Radio. Random bit streams, images, and audio signals are evaluated to study their spectral behavior and the presence of DC components. The effect of the Samples per Symbol (Sps) parameter is examined, showing that it improves time resolution without modifying bandwidth. Additionally, interpolation filtering is applied to analyze line coding (NRZ, RZ, Manchester) and digital modulation techniques. The results highlight how signal structure and processing influence spectral characteristics and efficiency.
+This paper evaluates the Power Spectral Density (PSD) of random binary signals and real data sources in GNU Radio. The analysis includes bipolar rectangular pulses with different samples per symbol, white noise, image-based bit streams, and audio-based bit streams. Results show that increasing Sps improves time representation without changing the fundamental bandwidth, while real sources modify the spectral distribution due to their statistical structure. Additional pulse-shaping tests confirm the effect of line coding on DC content and spectral occupancy.
 \end{abstract}
 
 \begin{IEEEkeywords}
-GNU Radio, Power Spectral Density, Line Coding, Digital Modulation.
+GNU Radio, PSD, random signals, line coding, digital communications.
 \end{IEEEkeywords}
