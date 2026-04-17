@@ -1,0 +1,13 @@
+\subsection{Geometría de la Constelación y Dinámica de Rotación en FSK}
+Los resultados obtenidos en el diagrama de constelación (Figura \ref{fig:constelaciones}) confirman que la FSK es una modulación de envolvente constante, lo que se traduce en una trayectoria circular perfecta en el plano I/Q. Se verificó que la frecuencia portadora ($f_c$) no altera la geometría del diagrama, ratificando que la representación en EC opera matemáticamente de forma independiente a la traslación frecuencial de RF.
+
+Respecto a la desviación de frecuencia ($f_d$), se observó que este parámetro gobierna la velocidad angular del vector de fase. En la Figura \ref{fig:const_2k}, con una desviación reducida de $2$ kHz, los puntos de muestreo se concentran en un arco denso debido a que el desplazamiento de fase entre muestras sucesivas es pequeño. Por el contrario, al incrementar la desviación a $32$ kHz (Figura \ref{fig:const_32k}), el vector rota con mayor rapidez, provocando que las muestras se distribuyan de forma más dispersa a lo largo de toda la circunferencia. Este comportamiento evidencia que en FSK la información reside en la rapidez del cambio de fase instantánea.
+
+\begin{figure}[H]
+    \centering
+    \subfloat[Desviación de 2 kHz: Alta densidad de puntos en un arco reducido.]{\includegraphics[width=0.48\linewidth]{imagenes/constelacion_punto_8_fc_12000_df_2000.png}\label{fig:const_2k}}
+    \hfill
+    \subfloat[Desviación de 32 kHz: Puntos esparcidos por la rotación acelerada.]{\includegraphics[width=0.48\linewidth]{imagenes/constelacion_punto_8_fc_12000_df_32000.png}\label{fig:const_32k}}
+    \caption{Trayectorias de fase en el plano complejo para diferentes niveles de desviación.}
+    \label{fig:constelaciones}
+\end{figure}
