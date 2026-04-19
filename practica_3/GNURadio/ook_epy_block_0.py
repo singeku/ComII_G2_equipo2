@@ -3,12 +3,7 @@ from gnuradio import gr
 import math
 
 class blk(gr.sync_block):  
-    """This block is an RF VCO and works as following: It generates a real passband signal. 
- - Top input (A): Determines the amplitude of the signal. 
- - Bottom input (Q): Determines the instantaneous phase of the signal. 
- - Output (y): The modulated Radio Frequency (RF) signal. 
- - Parameters: 'fc' is the carrier frequency, 'samp_rate' is the sampling rate.
- Recommendation: Ensure the sample rate (SPS) is high enough to satisfy the Nyquist criterion for the carrier frequency."""
+    """This block is a RF VCO and works as following: ….."""
 
     def __init__(self, fc=128000, samp_rate=320000):  
         gr.sync_block.__init__(
