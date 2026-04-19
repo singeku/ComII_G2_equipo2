@@ -1,10 +1,2 @@
 \subsection{Metodología punto 5}
-
-El desarrollo experimental se llevó a cabo en el entorno GNU Radio Companion, implementando un modulador OOK tanto en versión de radiofrecuencia (RF) como en envolvente compleja (EC).
-
-Inicialmente, se generó una secuencia binaria aleatoria, la cual fue acondicionada para obtener una señal modulante unipolar. Posteriormente, se aplicó un proceso de sobremuestreo mediante un filtro FIR interpolador, con el fin de mejorar la resolución temporal de la señal.
-
-
-La modulación OOK en RF se implementó mediante la multiplicación de la señal modulante por una portadora senoidal generada por un oscilador controlado (VCO). En paralelo, se obtuvo la representación en envolvente compleja, donde la información de la señal se expresa en banda base a través de sus componentes en fase (I) y en cuadratura (Q).
-
-Para el análisis, se utilizaron herramientas de visualización en el dominio del tiempo y la frecuencia, permitiendo comparar el comportamiento de la señal en ambas representaciones. Finalmente, se realizaron variaciones en la frecuencia portadora con el objetivo de evaluar su impacto sobre la señal modulada.
+La modulación OOK se implementó en GNU Radio bajo arquitecturas de radiofrecuencia (RF) y envolvente compleja (EC). Una secuencia binaria aleatoria unipolar, sobremuestreada mediante un filtro FIR interpolador, sirvió como señal modulante. Para la versión RF, esta señal se multiplicó por una portadora senoidal generada por un oscilador controlado (VCO); simultáneamente, la arquitectura EC procesó la información en banda base a través de sus componentes ortogonales (I/Q). La evaluación comparativa entre ambas representaciones, incluyendo el impacto paramétrico al variar la frecuencia portadora, se realizó utilizando instrumentación virtual en los dominios del tiempo y la frecuencia.

@@ -1,11 +1,10 @@
 
 \begin{itemize}
-    \item El análisis realizado permite verificar el correcto funcionamiento del modulador OOK en ambas representaciones. Se comprobó que la señal RF depende de la frecuencia portadora, afectando su comportamiento temporal y espectral, mientras que la envolvente compleja mantiene la información en banda base sin alteraciones.
-
-Esto demuestra que ambas representaciones son equivalentes en contenido informativo, pero la envolvente compleja ofrece ventajas en términos de simplicidad y eficiencia para el análisis de señales.
-    \item El diseño del VCO-RF validó que la modulación de frecuencia digital requiere un acondicionamiento de fase discreto mediante un escalado de $2\pi/f_s$, garantizando que la rampa de fase acumulada traduzca fielmente la desviación en Hertz al dominio del oscilador.
-    \item Se demostró que las restricciones de Nyquist en simulaciones de paso-banda son dependientes de la relación entre portadora y tasa de baudios, estableciendo un umbral mínimo de $SPS \ge 10$ para portadoras de $128$ kHz.
-    \item El análisis de constelaciones en FSK confirmó que, debido a la naturaleza de envolvente constante, la información reside en la velocidad angular del vector complejo, cuya dispersión en el plano I/Q es directamente proporcional a la desviación de frecuencia configurada.
-    \item La comparativa entre las versiones de Radiofrecuencia (RF) y Envolvente Compleja (EC) para la modulación BPSK evidenció una reducción drástica en la carga computacional al operar en EC. Al procesar únicamente la dinámica de la fase mediante las componentes I y Q, se logró aislar el comportamiento del sistema sin la severa restricción de sobremuestreo (SPS alto) que exige el criterio de Nyquist para portadoras de alta frecuencia.
-    \item Se corroboró experimentalmente que el análisis espectral en banda base (EC) permanece invariante y centrado en $0 \text{ Hz}$ frente a variaciones de la portadora. Esto valida a la Envolvente Compleja como una herramienta analítica superior para evaluar la ocupación espectral y mitigar riesgos de \textit{aliasing} en simulaciones de comunicaciones digitales.
+    \item En las modulaciones OOK y BPSK, la EC demostró ser computacionalmente más eficiente que la simulación en Radiofrecuencia (RF). Al procesar únicamente la dinámica de fase (I/Q) en banda base (0 Hz), la EC preserva el contenido informativo evadiendo las severas restricciones de sobremuestreo exigidas por portadoras de alta frecuencia, mitigando el riesgo de \textit{aliasing}.
+    
+    \item Se comprobó que el límite de Nyquist depende estrictamente de la relación entre la portadora y la tasa de baudios. Las simulaciones evidenciaron que portadoras de 128 kHz exigen un umbral mínimo de $SPS \geq 10$ para garantizar la integridad temporal y espectral.
+    
+    \item El diseño del oscilador validó que la modulación de frecuencia digital requiere un escalado discreto de $2\pi/f_s$. Este factor es indispensable para que la rampa de fase acumulada traduzca fielmente la desviación métrica (Hertz) al dominio del oscilador.
+    
+    \item El análisis de constelaciones confirmó que, al tener una envolvente constante, la información del FSK radica en la velocidad angular. Experimentalmente, la dispersión geométrica del vector en el plano I/Q resultó ser directamente proporcional a la desviación de frecuencia configurada.
 \end{itemize}
