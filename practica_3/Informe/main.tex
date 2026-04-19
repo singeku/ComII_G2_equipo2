@@ -14,7 +14,7 @@
 \title{Análisis Espectral y Paramétrico de Modulaciones BPSK, FSK y OOK en Radiofrecuencia y Envolvente Compleja}
 
 % 1. NOMBRES, CÓDIGOS Y LINK DE GITHUB (Regla estricta de la rúbrica)
-\author{\IEEEauthorblockN{juan david camacho gonzalez (Cód: 2210428), Nombre Compañero (Cód: XXXXXXX)}
+\author{\IEEEauthorblockN{juan david camacho gonzalez (Cód: 2210428), Valentina Arguellez Angulo (Cód: 2215670)}
 \IEEEauthorblockA{\textit{Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones} \\
 \textit{Universidad Industrial de Santander}\\
 Bucaramanga, Colombia \\
@@ -35,6 +35,7 @@ BPSK, Complex Envelope, FSK, GNU Radio, Nyquist, OOK, Radio Frequency, VCO.
 El presente documento expone el análisis paramétrico y espectral de los esquemas de modulación digital pasabanda —OOK, BPSK y FSK— implementados mediante el entorno de simulación GNU Radio \cite{guia4}. En el estudio de sistemas de comunicaciones digitales \cite{proakis}, la simulación de señales sobre una portadora de Radiofrecuencia (RF) impone una alta exigencia computacional, subordinada al cumplimiento estricto del criterio de Nyquist-Shannon. Como contraparte analítica, se evalúa el modelo de Envolvente Compleja (EC), el cual permite procesar la información en banda base suprimiendo la portadora sin pérdida de generalidad matemática. El objetivo principal de este trabajo radica en establecer las fronteras de diseño de la simulación —tales como la tasa mínima de muestras por símbolo (SPS), la frecuencia máxima de portadora y los límites de desviación— para garantizar la integridad de la señal y prevenir el solapamiento espectral (\textit{aliasing}). Adicionalmente, se plantea y valida la topología interna de un Oscilador Controlado por Tensión (VCO), diseñado para sintetizar modulaciones de magnitud y fase directamente en la etapa de RF\cite{ortega}.
 
 \section{Metodología y Diseño Paramétrico}
+\input{metologia_5}
 \input{metodologia_punto_6}
 \input{metodologia_punto_7}
 \input{metodologia_punto_8}
@@ -43,6 +44,7 @@ El presente documento expone el análisis paramétrico y espectral de los esquem
 
 
 \section{Resultados y Discusión}
+\input{resultado_punto6}
 \input{resultados_punto_6}
 \input{resultados_punto_7}
 \input{resultados_punto_8}
