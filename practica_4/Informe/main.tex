@@ -1,0 +1,65 @@
+\documentclass[conference, 10pt]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{booktabs} % Para tablas elegantes
+\usepackage[caption=false,font=footnotesize]{subfig}
+\begin{document}
+
+\title{práctica 4: Modulación M-PSK}
+
+% 1. NOMBRES, CÓDIGOS Y LINK DE GITHUB (Regla estricta de la rúbrica)
+\author{\IEEEauthorblockN{juan david camacho gonzalez (Cód: 2210428), Nombre Compañero (Cód: XXXXXXX)}
+\IEEEauthorblockA{\textit{Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones} \\
+\textit{Universidad Industrial de Santander}\\
+Bucaramanga, Colombia \\
+\textbf{Repositorio GitHub:} \url{https://github.com/singeku/ComII_G2_equipo2}}}
+
+\maketitle
+
+% 2. ABSTRACT EN INGLÉS
+\begin{abstract}
+This paper presents the design, implementation, and simulation of M-PSK and Q-PSK modulation schemes utilizing Software Defined Radio (SDR) within the GNU Radio environment. The study focuses on the synthesis of signals in the Complex Envelope domain, mapping binary data into phase constellations through custom vector sources. Key performance metrics, including Power Spectral Density (PSD), null-to-null bandwidth, and the relationship between symbol rate and bit rate, are evaluated and compared across different modulation orders. Additionally, the effect of Additive White Gaussian Noise (AWGN) on the spatial distribution of the constellation points is visually analyzed. Ultimately, the report validates the theoretical trade-offs between spectral efficiency and symbol mapping in phase-shift keying systems.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Additive White Gaussian Noise (AWGN), Complex Envelope, GNU Radio, M-PSK, Power Spectral Density, Q-PSK, Software Defined Radio.
+\end{IEEEkeywords}
+
+\section{Introducción}
+La modulación por desplazamiento de fase múltiple (M-PSK) representa una técnica fundamental en los sistemas de comunicaciones digitales modernos, permitiendo la transmisión eficiente de datos a través de la variación discreta de la fase de una señal portadora. A medida que el orden de modulación ($M$) aumenta, es posible transmitir una mayor cantidad de bits por símbolo, lo que optimiza la eficiencia espectral del sistema. Sin embargo, esta compresión espacial en el plano complejo reduce la distancia euclidiana entre los símbolos, incrementando la vulnerabilidad del enlace frente a perturbaciones del canal, como el Ruido Gaussiano Blanco Aditivo (AWGN).
+
+En la práctica contemporánea, el diseño y validación de estos esquemas ha migrado hacia la Radio Definida por Software (SDR), una arquitectura que traslada el procesamiento de señales del dominio analógico al digital. Utilizando el entorno de GNU Radio, es posible sintetizar señales en banda base mediante su representación en Envolvente Compleja, lo que reduce drásticamente los requerimientos de muestreo y facilita el análisis de la Densidad Espectral de Potencia (PSD) sin las exigencias de hardware de las altas frecuencias.
+
+El objetivo principal de este documento es evaluar el rendimiento y las características espectrales de los esquemas M-PSK y Q-PSK. Para ello, se implementan flujogramas de transmisión en SDR, analizando el impacto del mapeo vectorial de los símbolos, la relación matemática entre la velocidad de baudios y la tasa de bits, y la ubicación teórica de los cruces por cero en el espectro frecuencial.
+
+El presente documento se estructura de la siguiente manera: la Sección II detalla la metodología y el diseño paramétrico, incluyendo la síntesis del M-PSK base, la lógica del mapeo vectorial y la implementación del Q-PSK. La Sección III presenta los resultados obtenidos, comparando los anchos de banda y la robustez de las constelaciones. La Sección IV explora diseños de constelaciones inéditas propuestas por los autores y, finalmente, la Sección V resume las conclusiones del análisis.
+
+\section{Metodología y Diseño Paramétrico}
+\input{metodologia_punto_7}
+\section{Resultados y Discusión}
+\input{resultados_punto_7}
+\input{resultados_punto_8}
+\section{Conclusiones}
+\input{conclusiones}
+
+\begin{thebibliography}{00}
+\bibitem{guia4} 
+Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones, \textit{Guía de Laboratorio 4: Conversión a RF y EC}. Bucaramanga, Colombia: Universidad Industrial de Santander, 2024.
+
+\bibitem{ortega} 
+H. Ortega Boada y J. M. Reyes Torres, \textit{Comunicaciones Digitales basadas en radio definida por software. Volumen I}, Bucaramanga, Colombia: Universidad Industrial de Santander.
+
+\bibitem{proakis} 
+J. G. Proakis y M. Salehi, \textit{Digital Communications}, 5th ed., New York, NY, USA: McGraw-Hill, 2008.
+
+\bibitem{gnuradio} 
+GNU Radio Project, ``GNU Radio: The Free \& Open Software Radio Ecosystem.'' [En línea]. Disponible en: https://www.gnuradio.org/
+
+\end{thebibliography}
+
+\end{document}

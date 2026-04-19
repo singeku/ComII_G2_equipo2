@@ -1,0 +1,27 @@
+\subsection{Diseño del Transmisor Q-PSK en Envolvente Compleja}
+Para la implementación del esquema de modulación Q-PSK ($M=4$), se diseñó un flujograma en el entorno de GNU Radio operando estrictamente en el dominio de la Envolvente Compleja (EC). Esta arquitectura permite el procesamiento en banda base, facilitando el análisis espectral y la visualización de la constelación sin requerir la etapa de mezcla con una portadora de alta frecuencia.
+
+El sistema fue parametrizado estableciendo una tasa de símbolos ($R_s$) de $32$ kBd. Dado que en un esquema Q-PSK la información se agrupa en bloques de $\log_2(4) = 2$ bits por símbolo, la velocidad de transmisión de datos ($R_b$) resultante se fijó en $64$ kbps. Para cumplir con el teorema de muestreo de Nyquist y asegurar una correcta conformación de la señal, se configuró un factor de interpolación de $8$ muestras por símbolo ($Sps = 8$), lo que define una frecuencia de muestreo general del flujograma de $f_s = 256$ kHz.
+
+\subsubsection{Mapeo Vectorial y Lógica de Símbolos}
+El núcleo matemático de la modulación se construyó mediante un mapeo directo de bits a coordenadas espaciales. Utilizando un bloque traductor (\textit{Chunks to Symbols}), los flujos binarios entrantes se agruparon y se utilizaron como índices (del 0 al 3) para acceder a un vector de constelación personalizado.
+
+Para mantener una amplitud de símbolo simétrica en todos los cuadrantes, se asignó una magnitud de $0.77$ para las proyecciones ortogonales (En Fase y Cuadratura). La configuración del vector de estado se ordenó cuidadosamente para garantizar la siguiente distribución espacial:
+
+\begin{table}[H]
+    \centering
+    \caption{Parámetros de mapeo vectorial para el transmisor Q-PSK}
+    \begin{tabular}{c c c c}
+        \toprule
+        \textbf{Símbolo Binario} & \textbf{Índice} & \textbf{Coordenada Compleja (I+Q)} & \textbf{Fase Teórica} \\
+        \midrule
+        00 & 0 & $0.77 + 0.77j$ & $\pi/4$ ($45^\circ$) \\
+        01 & 1 & $-0.77 + 0.77j$ & $3\pi/4$ ($135^\circ$) \\
+        11 & 2 & $-0.77 - 0.77j$ & $5\pi/4$ ($225^\circ$) \\
+        10 & 3 & $0.77 - 0.77j$ & $7\pi/4$ ($315^\circ$) \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:diseno_qpsk}
+\end{table}
+
+Finalmente, para emular las condiciones de propagación de un canal inalámbrico y evaluar la tolerancia a interferencias de este diseño espacial, se inyectó Ruido Gaussiano Blanco Aditivo (AWGN) a la señal modulada justo antes de la etapa de instrumentación virtual.
