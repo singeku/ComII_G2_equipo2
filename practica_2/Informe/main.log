@@ -1,28 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  20 MAR 2026 07:10
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.22)  20 MAR 2026 06:56
->>>>>>> d32ffea047aebb03f2290d826ac684f5437d813e
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.26)  21 MAR 2026 22:56
->>>>>>> 649452c08f6cfe841d15f437392c3e4a438990a4
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.22)  19 APR 2026 00:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-<<<<<<< HEAD
-<<<<<<< HEAD
-**/home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex
-(/home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex
-=======
 **/home/juan/comm2_G2/equipo2/ComII_G2_equipo2/practica_2/Informe/main.tex
 (/home/juan/comm2_G2/equipo2/ComII_G2_equipo2/practica_2/Informe/main.tex
->>>>>>> d32ffea047aebb03f2290d826ac684f5437d813e
-=======
-**/home/jordy/ComII_G2_equipo2/practica_2/Informe/main.tex
-(/home/jordy/ComII_G2_equipo2/practica_2/Informe/main.tex
->>>>>>> 649452c08f6cfe841d15f437392c3e4a438990a4
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -129,15 +111,7 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 Package: babel 2024/01/07 v24.1 The Babel package
 \babel@savecnt=\count268
 \U@D=\dimen164
-<<<<<<< HEAD
-<<<<<<< HEAD
-\l@unhyphenated=\language89
-=======
 \l@unhyphenated=\language12
->>>>>>> d32ffea047aebb03f2290d826ac684f5437d813e
-=======
-\l@unhyphenated=\language8
->>>>>>> 649452c08f6cfe841d15f437392c3e4a438990a4
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count269
@@ -592,37 +566,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A65B6D50FB4FF3C34D8FF2F69957EC6B;4416.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
-<<<<<<< HEAD
- 13221 strings out of 474222
- 217206 string characters out of 5748733
+ 13229 strings out of 476047
+ 217639 string characters out of 5792075
  1949975 words of memory out of 5000000
- 35248 multiletter control sequences out of 15000+600000
- 596038 words of font info for 106 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 75i,12n,79p,1308b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
-=======
- 13221 strings out of 476047
- 217232 string characters out of 5792075
- 1951975 words of memory out of 5000000
- 35010 multiletter control sequences out of 15000+600000
- 596038 words of font info for 106 fonts, out of 8000000 for 9000
- 85 hyphenation exceptions out of 8191
- 75i,12n,79p,1320b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
->>>>>>> d32ffea047aebb03f2290d826ac684f5437d813e
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 1256648 bytes).
-=======
- 13229 strings out of 476120
- 217591 string characters out of 5793657
- 1949975 words of memory out of 5000000
- 35016 multiletter control sequences out of 15000+600000
+ 35023 multiletter control sequences out of 15000+600000
  595724 words of font info for 105 fonts, out of 8000000 for 9000
- 40 hyphenation exceptions out of 8191
- 75i,12n,79p,1304b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85 hyphenation exceptions out of 8191
+ 75i,12n,79p,1320b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on main.pdf (5 pages, 1263045 bytes).
->>>>>>> 649452c08f6cfe841d15f437392c3e4a438990a4
 PDF statistics:
  266 PDF objects out of 1000 (max. 8388607)
  193 compressed objects within 2 object streams

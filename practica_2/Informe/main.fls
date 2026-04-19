@@ -1,25 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-PWD /home/valentina/ComII_G2_equipo2/practica_2/Informe
-=======
 PWD /home/juan/comm2_G2/equipo2/ComII_G2_equipo2/practica_2/Informe
->>>>>>> d32ffea047aebb03f2290d826ac684f5437d813e
-=======
-PWD /home/jordy/ComII_G2_equipo2/practica_2/Informe
->>>>>>> 649452c08f6cfe841d15f437392c3e4a438990a4
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-<<<<<<< HEAD
-<<<<<<< HEAD
-INPUT /home/valentina/ComII_G2_equipo2/practica_2/Informe/main.tex
-=======
 INPUT /home/juan/comm2_G2/equipo2/ComII_G2_equipo2/practica_2/Informe/main.tex
->>>>>>> d32ffea047aebb03f2290d826ac684f5437d813e
-=======
-INPUT /home/jordy/ComII_G2_equipo2/practica_2/Informe/main.tex
->>>>>>> 649452c08f6cfe841d15f437392c3e4a438990a4
 OUTPUT main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls

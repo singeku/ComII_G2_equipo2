@@ -1,0 +1,10 @@
+
+\begin{itemize}
+    \item En las modulaciones OOK y BPSK, la EC demostró ser computacionalmente más eficiente que la simulación en Radiofrecuencia (RF). Al procesar únicamente la dinámica de fase (I/Q) en banda base (0 Hz), la EC preserva el contenido informativo evadiendo las severas restricciones de sobremuestreo exigidas por portadoras de alta frecuencia, mitigando el riesgo de \textit{aliasing}.
+    
+    \item Se comprobó que el límite de Nyquist depende estrictamente de la relación entre la portadora y la tasa de baudios. Las simulaciones evidenciaron que portadoras de 128 kHz exigen un umbral mínimo de $SPS \geq 10$ para garantizar la integridad temporal y espectral.
+    
+    \item El diseño del oscilador validó que la modulación de frecuencia digital requiere un escalado discreto de $2\pi/f_s$. Este factor es indispensable para que la rampa de fase acumulada traduzca fielmente la desviación métrica (Hertz) al dominio del oscilador.
+    
+    \item El análisis de constelaciones confirmó que, al tener una envolvente constante, la información del FSK radica en la velocidad angular. Experimentalmente, la dispersión geométrica del vector en el plano I/Q resultó ser directamente proporcional a la desviación de frecuencia configurada.
+\end{itemize}
