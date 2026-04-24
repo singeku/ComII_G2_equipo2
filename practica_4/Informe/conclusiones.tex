@@ -1,0 +1,12 @@
+
+\begin{itemize}
+    \item A través del análisis de la Densidad Espectral de Potencia (PSD) en la modulación Q-PSK, se comprobó experimentalmente que el ancho de banda en Envolvente Compleja está dictado exclusivamente por la tasa de símbolos ($R_s$) y no por la tasa de bits ($R_b$). La conformación de pulsos rectangulares genera un espectro tipo $\text{sinc}^2$, cuyos nulos principales delimitan de forma exacta el ancho de banda del lóbulo principal, validando que $BW_{EC} = R_s$.
+
+    \item La implementación de la tabla de verdad mediante un bloque de vector complejo demostró que la modulación digital es, en su núcleo, un problema de posicionamiento espacial. Se evidenció que el ordenamiento lógico de las coordenadas ($I+Q$) dentro del vector es crítico; un desajuste en los índices altera completamente la fase transmitida, rompiendo el mapeo diseñado para los símbolos binarios.
+
+    \item La adición de Ruido Gaussiano Blanco Aditivo (AWGN) permitió visualizar la dispersión de los símbolos ideales, transformándolos en "nubes" de probabilidad en el receptor. Dado que el Q-PSK ($M=4$) mantiene una distancia euclidiana amplia entre sus cuatro estados, el sistema demostró ser visualmente robusto ante niveles moderados de ruido, conservando los símbolos dentro de sus respectivos cuadrantes de decisión.
+    
+    % [NOTA PARA EL EQUIPO: Agregar aquí la conclusión de la comparativa M-PSK vs Q-PSK cuando estén los resultados de Valentina]
+    
+    % [NOTA PARA EL EQUIPO: Agregar aquí la conclusión sobre las constelaciones inventadas del Punto 8]
+\end{itemize}
