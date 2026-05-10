@@ -1,0 +1,27 @@
+\subsection{Metodología para Modulación 8-PSK}
+
+Para la implementación del sistema de modulación 8-PSK basado en el método de tabla de verdad, se requiere mapear una secuencia de entrada discreta a un conjunto de fases en el plano complejo. En este esquema, se agrupan $\log_2(8) = 3$ bits por símbolo, generando 8 estados posibles. Cada símbolo $m \in \{0, 1, \dots, 7\}$ se asigna a una fase específica dada por la ecuación de la envolvente compleja para M-PSK.
+
+Para optimizar el procesamiento computacional y evitar el cálculo de operaciones trigonométricas en tiempo de ejecución, se definió un arreglo estático de números complejos. La asignación directa del valor en-fase (I) y en cuadratura (Q) para cada símbolo se sintetiza en la Tabla \ref{tab:verdad_8psk}.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Tabla de verdad y mapeo complejo para modulación 8-PSK}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Símbolo (Decimal)} & \textbf{Fase (rad)} & \textbf{Parte Real (I)} & \textbf{Parte Imaginaria (Q)} \\
+        \hline
+        0 & 0 & 1.0 & 0.0 \\
+        1 & $\pi/4$ & 0.707 & 0.707 \\
+        2 & $\pi/2$ & 0.0 & 1.0 \\
+        3 & $3\pi/4$ & -0.707 & 0.707 \\
+        4 & $\pi$ & -1.0 & 0.0 \\
+        5 & $5\pi/4$ & -0.707 & -0.707 \\
+        6 & $3\pi/2$ & 0.0 & -1.0 \\
+        7 & $7\pi/4$ & 0.707 & -0.707 \\
+        \hline
+    \end{tabular}
+    \label{tab:verdad_8psk}
+\end{table}
+
+Adicionalmente, para adecuar la señal a un formato de transmisión realista, la salida del modulador se procesó mediante un filtro interpolador (FIR) que simula el acondicionamiento de la señal en tiempo continuo. Posteriormente, se evaluó el sistema bajo la influencia de un canal inalámbrico mediante la adición de ruido blanco gaussiano aditivo (AWGN).
