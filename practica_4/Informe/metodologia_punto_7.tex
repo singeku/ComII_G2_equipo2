@@ -11,6 +11,8 @@ Para mantener una amplitud de símbolo simétrica en todos los cuadrantes, se as
 \begin{table}[H]
     \centering
     \caption{Parámetros de mapeo vectorial para el transmisor Q-PSK}
+    % El resizebox obliga a la tabla a no ser más ancha que la columna
+    \resizebox{\columnwidth}{!}{% 
     \begin{tabular}{c c c c}
         \toprule
         \textbf{Símbolo Binario} & \textbf{Índice} & \textbf{Coordenada Compleja (I+Q)} & \textbf{Fase Teórica} \\
@@ -20,7 +22,8 @@ Para mantener una amplitud de símbolo simétrica en todos los cuadrantes, se as
         11 & 2 & $-0.77 - 0.77j$ & $5\pi/4$ ($225^\circ$) \\
         10 & 3 & $0.77 - 0.77j$ & $7\pi/4$ ($315^\circ$) \\
         \bottomrule
-    \end{tabular}
+    \end{tabular}%
+    }
     \label{tab:diseno_qpsk}
 \end{table}
 
