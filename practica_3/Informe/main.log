@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  10 MAY 2026 19:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  18 APR 2026 21:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/valentina/ComII_G2_equipo2/practica_4/Informe/main.tex
-(/home/valentina/ComII_G2_equipo2/practica_4/Informe/main.tex
+**/home/valentina/ComII_G2_equipo2/practica_3/Informe/main.tex
+(/home/valentina/ComII_G2_equipo2/practica_3/Informe/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
-(/usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
+(./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -284,29 +284,29 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box57
 ) (./main.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 -- Lines per column: 56 (exact).
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count296
@@ -329,84 +329,126 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./metodologia_punto_5.tex
-</home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/1.jpeg, id=1, 1606.0pt x 650.43pt>
-File: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/1.jpeg Graphic file (type jpg)
-<use /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/1.jpeg>
-Package pdftex.def Info: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/1.jpeg  used on input line 8.
-(pdftex.def)             Requested size: 201.60077pt x 81.64099pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 13.
+) (./metologia_5.tex) (./metodologia_punto_6.tex) (./metodologia_punto_7.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+
+]) (./metodologia_punto_8.tex
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-[]\OT1/ptm/m/n/10 Se em-ple[]o el su-mi-de-ro de fre-cuen-cia \OT1/pcr/m/n/10 QT GUI
- []
-
-
-Underfull \hbox (badness 3168) in paragraph at lines 38--39
-\OT1/pcr/m/n/10 Frequency Sink \OT1/ptm/m/n/10 pa-ra mos-trar la se[]nal y su PSD.
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
- </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/1.jpeg>]) (./metodologia_punto_7.tex
-Overfull \hbox (18.73401pt too wide) in paragraph at lines 14--25
- [][] 
- []
-
-) (./resultados_punto_5.tex
-</home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/2.jpeg, id=22, 903.375pt x 1606.0pt>
-File: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/2.jpeg Graphic file (type jpg)
-<use /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/2.jpeg>
-Package pdftex.def Info: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/2.jpeg  used on input line 9.
-(pdftex.def)             Requested size: 100.79846pt x 179.18462pt.
-</home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/3.jpeg, id=23, 1606.0pt x 828.09375pt>
-File: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/3.jpeg Graphic file (type jpg)
-<use /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/3.jpeg>
-Package pdftex.def Info: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/3.jpeg  used on input line 18.
-(pdftex.def)             Requested size: 126.0pt x 64.96pt.
-</home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg, id=24, 1606.0pt x 813.0375pt>
-File: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg Graphic file (type jpg)
-<use /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg>
-Package pdftex.def Info: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg  used on input line 28.
-(pdftex.def)             Requested size: 126.0pt x 63.77892pt.
- [2 </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/2.jpeg> </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/3.jpeg>]) (./resultados_punto_7.tex
-<imagenes/ancho_de_banda_extremo_negativo.png, id=28, 560.0925pt x 204.16275pt>
-File: imagenes/ancho_de_banda_extremo_negativo.png Graphic file (type png)
-<use imagenes/ancho_de_banda_extremo_negativo.png>
-Package pdftex.def Info: imagenes/ancho_de_banda_extremo_negativo.png  used on input line 6.
-(pdftex.def)             Requested size: 120.95892pt x 44.0904pt.
-<imagenes/ancho_de_banda_extremo_positivo.png, id=30, 554.67226pt x 212.59425pt>
-File: imagenes/ancho_de_banda_extremo_positivo.png Graphic file (type png)
-<use imagenes/ancho_de_banda_extremo_positivo.png>
-Package pdftex.def Info: imagenes/ancho_de_banda_extremo_positivo.png  used on input line 8.
-(pdftex.def)             Requested size: 120.95892pt x 46.35889pt.
-<imagenes/tabla_de_verdad.png, id=31, 325.81725pt x 265.59225pt>
-File: imagenes/tabla_de_verdad.png Graphic file (type png)
-<use imagenes/tabla_de_verdad.png>
-Package pdftex.def Info: imagenes/tabla_de_verdad.png  used on input line 22.
-(pdftex.def)             Requested size: 138.60077pt x 112.98259pt.
-<imagenes/constelaciones.png, id=32, 558.28575pt x 224.63925pt>
-File: imagenes/constelaciones.png Graphic file (type png)
-<use imagenes/constelaciones.png>
-Package pdftex.def Info: imagenes/constelaciones.png  used on input line 24.
-(pdftex.def)             Requested size: 100.79846pt x 40.5567pt.
+)) (./metodologia_punto_9.tex) (./metodologia_punto_10.tex
+<imagenes/propuesta.png, id=14, 600.44325pt x 312.56775pt>
+File: imagenes/propuesta.png Graphic file (type png)
+<use imagenes/propuesta.png>
+Package pdftex.def Info: imagenes/propuesta.png  used on input line 16.
+(pdftex.def)             Requested size: 239.39923pt x 124.61948pt.
+) (./resultado_punto6.tex
+<imagenes/6.1.jpeg, id=16, 1606.0pt x 834.11626pt>
+File: imagenes/6.1.jpeg Graphic file (type jpg)
+<use imagenes/6.1.jpeg>
+Package pdftex.def Info: imagenes/6.1.jpeg  used on input line 7.
+(pdftex.def)             Requested size: 247.6778pt x 128.63757pt.
+ [2 <./imagenes/propuesta.png> <./imagenes/6.1.jpeg>]
+<imagenes/5.2.jpeg, id=25, 1606.0pt x 828.09375pt>
+File: imagenes/5.2.jpeg Graphic file (type jpg)
+<use imagenes/5.2.jpeg>
+Package pdftex.def Info: imagenes/5.2.jpeg  used on input line 22.
+(pdftex.def)             Requested size: 247.6778pt x 127.70879pt.
+<imagenes/5.3.jpeg, id=26, 1606.0pt x 827.09pt>
+File: imagenes/5.3.jpeg Graphic file (type jpg)
+<use imagenes/5.3.jpeg>
+Package pdftex.def Info: imagenes/5.3.jpeg  used on input line 35.
+(pdftex.def)             Requested size: 247.6778pt x 127.55399pt.
+<imagenes/5.4.jpeg, id=27, 1606.0pt x 817.0525pt>
+File: imagenes/5.4.jpeg Graphic file (type jpg)
+<use imagenes/5.4.jpeg>
+Package pdftex.def Info: imagenes/5.4.jpeg  used on input line 48.
+(pdftex.def)             Requested size: 247.6778pt x 126.006pt.
+<imagenes/5.5.jpeg, id=28, 1606.0pt x 830.10126pt>
+File: imagenes/5.5.jpeg Graphic file (type jpg)
+<use imagenes/5.5.jpeg>
+Package pdftex.def Info: imagenes/5.5.jpeg  used on input line 61.
+(pdftex.def)             Requested size: 247.6778pt x 128.01839pt.
+) (./resultados_punto_6.tex
+<imagenes/vco_rf.png, id=29, 670.30424pt x 431.81325pt>
+File: imagenes/vco_rf.png Graphic file (type png)
+<use imagenes/vco_rf.png>
+Package pdftex.def Info: imagenes/vco_rf.png  used on input line 6.
+(pdftex.def)             Requested size: 247.6778pt x 159.55095pt.
+ [3 <./imagenes/5.2.jpeg> <./imagenes/5.3.jpeg> <./imagenes/5.4.jpeg> <./imagenes/5.5.jpeg>]
+<imagenes/vco_ec.png, id=33, 718.48425pt x 359.54324pt>
+File: imagenes/vco_ec.png Graphic file (type png)
+<use imagenes/vco_ec.png>
+Package pdftex.def Info: imagenes/vco_ec.png  used on input line 17.
+(pdftex.def)             Requested size: 247.6778pt x 123.94379pt.
+) (./resultados_punto_7.tex
+<imagenes/bpsk_tiempo.png, id=34, 1121.3895pt x 492.6405pt>
+File: imagenes/bpsk_tiempo.png Graphic file (type png)
+<use imagenes/bpsk_tiempo.png>
+Package pdftex.def Info: imagenes/bpsk_tiempo.png  used on input line 6.
+(pdftex.def)             Requested size: 120.95892pt x 53.13823pt.
+<imagenes/bpsk_frecuencia_var.png, id=35, 1132.83224pt x 545.03625pt>
+File: imagenes/bpsk_frecuencia_var.png Graphic file (type png)
+<use imagenes/bpsk_frecuencia_var.png>
+Package pdftex.def Info: imagenes/bpsk_frecuencia_var.png  used on input line 8.
+(pdftex.def)             Requested size: 120.95892pt x 58.19106pt.
 ) (./resultados_punto_8.tex
-<imagenes/constelacion_creada.png, id=33, 554.07pt x 228.25275pt>
-File: imagenes/constelacion_creada.png Graphic file (type png)
-<use imagenes/constelacion_creada.png>
-Package pdftex.def Info: imagenes/constelacion_creada.png  used on input line 25.
-(pdftex.def)             Requested size: 80.64185pt x 33.21944pt.
- [3 </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg> <./imagenes/ancho_de_banda_extremo_negativo.png> <./imagenes/ancho_de_banda_extremo_positivo.png> <./imagenes/tabla_de_verdad.png> <./imagenes/constelaciones.png>]) (./conclusiones.tex)
+<imagenes/señal_modulada_punto_8_fc_12000_df_32000.png, id=36, 1155.71774pt x 613.0905pt>
+File: imagenes/señal_modulada_punto_8_fc_12000_df_32000.png Graphic file (type png)
+<use imagenes/señal_modulada_punto_8_fc_12000_df_32000.png>
+Package pdftex.def Info: imagenes/señal_modulada_punto_8_fc_12000_df_32000.png  used on input line 7.
+(pdftex.def)             Requested size: 120.95892pt x 64.16591pt.
+<imagenes/señal_modulada_punto_8_fc_30000_df_32000.png, id=37, 1155.71774pt x 612.48825pt>
+File: imagenes/señal_modulada_punto_8_fc_30000_df_32000.png Graphic file (type png)
+<use imagenes/señal_modulada_punto_8_fc_30000_df_32000.png>
+Package pdftex.def Info: imagenes/señal_modulada_punto_8_fc_30000_df_32000.png  used on input line 9.
+(pdftex.def)             Requested size: 120.95892pt x 64.10287pt.
+ [4 <./imagenes/vco_rf.png> <./imagenes/vco_ec.png> <./imagenes/bpsk_tiempo.png> <./imagenes/bpsk_frecuencia_var.png> <./imagenes/señal_modulada_punto_8_fc_12000_df_32000.png> <./imagenes/señal_modulada_punto_8_fc_30000_df_32000.png>]
+<imagenes/dominio_en_frecuencia_fc_120000_df_2000_punto_8.png, id=50, 1155.71774pt x 613.69275pt>
+File: imagenes/dominio_en_frecuencia_fc_120000_df_2000_punto_8.png Graphic file (type png)
+<use imagenes/dominio_en_frecuencia_fc_120000_df_2000_punto_8.png>
+Package pdftex.def Info: imagenes/dominio_en_frecuencia_fc_120000_df_2000_punto_8.png  used on input line 20.
+(pdftex.def)             Requested size: 120.95892pt x 64.22894pt.
+
+Underfull \hbox (badness 2698) in paragraph at lines 20--20
+[]\OT1/ptm/m/n/8 (a) |So-la-pa-mien-to es-pec-tral cr[]^^Pti-co
+ []
+
+<imagenes/dominio_en_frecuencia_fc_120000_df_32000_punto_8.png, id=51, 1155.71774pt x 612.48825pt>
+File: imagenes/dominio_en_frecuencia_fc_120000_df_32000_punto_8.png Graphic file (type png)
+<use imagenes/dominio_en_frecuencia_fc_120000_df_32000_punto_8.png>
+Package pdftex.def Info: imagenes/dominio_en_frecuencia_fc_120000_df_32000_punto_8.png  used on input line 22.
+(pdftex.def)             Requested size: 120.95892pt x 64.10287pt.
+
+Underfull \hbox (badness 1831) in paragraph at lines 22--22
+[]\OT1/ptm/m/n/8 (b) |Se-pa-ra-ci[]on es-pec-tral ade-cua-da
+ []
+
+) (./resultados_punto_9.tex
+<imagenes/constelacion_punto_8_fc_12000_df_2000.png, id=52, 1155.71774pt x 612.48825pt>
+File: imagenes/constelacion_punto_8_fc_12000_df_2000.png Graphic file (type png)
+<use imagenes/constelacion_punto_8_fc_12000_df_2000.png>
+Package pdftex.def Info: imagenes/constelacion_punto_8_fc_12000_df_2000.png  used on input line 8.
+(pdftex.def)             Requested size: 120.95892pt x 64.10287pt.
+<imagenes/constelacion_punto_8_fc_12000_df_32000.png, id=53, 1155.71774pt x 610.07925pt>
+File: imagenes/constelacion_punto_8_fc_12000_df_32000.png Graphic file (type png)
+<use imagenes/constelacion_punto_8_fc_12000_df_32000.png>
+Package pdftex.def Info: imagenes/constelacion_punto_8_fc_12000_df_32000.png  used on input line 10.
+(pdftex.def)             Requested size: 120.95892pt x 63.85075pt.
+) (./resultados_punto_10.tex
+<imagenes/prueba.png, id=54, 1155.1155pt x 614.295pt>
+File: imagenes/prueba.png Graphic file (type png)
+<use imagenes/prueba.png>
+Package pdftex.def Info: imagenes/prueba.png  used on input line 15.
+(pdftex.def)             Requested size: 239.39923pt x 127.30917pt.
+) (./conclusiones.tex [5 <./imagenes/dominio_en_frecuencia_fc_120000_df_2000_punto_8.png> <./imagenes/dominio_en_frecuencia_fc_120000_df_32000_punto_8.png> <./imagenes/constelacion_punto_8_fc_12000_df_2000.png> <./imagenes/constelacion_punto_8_fc_12000_df_32000.png> <./imagenes/prueba.png>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -418,9 +460,11 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4 <./imagenes/constelacion_creada.png>] (./main.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
+[6
+
+] (./main.aux
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
 )
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -428,18 +472,18 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6346 strings out of 474222
- 108985 string characters out of 5748733
- 1946975 words of memory out of 5000000
- 28520 multiletter control sequences out of 15000+600000
- 599334 words of font info for 114 fonts, out of 8000000 for 9000
+ 6470 strings out of 474222
+ 111672 string characters out of 5748733
+ 1947975 words of memory out of 5000000
+ 28625 multiletter control sequences out of 15000+600000
+ 598331 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,65p,1068b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 636319 bytes).
+ 57i,13n,65p,1285b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 1711510 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

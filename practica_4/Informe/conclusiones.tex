@@ -1,6 +1,19 @@
 
 \begin{itemize}
+    
+    \item La modulación M-PSK implica la variación de la fase de una señal portadora para representar información, lo cual se logra con idéntica precisión en software mediante el control directo de fase (VCO) o asignando vectores en memoria (tabla de verdad).
+    
+    \item El diagrama de constelaciones permite diagnosticar visualmente la tolerancia del sistema frente al ruido, observándose cómo la dispersión reduce la distancia euclidiana entre símbolos adyacentes.
+    
+    \item El ancho de banda de la envolvente compleja depende de forma directa de la rata de símbolos y no de la tasa de bits.
+    
+    \item Al emplear una modulación de orden $M=8$, se transmiten 3 bits por cada símbolo, lo que incrementa la eficiencia espectral del sistema al comprimir el ancho de banda requerido.
+
     \item A través del análisis de la Densidad Espectral de Potencia (PSD) en la modulación Q-PSK, se comprobó experimentalmente que el ancho de banda en Envolvente Compleja está dictado exclusivamente por la tasa de símbolos ($R_s$) y no por la tasa de bits ($R_b$). La conformación de pulsos rectangulares genera un espectro tipo $\text{sinc}^2$, cuyos nulos principales delimitan de forma exacta el ancho de banda del lóbulo principal, validando que $BW_{EC} = R_s$.
+
+    \item Los valores donde el espectro pasa por cero tienen una relación inversamente proporcional con la duración del símbolo y directamente proporcional con la rata de símbolos.
+
+    \item La visualización de la PSD corrobora que los sistemas sin filtrado de conformación de pulsos presentan lóbulos secundarios de alta energía, lo cual subraya la importancia de implementar filtros en sistemas prácticos para optimizar el espectro radioeléctrico.
 
     \item La implementación de la tabla de verdad mediante un bloque de vector complejo demostró que la modulación digital es, en su núcleo, un problema de posicionamiento espacial. Se evidenció que el ordenamiento lógico de las coordenadas ($I+Q$) dentro del vector es crítico; un desajuste en los índices altera completamente la fase transmitida, rompiendo el mapeo diseñado para los símbolos binarios.
 

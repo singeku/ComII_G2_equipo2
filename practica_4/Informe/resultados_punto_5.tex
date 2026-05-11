@@ -1,0 +1,34 @@
+\subsection*{Punto2}
+Al ejecutar la simulación, se visualizó la señal en el sumidero de constelación \texttt{QT GUI Constellation Sink}.
+\begin{itemize}
+    \item En el escenario sin ruido, los símbolos se ubican con precisión en las 8 fases teóricas sobre el plano complejo.
+    \item Al activar la fuente de ruido \texttt{Noise Source}, se observa la afectación dada por el ruido en las constelaciones, generando una dispersión en forma de nubes de puntos alrededor de cada valor ideal. La superposición exacta de las salidas confirma que tanto el método VCO como la tabla de verdad producen la misma señal envolvente compleja.
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{/home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/2.jpeg}
+    \caption{Constelación}
+\end{figure}
+\subsection*{Punto3}
+Teóricamente, al reconocer los parámetros básicos de la señal modulada, el ancho de banda de nulo a nulo en banda base ($BW_{\text{nulo}}$) de la envolvente compleja es igual a la rata de símbolos ($R_s$):
+$$BW_{\text{nulo}}=R_s=10.6667\text{ kHz}$$
+Por lo tanto, el lóbulo principal completo abarca un ancho de banda total de $21.3333\text{ kHz}$, lo cual concuerda exactamente con la separación de los nulos observada en la densidad espectral de potencia.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{/home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/3.jpeg}
+    \caption{PSD}
+\end{figure}
+\subsection*{punto4}
+La gráfica de la PSD muestra que el lóbulo principal está centrado en $0.00\text{ kHz}$, confirmando el comportamiento de la envolvente compleja.
+Al observar en qué valores el espectro pasa por cero, se constata que los nulos se ubican en múltiplos enteros de la rata de símbolos:
+$$f_{\text{nulos}}=\pm n\cdot R_s=\pm n\cdot 10.6667\text{ kHz}\quad\text{para }n=1,2,3,\dots$$
+En el espectro obtenido se aprecian claramente las caídas de ganancia relativa en $\pm 10.6667\text{ kHz}$ y $\pm 21.3333\text{ kHz}$.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{/home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg}
+    \caption{Señal}
+\end{figure}
+Esta relación matemática se deriva de la transformada de Fourier del pulso rectangular de duración $T_s=1/R_s$, cuya densidad espectral sigue la forma:
+$$P(f)=T_s\cdot\text{sinc}(f T_s)$$
+Los cruces por cero ocurren cuando el argumento de la función sinc es un entero no nulo:
+$$f T_s=n\implies f=\frac{n}{T_s}=n\cdot R_s$$
