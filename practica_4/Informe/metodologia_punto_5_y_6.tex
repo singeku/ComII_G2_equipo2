@@ -1,15 +1,15 @@
-\subsection{Metodología para Modulación 8-PSK}
+\subsection*{punto 5 y 6 : Metodología para Modulación 8-PSK}
 
 Para la implementación del sistema de modulación 8-PSK basado en el método de tabla de verdad, se requiere mapear una secuencia de entrada discreta a un conjunto de fases en el plano complejo. En este esquema, se agrupan $\log_2(8) = 3$ bits por símbolo, generando 8 estados posibles. Cada símbolo $m \in \{0, 1, \dots, 7\}$ se asigna a una fase específica dada por la ecuación de la envolvente compleja para M-PSK.
 
 Para optimizar el procesamiento computacional y evitar el cálculo de operaciones trigonométricas en tiempo de ejecución, se definió un arreglo estático de números complejos. La asignación directa del valor en-fase (I) y en cuadratura (Q) para cada símbolo se sintetiza en la Tabla \ref{tab:verdad_8psk}.
 
-\begin{table}[htbp]
+\begin{table}[h]
     \centering
     \caption{Tabla de verdad y mapeo complejo para modulación 8-PSK}
     \begin{tabular}{|c|c|c|c|}
         \hline
-        \textbf{Símbolo (Decimal)} & \textbf{Fase (rad)} & \textbf{Parte Real (I)} & \textbf{Parte Imaginaria (Q)} \\
+        \textbf{Símbolo (Decimal)} & \textbf{Fase (rad)} & \textbf{Real (I)} & \textbf{Imaginaria (Q)} \\
         \hline
         0 & 0 & 1.0 & 0.0 \\
         1 & $\pi/4$ & 0.707 & 0.707 \\

@@ -1,0 +1,42 @@
+
+
+\subsection*{Punto2: Implementación de la Modulación M-PSK}
+Para implementar la modulación M-PSK empleando los métodos VCO y tablas de verdad, se configuró el flujo de procesamiento en GNU Radio como se muestra en la figura 1. Se utilizó una frecuencia de muestreo de 85.3333 kHz y un factor de 8 muestras por símbolo ($\text{sps}=8$). La tasa de símbolos del sistema se define teóricamente como:
+$$R_s=\frac{R_b}{\log_2(M)}=\frac{32000}{3}=10666.67\text{ baudios}$$
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{/home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/1.jpeg}
+    \caption{flujograma}
+\end{figure}
+La modulación se generó mediante dos enfoques paralelos para evidenciar su equivalencia en el desarrollo de la práctica:
+\begin{enumerate}
+    \item \textbf{Método VCO (Oscilador Controlado por Voltaje):} La secuencia discreta de símbolos $m\in\texttt{Random Source}$ ingresa al bloque \texttt{VCO complex}, el cual varía la fase de la señal portadora para representar la información. La fase teórica asignada sigue la relación:
+    $$\theta_m=\frac{2\pi m}{8}$$
+    \item \textbf{Método de Tabla de Verdad (Mapeo Directo):} Tal como se indica en la guía, la tabla de verdad en GNU Radio corresponde a los puntos de la constelación escritos en forma de un vector. Se utilizó el bloque \texttt{Chunks to Symbols} para asignar a cada símbolo entero su valor cartesiano en el plano complejo. El ordenamiento de los símbolos coincide con el vector de la constelación, tal como se detalla en el Cuadro \ref{tab:tabla_verdad}.
+\end{enumerate}
+\begin{table}[h!]
+\centering
+\caption{Tabla de verdad y coordenadas de la constelación 8-PSK.}
+\label{tab:tabla_verdad}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Bits} & \textbf{Símbolo ($m$)} & \textbf{Fase ($\theta_m$)} & \textbf{Coordenada Compleja ($I+jQ$)} \\ \hline
+000 & 0 & $0^\circ$ & $1+0j$ \\ \hline
+001 & 1 & $45^\circ$ & $0.707+0.707j$ \\ \hline
+010 & 2 & $90^\circ$ & $0+1j$ \\ \hline
+011 & 3 & $135^\circ$ & $-0.707+0.707j$ \\ \hline
+100 & 4 & $180^\circ$ & $-1+0j$ \\ \hline
+101 & 5 & $225^\circ$ & $-0.707-0.707j$ \\ \hline
+110 & 6 & $270^\circ$ & $0-1j$ \\ \hline
+111 & 7 & $315^\circ$ & $0.707-0.707j$ \\ \hline
+\end{tabular}
+\end{table}
+\subsection*{Punto 3: Ancho de Banda de la Envolvente Compleja}
+Para obtener el ancho de banda de la envolvente compleja, se analizó el espectro de la señal en banda base. La medición teórica y práctica se enfoca en la distancia desde la frecuencia central hasta el primer nulo de potencia.
+\subsection*{Punto 4: Señal, PSD y Cruces por Cero}
+
+Se empleó el sumidero de frecuencia \texttt{QT GUI Frequency Sink} para mostrar la señal y su PSD. Se procedió a identificar la frecuencia central y a registrar los valores exactos en los que el espectro pasa por cero.
+
+
+% Recuerda incluir aquí tu imagen con: \includegraphics[width=0.8\textwidth]{nombre_de_captura_psd.png}
+

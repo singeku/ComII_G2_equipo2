@@ -1,0 +1,15 @@
+\subsection{Análisis Matemático de Osciladores Controlados por Voltaje (VCO)}
+Para la generación de señales moduladas, es fundamental comprender el funcionamiento de los bloques VCO (Oscilador Controlado por Voltaje) tanto en su versión de Radiofrecuencia (RF) como en su representación de Envolvente Compleja (EC).
+
+En el dominio de RF, la señal paso-banda generada por el bloque se rige por la ecuación fundamental de modulación de amplitud y fase:
+\begin{equation}
+    y_{RF}(t) = A(t) \cos(2\pi f_c t + \phi(t))
+\end{equation}
+Donde $A(t)$ representa la amplitud instantánea, $f_c$ es la frecuencia de la portadora y $\phi(t)$ es la fase instantánea introducida por el mensaje.
+
+Por otro lado, para optimizar el coste computacional, el procesamiento en Envolvente Compleja ignora la oscilación de alta frecuencia de la portadora, centrándose exclusivamente en la banda base mediante sus componentes en fase (I) y cuadratura (Q). El comportamiento del VCO en versión EC se define analíticamente como:
+\begin{equation}
+    y_{EC}(t) = A(t) e^{j\phi(t)} = A(t)[\cos(\phi(t)) + j\sin(\phi(t))]
+\end{equation}
+
+Para implementar este comportamiento en GNU Radio, se analizaron y modificaron los bloques personalizados programados en Python, documentando sus puertos de entrada para asignar correctamente el control de magnitud en el puerto superior y el control de fase en el puerto inferior.

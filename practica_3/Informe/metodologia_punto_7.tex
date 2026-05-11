@@ -1,0 +1,10 @@
+\subsection{Implementación del Modulador BPSK (RF y EC)}
+A diferencia de la modulación OOK (donde la información recae en variaciones de amplitud), la modulación BPSK (Binary Phase Shift Keying) mantiene una envolvente de amplitud constante e introduce la información digital mediante saltos de fase de $180^\circ$ (o $\pi$ radianes).
+
+Para adaptar el flujograma a BPSK, se estableció un valor constante de amplitud $A=1$ conectado al puerto superior de los VCO. Paralelamente, el flujo de datos proveniente del filtro FIR se multiplicó por un factor de $\pi$ utilizando un bloque \textit{Multiply Const}. Esta señal resultante se enrutó al puerto inferior de los VCO, garantizando que el sistema conmute de fase analíticamente según:
+\begin{equation}
+    \phi(t) = \begin{cases} 
+      0 & \text{para el bit '0'} \\
+      \pi & \text{para el bit '1'}
+   \end{cases}
+\end{equation}
