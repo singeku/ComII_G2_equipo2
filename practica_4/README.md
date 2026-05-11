@@ -1,9 +1,9 @@
 # Práctica 4: La Modulación de M-PSK y Q-PSK
 
 ## 📖 Descripción del Proyecto
-[cite_start]Este repositorio documenta el diseño, implementación y simulación de esquemas de modulación digital M-PSK y Q-PSK haciendo uso de Radio Definida por Software (SDR) en el entorno de GNU Radio. 
+Este repositorio documenta el diseño, implementación y simulación de esquemas de modulación digital M-PSK y Q-PSK haciendo uso de Radio Definida por Software (SDR) en el entorno de GNU Radio. 
 
-[cite_start]El objetivo principal de esta práctica es sintetizar estas señales operando estrictamente en el dominio de la **Envolvente Compleja** (banda base), lo que facilita el análisis de la Densidad Espectral de Potencia (PSD) y el mapeo de los símbolos en el plano complejo[cite: 138].
+El objetivo principal de esta práctica es sintetizar estas señales operando estrictamente en el dominio de la **Envolvente Compleja** (banda base), lo que facilita el análisis de la Densidad Espectral de Potencia (PSD) y el mapeo de los símbolos en el plano complejo.
 
 ## 👥 Equipo de Trabajo
 * **Juan David Camacho González** (Cód: 2210428) 
