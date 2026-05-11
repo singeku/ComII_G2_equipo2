@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1778458958.44106 "/home/valentina/ComII_G2_equipo2/practica_4/Informe/main.tex" "main.pdf" "main" 1778458959.87007 0
+["pdflatex"] 1778460318.6126 "/home/valentina/ComII_G2_equipo2/practica_4/Informe/main.tex" "main.pdf" "main" 1778460319.19039 0
   "/etc/texmf/web2c/texmf.cnf" 1771901991.89747 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/valentina/ComII_G2_equipo2/practica_4/Informe/main.tex" 1778457783.99667 3707 2f70c748c81a02e5b7e4f48f51a339d6 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -98,11 +98,11 @@
   "imagenes/constelacion_creada.png" 1777033392.95486 19087 20d848a50aa6f587f2a10b1d041c21ab ""
   "imagenes/constelaciones.png" 1777033392.95486 18639 7ce44a62ca68fbb08357b2161044eb4b ""
   "imagenes/tabla_de_verdad.png" 1777033392.95486 17034 2cd54b43461b3263193bb1a9a1e5dea4 ""
-  "main.aux" 1778458959.74497 4523 32e07d87b77c95218c183743b0b74496 "pdflatex"
+  "main.aux" 1778460318.86664 4523 32e07d87b77c95218c183743b0b74496 "pdflatex"
   "main.tex" 1778457783.99667 3707 2f70c748c81a02e5b7e4f48f51a339d6 ""
   "metodologia_punto_5.tex" 1778457579.07446 2953 7ab10f1bc2387aecbc829517018481b3 ""
   "metodologia_punto_7.tex" 1777033392.95486 2533 3d4b59ff6233993c7e1b7331bc19f8a9 ""
-  "resultados_punto_5.tex" 1778458956.75063 2548 bb325d7cd7e82ebce21215fa99ec65a1 ""
+  "resultados_punto_5.tex" 1778460317.73366 2549 c53824f44078a0937fa304a496c26a0a ""
   "resultados_punto_7.tex" 1777033392.95486 3823 c12cace2a2e9b8c157d71b88f0579808 ""
   "resultados_punto_8.tex" 1777033392.95486 2544 6e4f491179fc42c4ca5e25c65cefecfd ""
   (generated)
