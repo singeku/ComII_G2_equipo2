@@ -1,5 +1,6 @@
 
 \begin{itemize}
+
     
     \item La modulación M-PSK implica la variación de la fase de una señal portadora para representar información, lo cual se logra con idéntica precisión en software mediante el control directo de fase (VCO) o asignando vectores en memoria (tabla de verdad).
     
@@ -15,11 +16,10 @@
 
     \item La visualización de la PSD corrobora que los sistemas sin filtrado de conformación de pulsos presentan lóbulos secundarios de alta energía, lo cual subraya la importancia de implementar filtros en sistemas prácticos para optimizar el espectro radioeléctrico.
 
+    \item El análisis temporal de la envolvente compleja en la modulación 8-PSK ratificó que los saltos de fase se traducen en niveles discretos de amplitud para las componentes ortogonales. Asimismo, se evidenció la función crítica del filtro interpolador para suavizar estas transiciones digitales y adecuar la señal para su transmisión en un medio continuo.
+
     \item La implementación de la tabla de verdad mediante un bloque de vector complejo demostró que la modulación digital es, en su núcleo, un problema de posicionamiento espacial. Se evidenció que el ordenamiento lógico de las coordenadas ($I+Q$) dentro del vector es crítico; un desajuste en los índices altera completamente la fase transmitida, rompiendo el mapeo diseñado para los símbolos binarios.
 
     \item La adición de Ruido Gaussiano Blanco Aditivo (AWGN) permitió visualizar la dispersión de los símbolos ideales, transformándolos en "nubes" de probabilidad en el receptor. Dado que el Q-PSK ($M=4$) mantiene una distancia euclidiana amplia entre sus cuatro estados, el sistema demostró ser visualmente robusto ante niveles moderados de ruido, conservando los símbolos dentro de sus respectivos cuadrantes de decisión.
-    
-    % [NOTA PARA EL EQUIPO: Agregar aquí la conclusión de la comparativa M-PSK vs Q-PSK cuando estén los resultados de Valentina]
-    
-    % [NOTA PARA EL EQUIPO: Agregar aquí la conclusión sobre las constelaciones inventadas del Punto 8]
+
 \end{itemize}

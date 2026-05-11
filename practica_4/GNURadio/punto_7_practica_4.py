@@ -12,7 +12,6 @@ from PyQt5 import Qt
 from gnuradio import qtgui
 from gnuradio import analog
 from gnuradio import blocks
-import numpy
 from gnuradio import digital
 from gnuradio import filter
 from gnuradio.filter import firdes
@@ -64,7 +63,7 @@ class punto_7_practica_4(gr.top_block, Qt.QWidget):
         ##################################################
         # Variables
         ##################################################
-        self.tabla_de_verdad_constelacion = tabla_de_verdad_constelacion = (0+1j, 0.8-0.5j, -0.8-0.5j, 0+0j)
+        self.tabla_de_verdad_constelacion = tabla_de_verdad_constelacion = (1+0j, 0.707+0.707j, 0+1j, -0.707+0.707j, -1+0j, -0.707-0.707j, 0-1j, 0.707-0.707j)
         self.M = M = len(tabla_de_verdad_constelacion)
         self.bps = bps = math.log(M,2)
         self.Sps = Sps = 8
@@ -215,22 +214,18 @@ class punto_7_practica_4(gr.top_block, Qt.QWidget):
         self.interp_fir_filter_xxx_0 = filter.interp_fir_filter_ccc(8, h)
         self.interp_fir_filter_xxx_0.declare_sample_delay(0)
         self.digital_chunks_to_symbols_xx_0 = digital.chunks_to_symbols_bc(tabla_de_verdad_constelacion, 1)
-        self.blocks_packed_to_unpacked_xx_0 = blocks.packed_to_unpacked_bb(2, gr.GR_MSB_FIRST)
-        self.blocks_pack_k_bits_bb_0 = blocks.pack_k_bits_bb(8)
+        self.blocks_vector_source_x_2 = blocks.vector_source_b((0, 1, 2, 3, 4, 5, 6, 7), True, 1, [])
         self.blocks_add_xx_0 = blocks.add_vcc(1)
-        self.analog_random_source_x_0 = blocks.vector_source_b(list(map(int, numpy.random.randint(0, 2, 1000))), True)
-        self.analog_noise_source_x_0 = analog.noise_source_c(analog.GR_GAUSSIAN, 0.2, 0)
+        self.analog_noise_source_x_0 = analog.noise_source_c(analog.GR_GAUSSIAN, 0, 0)
 
 
         ##################################################
         # Connections
         ##################################################
         self.connect((self.analog_noise_source_x_0, 0), (self.blocks_add_xx_0, 0))
-        self.connect((self.analog_random_source_x_0, 0), (self.blocks_pack_k_bits_bb_0, 0))
         self.connect((self.blocks_add_xx_0, 0), (self.qtgui_const_sink_x_0_0, 0))
         self.connect((self.blocks_add_xx_0, 0), (self.qtgui_time_sink_x_0_0, 0))
-        self.connect((self.blocks_pack_k_bits_bb_0, 0), (self.blocks_packed_to_unpacked_xx_0, 0))
-        self.connect((self.blocks_packed_to_unpacked_xx_0, 0), (self.digital_chunks_to_symbols_xx_0, 0))
+        self.connect((self.blocks_vector_source_x_2, 0), (self.digital_chunks_to_symbols_xx_0, 0))
         self.connect((self.digital_chunks_to_symbols_xx_0, 0), (self.interp_fir_filter_xxx_0, 0))
         self.connect((self.interp_fir_filter_xxx_0, 0), (self.blocks_add_xx_0, 1))
         self.connect((self.interp_fir_filter_xxx_0, 0), (self.qtgui_freq_sink_x_0, 0))

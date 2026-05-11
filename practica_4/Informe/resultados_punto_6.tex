@@ -1,0 +1,32 @@
+\subsection*{Punto 5}
+
+A partir de la metodología establecida, se analizó el comportamiento de la modulación 8-PSK generando una secuencia determinística de símbolos (del 0 al 7) utilizando una fuente de prueba controlada. Esto permitió validar la correspondencia exacta entre la tabla de verdad y la fase de la señal portadora en banda base.
+
+En la Figura \ref{fig:constelacion_punto5} se presenta el diagrama de constelación resultante. Se observa que los símbolos se ubican de manera equidistante en el plano complejo, con una separación angular exacta de $\pi/4$ radianes entre cada punto adyacente. La ausencia de dispersión y la formación de un patrón circular perfecto confirman que la asignación estática del arreglo de números complejos se realizó correctamente, reflejando el ordenamiento natural esperado para este esquema M-PSK sin requerir procesamiento adicional.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\linewidth]{imagenes/constelacion_punto5.png}
+    \caption{Diagrama de constelación 8-PSK obtenido a partir de la tabla de verdad.}
+    \label{fig:constelacion_punto5}
+\end{figure}
+\subsection*{Punto 6}
+El análisis temporal de la señal modulada se enfocó en su envolvente compleja, la cual caracteriza completamente a la señal pasabanda sin necesidad de simular la alta frecuencia de la portadora.
+
+En la Figura \ref{fig:envolvente_clase} se presentan las componentes en-fase (línea azul) y en cuadratura (línea roja) de la señal 8-PSK procesadas por el filtro interpolador, en un escenario libre de ruido. Es evidente cómo el filtro mantiene los niveles de voltaje y genera transiciones escalonadas bien definidas entre los distintos estados de fase. Esta periodicidad visualizada es característica de una transmisión secuencial de la fuente de datos y demuestra la correcta generación de los 8 niveles de amplitud independientes en los ejes real e imaginario.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\linewidth]{imagenes/envolvente_compleja_punto6.png}
+    \caption{Señal de envolvente compleja en el dominio del tiempo (canal ideal).}
+    \label{fig:envolvente_clase}
+\end{figure}
+
+Finalmente, la Figura \ref{fig:envolvente_ruido} expone el comportamiento de la misma envolvente compleja al ser afectada por el canal AWGN. Se nota una perturbación constante en la amplitud de las componentes ortogonales. Teóricamente, esta suma de componentes aleatorias se traduce en una dispersión de los puntos en el diagrama de constelación del receptor, lo que aumenta la probabilidad de que un símbolo invada la región de decisión adyacente, incrementando la tasa de error de símbolo (SER) del sistema de comunicaciones.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{imagenes/envolvente_tiempo.png}
+    \caption{Señal de envolvente compleja afectada por el canal AWGN.}
+    \label{fig:envolvente_ruido}
+\end{figure}

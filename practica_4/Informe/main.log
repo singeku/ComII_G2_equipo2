@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  10 MAY 2026 19:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.24)  10 MAY 2026 22:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -336,12 +336,12 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./metodologia_punto_5.tex
+) (./metodologia_punto_2.tex
 </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/1.jpeg, id=1, 1606.0pt x 650.43pt>
 File: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/1.jpeg Graphic file (type jpg)
 <use /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/1.jpeg>
 Package pdftex.def Info: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/1.jpeg  used on input line 8.
-(pdftex.def)             Requested size: 201.60077pt x 81.64099pt.
+(pdftex.def)             Requested size: 226.79846pt x 91.85355pt.
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 13.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -358,55 +358,82 @@ Underfull \hbox (badness 3168) in paragraph at lines 38--39
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
- </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/1.jpeg>]) (./metodologia_punto_7.tex
-Overfull \hbox (18.73401pt too wide) in paragraph at lines 14--25
- [][] 
- []
-
-) (./resultados_punto_5.tex
+ </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/1.jpeg>]) (./metodologia_punto_5_y_6.tex) (./metodologia_punto_7.tex) (./resultados_punto_2.tex
 </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/2.jpeg, id=22, 903.375pt x 1606.0pt>
 File: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/2.jpeg Graphic file (type jpg)
 <use /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/2.jpeg>
-Package pdftex.def Info: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/2.jpeg  used on input line 9.
-(pdftex.def)             Requested size: 100.79846pt x 179.18462pt.
+Package pdftex.def Info: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/2.jpeg  used on input line 11.
+(pdftex.def)             Requested size: 126.0pt x 223.98077pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/3.jpeg, id=23, 1606.0pt x 828.09375pt>
 File: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/3.jpeg Graphic file (type jpg)
 <use /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/3.jpeg>
-Package pdftex.def Info: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/3.jpeg  used on input line 18.
-(pdftex.def)             Requested size: 126.0pt x 64.96pt.
-</home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg, id=24, 1606.0pt x 813.0375pt>
+Package pdftex.def Info: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/3.jpeg  used on input line 20.
+(pdftex.def)             Requested size: 176.39923pt x 90.9516pt.
+[2]
+</home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg, id=27, 1606.0pt x 813.0375pt>
 File: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg Graphic file (type jpg)
 <use /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg>
-Package pdftex.def Info: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg  used on input line 28.
-(pdftex.def)             Requested size: 126.0pt x 63.77892pt.
- [2 </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/2.jpeg> </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/3.jpeg>]) (./resultados_punto_7.tex
-<imagenes/ancho_de_banda_extremo_negativo.png, id=28, 560.0925pt x 204.16275pt>
+Package pdftex.def Info: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg  used on input line 30.
+(pdftex.def)             Requested size: 151.20154pt x 76.54463pt.
+) (./resultados_punto_6.tex
+<imagenes/constelacion_punto5.png, id=28, 331.83975pt x 254.1495pt>
+File: imagenes/constelacion_punto5.png Graphic file (type png)
+<use imagenes/constelacion_punto5.png>
+Package pdftex.def Info: imagenes/constelacion_punto5.png  used on input line 9.
+(pdftex.def)             Requested size: 176.39923pt x 135.1019pt.
+<imagenes/envolvente_compleja_punto6.png, id=30, 1112.35574pt x 139.722pt>
+File: imagenes/envolvente_compleja_punto6.png Graphic file (type png)
+<use imagenes/envolvente_compleja_punto6.png>
+Package pdftex.def Info: imagenes/envolvente_compleja_punto6.png  used on input line 20.
+(pdftex.def)             Requested size: 252.0pt x 31.65355pt.
+ [3 </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/2.jpeg> </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/3.jpeg> </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg> <./imagenes/constelacion_punto5.png>]
+<imagenes/envolvente_tiempo.png, id=35, 1112.35574pt x 144.54pt>
+File: imagenes/envolvente_tiempo.png Graphic file (type png)
+<use imagenes/envolvente_tiempo.png>
+Package pdftex.def Info: imagenes/envolvente_tiempo.png  used on input line 29.
+(pdftex.def)             Requested size: 252.0pt x 32.74504pt.
+) (./resultados_punto_7.tex
+<imagenes/ancho_de_banda_extremo_negativo.png, id=36, 560.0925pt x 204.16275pt>
 File: imagenes/ancho_de_banda_extremo_negativo.png Graphic file (type png)
 <use imagenes/ancho_de_banda_extremo_negativo.png>
 Package pdftex.def Info: imagenes/ancho_de_banda_extremo_negativo.png  used on input line 6.
-(pdftex.def)             Requested size: 120.95892pt x 44.0904pt.
-<imagenes/ancho_de_banda_extremo_positivo.png, id=30, 554.67226pt x 212.59425pt>
+(pdftex.def)             Requested size: 151.20154pt x 55.11533pt.
+<imagenes/ancho_de_banda_extremo_positivo.png, id=37, 554.67226pt x 212.59425pt>
 File: imagenes/ancho_de_banda_extremo_positivo.png Graphic file (type png)
 <use imagenes/ancho_de_banda_extremo_positivo.png>
 Package pdftex.def Info: imagenes/ancho_de_banda_extremo_positivo.png  used on input line 8.
-(pdftex.def)             Requested size: 120.95892pt x 46.35889pt.
-<imagenes/tabla_de_verdad.png, id=31, 325.81725pt x 265.59225pt>
+(pdftex.def)             Requested size: 151.20154pt x 57.95267pt.
+<imagenes/tabla_de_verdad.png, id=38, 325.81725pt x 265.59225pt>
 File: imagenes/tabla_de_verdad.png Graphic file (type png)
 <use imagenes/tabla_de_verdad.png>
 Package pdftex.def Info: imagenes/tabla_de_verdad.png  used on input line 22.
 (pdftex.def)             Requested size: 138.60077pt x 112.98259pt.
-<imagenes/constelaciones.png, id=32, 558.28575pt x 224.63925pt>
+<imagenes/constelaciones.png, id=39, 558.28575pt x 224.63925pt>
 File: imagenes/constelaciones.png Graphic file (type png)
 <use imagenes/constelaciones.png>
 Package pdftex.def Info: imagenes/constelaciones.png  used on input line 24.
-(pdftex.def)             Requested size: 100.79846pt x 40.5567pt.
-) (./resultados_punto_8.tex
-<imagenes/constelacion_creada.png, id=33, 554.07pt x 228.25275pt>
+(pdftex.def)             Requested size: 151.20154pt x 60.8385pt.
+) (./resultados_punto_8.tex [4 <./imagenes/envolvente_compleja_punto6.png> <./imagenes/envolvente_tiempo.png> <./imagenes/ancho_de_banda_extremo_negativo.png> <./imagenes/ancho_de_banda_extremo_positivo.png> <./imagenes/tabla_de_verdad.png> <./imagenes/constelaciones.png>]
+<imagenes/constelacion_creada.png, id=49, 554.07pt x 228.25275pt>
 File: imagenes/constelacion_creada.png Graphic file (type png)
 <use imagenes/constelacion_creada.png>
 Package pdftex.def Info: imagenes/constelacion_creada.png  used on input line 25.
 (pdftex.def)             Requested size: 80.64185pt x 33.21944pt.
- [3 </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/4.jpeg> <./imagenes/ancho_de_banda_extremo_negativo.png> <./imagenes/ancho_de_banda_extremo_positivo.png> <./imagenes/tabla_de_verdad.png> <./imagenes/constelaciones.png>]) (./conclusiones.tex)
+</home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/y.jpeg, id=50, 516.93124pt x 417.56pt>
+File: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/y.jpeg Graphic file (type jpg)
+<use /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/y.jpeg>
+Package pdftex.def Info: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/y.jpeg  used on input line 28.
+(pdftex.def)             Requested size: 80.64185pt x 65.13527pt.
+</home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/8.jpeg, id=51, 1606.0pt x 830.10126pt>
+File: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/8.jpeg Graphic file (type jpg)
+<use /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/8.jpeg>
+Package pdftex.def Info: /home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/8.jpeg  used on input line 30.
+(pdftex.def)             Requested size: 80.64185pt x 41.67215pt.
+) (./conclusiones.tex)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -418,7 +445,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4 <./imagenes/constelacion_creada.png>] (./main.aux
+[5 <./imagenes/constelacion_creada.png> </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/y.jpeg> </home/valentina/ComII_G2_equipo2/practica_4/Informe/imagenes/8.jpeg>] (./main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -428,18 +455,18 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6346 strings out of 474222
- 108985 string characters out of 5748733
- 1946975 words of memory out of 5000000
- 28520 multiletter control sequences out of 15000+600000
+ 6403 strings out of 474222
+ 111442 string characters out of 5748733
+ 1952975 words of memory out of 5000000
+ 28571 multiletter control sequences out of 15000+600000
  599334 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,12n,65p,1068b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 636289 bytes).
+Output written on main.pdf (5 pages, 831413 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
